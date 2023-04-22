@@ -32,12 +32,16 @@ unset rc
 alias vim='nvim'
 
 # Changing "ls" to "exa"
-alias ls='exa -a --color=always --group-directories-first' # my preferred listing
+alias ls='exa -a --color=always --group-directories-first'  # my preferred listing
 alias ll='exa -al --color=always --group-directories-first' # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
 
 # confirm before removing something
 alias rm='rm -i'
+
+# adding flags
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
 
 # yt-dlp
 alias yt-dlp-audio='yt-dlp -f ba -x --audio-format m4a --no-embed-subs -P "~/Music/"'
