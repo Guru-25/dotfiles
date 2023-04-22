@@ -199,6 +199,7 @@ com.github.Eloston.UngoogledChromium
 com.github.tchx84.Flatseal
 com.notepadqq.Notepadqq
 com.obsproject.Studio
+net.supertuxkart.SuperTuxKart
 org.cryptomator.Cryptomator
 org.gnome.Extensions
 org.nomacs.ImageLounge
