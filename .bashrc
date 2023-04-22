@@ -32,6 +32,4 @@ alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnai
 alias yt-dlp-thumbnail='yt-dlp --skip-download --no-embed-subs --convert-thumbnail png -P "~/Pictures/"'
 alias send='ffsend up -v -S --yes --qr'
 alias update='printf "running dnf upgrade...\n\n" && sudo dnf upgrade && printf "\nrunning flatpak update...\n\n" && flatpak update'
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias config='/usr/bin/git --git-dir=/home/guru/.cfg/ --work-tree=/home/guru'
 alias config='/usr/bin/git --git-dir=/home/guru/.cfg/ --work-tree=/home/guru'
