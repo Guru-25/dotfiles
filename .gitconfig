@@ -4,3 +4,5 @@
 [alias]
 	stat = status
 	ac = commit -am
+[advice]
+	statusHints = false
