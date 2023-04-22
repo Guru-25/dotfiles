@@ -51,7 +51,7 @@ alias send='ffsend up -v -S --yes --qr'
 alias update='printf "running dnf upgrade...\n\n" && sudo dnf upgrade && printf "\nrunning flatpak update...\n\n" && flatpak update'
 
 # bare git repo alias for dotfiles
-alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # dnf and flatpak packages list
 alias backup='printf "backing up dnf packages list...\n" && printf "# dnf\n" > .backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> .backup/packages.txt && printf "done\n\n" && printf "backing up flatpak packages list...\n" && printf "\n# flatpak\n" >> .backup/packages.txt && flatpak list --columns=application --app >> .backup/packages.txt && printf "done\n"'

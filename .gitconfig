@@ -1,3 +1,6 @@
 [user]
 	name = Guru
 	email = guru@duck.com
+[alias]
+	stat = status
+	ac = commit -am
