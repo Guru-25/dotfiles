@@ -31,9 +31,10 @@ unset rc
 # vim
 alias vim='nvim'
 
-# ls
-alias ls='ls -a --color=always --group-directories-first' # my preferred listing
-alias ll='ls -al --color=always --group-directories-first' # long format
+# Changing "ls" to "exa"
+alias ls='exa -a --color=always --group-directories-first' # my preferred listing
+alias ll='exa -al --color=always --group-directories-first' # long format
+alias lt='exa -aT --color=always --group-directories-first' # tree listing
 
 # confirm before removing something
 alias rm='rm -i'
@@ -55,3 +56,7 @@ alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # dnf and flatpak packages list
 alias backup='printf "backing up dnf packages list...\n" && printf "# dnf\n" > .backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> .backup/packages.txt && printf "done\n\n" && printf "backing up flatpak packages list...\n" && printf "\n# flatpak\n" >> .backup/packages.txt && flatpak list --columns=application --app >> .backup/packages.txt && printf "done\n"'
+
+# get error messages from journalctl
+alias jctl="journalctl -p 3 -xb"
+

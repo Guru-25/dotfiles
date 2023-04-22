@@ -26,6 +26,7 @@ compat-lua-libs
 containers-common-extra
 dleyna
 dracut-live
+exa
 f38-backgrounds-base
 f38-backgrounds-gnome
 fedora-workstation-repositories
