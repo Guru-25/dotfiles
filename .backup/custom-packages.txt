@@ -1,0 +1,11 @@
+# dnf
+brave-browser - https://brave.com/linux/
+codium - https://vscodium.com/#install
+
+# manual
+64Gram Desktop - https://github.com/TDesktop-x64/tdesktop/releases
+ffsend - https://github.com/timvisee/ffsend#linux-prebuilt-binaries
+
+# pip
+yt-dlp - https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip
+gallery-dl - https://github.com/mikf/gallery-dl#pip
