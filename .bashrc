@@ -26,6 +26,8 @@ fi
 
 unset rc
 
+### ALIASES ###
+
 # vim
 alias vim='nvim'
 
