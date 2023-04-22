@@ -1,4 +1,4 @@
-#dnf
+# dnf
 CharLS
 ImageMagick
 ImageMagick-libs
@@ -192,7 +192,7 @@ xrandr
 xsel
 xwininfo
 
-#flatpak
+# flatpak
 com.dropbox.Client
 com.github.Eloston.UngoogledChromium
 com.github.tchx84.Flatseal
