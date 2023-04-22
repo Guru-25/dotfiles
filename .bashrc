@@ -62,5 +62,8 @@ alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias backup='printf "backing up dnf packages list...\n" && printf "# dnf\n" > .backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> .backup/packages.txt && printf "done\n\n" && printf "backing up flatpak packages list...\n" && printf "\n# flatpak\n" >> .backup/packages.txt && flatpak list --columns=application --app >> .backup/packages.txt && printf "done\n"'
 
 # get error messages from journalctl
-alias jctl="journalctl -p 3 -xb"
+alias jctl='journalctl -p 3 -xb'
+
+# restart bash
+alias restart='exec bash'
 
