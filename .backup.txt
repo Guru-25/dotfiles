@@ -192,7 +192,6 @@ xrandr
 xsel
 xwininfo
 
-
 #flatpak
 com.dropbox.Client
 com.github.Eloston.UngoogledChromium
