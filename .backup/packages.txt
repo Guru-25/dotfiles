@@ -12,6 +12,7 @@ armadillo
 arpack
 autoconf
 automake
+bat
 blosc
 bluez-obexd
 braille-printer-app
@@ -32,6 +33,7 @@ fedora-workstation-repositories
 flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
+fzf
 gdal-libs
 gdcm
 gdk-pixbuf2-xlib
@@ -202,4 +204,5 @@ com.vscodium.codium
 org.cryptomator.Cryptomator
 org.gnome.Extensions
 org.nomacs.ImageLounge
+org.strawberrymusicplayer.strawberry
 tv.kodi.Kodi

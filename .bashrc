@@ -26,6 +26,9 @@ fi
 
 unset rc
 
+# cheat.sh
+cheat() { curl "http://cheat.sh/$1"; }
+
 ### ALIASES ###
 
 # vim
@@ -44,7 +47,7 @@ alias df='df -h'     # human-readable sizes
 alias free='free -m' # show sizes in MB
 
 # yt-dlp
-alias yt-dlp-audio='yt-dlp -f ba -x --audio-format m4a --no-embed-subs -P "~/Music/"'
+alias yt-dlp-audio='yt-dlp -f ba -x --audio-format mp3 --no-embed-subs -P "~/Music/"'
 alias yt-dlp-best='yt-dlp -f bv[ext=mp4]+ba[ext=m4a]/best[ext=mp4]/best'
 alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnail -P "~/Downloads/"'
 alias yt-dlp-thumbnail='yt-dlp --skip-download --no-embed-subs --convert-thumbnail png -P "~/Pictures/"'
@@ -67,3 +70,20 @@ alias jctl='journalctl -p 3 -xb'
 # restart bash
 alias restart='exec bash'
 
+# weather
+alias wttr='curl wttr.in/madurai'
+
+# Largest Files
+alias largefile='du -h -x -s -- * | sort -r -h | head -20'
+
+# System Information
+alias neo='neofetch'
+alias bat='bat --theme OneHalfDark'
+alias cat='bat --theme OneHalfDark -p $@'
+
+# fzf
+alias preview="fzf --preview='bat --color=always --style=numbers --theme OneHalfDark {}' --preview-window=down"
+
+# System
+alias q='exit'
+alias c='clear'
