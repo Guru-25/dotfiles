@@ -21,7 +21,6 @@ catimg
 cfitsio
 chkconfig
 cmake-filesystem
-codium
 compat-lua-libs
 containers-common-extra
 dleyna
@@ -199,7 +198,7 @@ com.github.Eloston.UngoogledChromium
 com.github.tchx84.Flatseal
 com.notepadqq.Notepadqq
 com.obsproject.Studio
-net.supertuxkart.SuperTuxKart
+com.vscodium.codium
 org.cryptomator.Cryptomator
 org.gnome.Extensions
 org.nomacs.ImageLounge

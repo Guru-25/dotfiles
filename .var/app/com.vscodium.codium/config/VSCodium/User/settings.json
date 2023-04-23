@@ -74,5 +74,6 @@
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "sml": "cd $dir && sml $fileName"
     },
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "terminal.integrated.defaultProfile.linux": "bash"
 }
