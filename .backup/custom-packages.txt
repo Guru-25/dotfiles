@@ -8,3 +8,6 @@ ffsend - https://github.com/timvisee/ffsend#linux-prebuilt-binaries
 # pip
 yt-dlp - https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip
 gallery-dl - https://github.com/mikf/gallery-dl#pip
+
+# github
+cht.sh - https://github.com/chubin/cheat.sh#installation

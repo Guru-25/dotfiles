@@ -57,6 +57,7 @@ initscripts
 ipp-usb
 javascriptcoregtk6.0
 kernel
+kernel-core
 kernel-modules
 kernel-modules-core
 kernel-modules-extra
