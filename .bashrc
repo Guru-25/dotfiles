@@ -73,7 +73,7 @@ alias backup='printf "backing up dnf packages list...\n" && printf "# dnf\n" > .
 alias jctl='journalctl -p 3 -xb'
 
 # restart bash
-alias restart='exec bash'
+alias restart='source ~/.bashrc'
 
 # weather
 alias wttr='curl wttr.in/madurai'
