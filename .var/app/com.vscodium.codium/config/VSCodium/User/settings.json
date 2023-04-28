@@ -21,7 +21,6 @@
     "window.titleBarStyle": "custom",
     "code-runner.executorMap": {
 
-
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt ; echo -e",
@@ -82,5 +81,5 @@
         "path": "/usr/bin/flatpak-spawn",
         "args": ["--host", "--env=TERM=xterm-256color", "bash"]
       }
-  }
+    }
 }
