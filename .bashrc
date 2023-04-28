@@ -72,9 +72,6 @@ alias backup='printf "backing up dnf packages list...\n" && printf "# dnf\n" > .
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
 
-# restart bash
-alias restart='source ~/.bashrc'
-
 # weather
 alias wttr='curl wttr.in/madurai'
 
@@ -87,7 +84,7 @@ alias bat='bat --theme OneHalfDark'
 alias cat='bat --theme OneHalfDark -p $@'
 
 # fzf
-alias preview="fzf --preview='bat --color=always --style=numbers --theme OneHalfDark {}' --preview-window=down"
+alias preview='fzf --preview="bat --color=always --style=numbers --theme OneHalfDark {}" --preview-window=down'
 
 # System
 alias q='exit'

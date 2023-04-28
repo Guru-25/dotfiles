@@ -106,6 +106,7 @@ neofetch
 neovim
 netcdf
 netpbm
+nodejs
 ogdi
 oneVPL
 oneVPL-intel-gpu
