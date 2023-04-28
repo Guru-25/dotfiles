@@ -53,21 +53,21 @@ alias free='free -m' # show sizes in MB
 
 # yt-dlp
 alias yt-dlp-audio='yt-dlp -f ba -x --audio-format mp3 --no-embed-subs -P "~/Music/"'
-alias yt-dlp-best='yt-dlp -f bv[ext=mp4]+ba[ext=m4a]/best[ext=mp4]/best'
+alias yt-dlp-best='yt-dlp -f bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b'
 alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnail -P "~/Downloads/"'
-alias yt-dlp-thumbnail='yt-dlp --skip-download --no-embed-subs --convert-thumbnail png -P "~/Pictures/"'
+alias yt-dlp-thumbnail='yt-dlp --skip-download --no-embed-subs --convert-thumbnails png -P "~/Pictures/"'
 
 # ffsend
-alias send='ffsend up -v -S --yes --qr'
+alias send='ffsend up -v -S -y --qr'
 
 # dnf and flatpak update
-alias update='printf "running dnf upgrade...\n\n" && sudo dnf upgrade && printf "\nrunning flatpak update...\n\n" && flatpak update'
+alias up='sudo dnf upgrade && flatpak update'
 
 # bare git repo alias for dotfiles
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # dnf and flatpak packages list
-alias backup='printf "backing up dnf packages list...\n" && printf "# dnf\n" > .backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> .backup/packages.txt && printf "done\n\n" && printf "backing up flatpak packages list...\n" && printf "\n# flatpak\n" >> .backup/packages.txt && flatpak list --columns=application --app >> .backup/packages.txt && printf "done\n"'
+alias backup='printf "# dnf\n" > .backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> .backup/packages.txt && printf "\n# flatpak\n" >> .backup/packages.txt && flatpak list --columns=application --app >> .backup/packages.txt && printf "done\n"'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
