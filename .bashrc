@@ -105,5 +105,8 @@ alias refresh='source ~/.bashrc'
 # edit .bashrc
 alias bashrc='nvim ~/.bashrc'
 
+### RANDOM COLOR SCRIPT ###
+colorscript -e zwaves
+
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init bash)"

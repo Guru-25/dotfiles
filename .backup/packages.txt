@@ -178,6 +178,7 @@ roc-toolkit
 rpm-sequoia
 rpmfusion-free-release
 rpmfusion-nonfree-release
+shell-color-scripts
 speexdsp
 stacer
 starship
