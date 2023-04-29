@@ -26,15 +26,15 @@ fi
 
 unset rc
 
-### SEARCH INSTALLED PACKAGES
-search() {
-	grep "$1" ~/.backup/packages.txt
-}
-
 ### EXPORT
 export TERM='xterm-256color'            # getting proper colors
 export HISTCONTROL=ignoredups:erasedups # no duplicate entries
 export EDITOR='nvim'                    # $EDITOR use nvim in terminal
+
+### SEARCH INSTALLED PACKAGES
+search() {
+	grep "$1" ~/.backup/packages.txt
+}
 
 ### ALIASES ###
 
