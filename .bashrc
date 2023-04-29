@@ -87,6 +87,7 @@ alias largefile='du -h -x -s -- * | sort -r -h | head -20'
 alias neo='neofetch'
 alias bat='bat --theme OneHalfDark'
 alias cat='bat --theme OneHalfDark -p $@'
+alias man='batman $1'
 
 # fzf
 alias preview='fzf --preview="bat --color=always --style=numbers --theme OneHalfDark {}" --preview-window=down'

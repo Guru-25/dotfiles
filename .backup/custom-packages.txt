@@ -1,5 +1,6 @@
 # dnf
 brave-browser - https://brave.com/linux/
+bat-extras - https://github.com/eth-p/bat-extras#fedora-unofficial
 
 # manual
 64Gram Desktop - https://github.com/TDesktop-x64/tdesktop/releases
