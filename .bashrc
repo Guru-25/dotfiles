@@ -72,7 +72,7 @@ alias up='sudo dnf upgrade && flatpak update'
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # dnf and flatpak packages list
-alias backup='printf "# dnf\n" > .backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> .backup/packages.txt && printf "\n# flatpak\n" >> .backup/packages.txt && flatpak list --columns=application --app >> .backup/packages.txt && printf "\n# pip\n" >> .backup/packages.txt && pip freeze | cut -d = -f 1 >> .backup/packages.txt && printf "done\n"'
+alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "done\n"'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
