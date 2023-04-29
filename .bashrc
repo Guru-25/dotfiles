@@ -104,4 +104,4 @@ alias refresh='source ~/.bashrc'
 # edit .bashrc
 alias bashrc='nvim ~/.bashrc'
 
-#ok
+#ok hmm
