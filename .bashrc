@@ -27,9 +27,9 @@ fi
 unset rc
 
 ### EXPORT
-export TERM="xterm-256color"            # getting proper colors
+export TERM='xterm-256color'            # getting proper colors
 export HISTCONTROL=ignoredups:erasedups # no duplicate entries
-export EDITOR="nvim"                    # $EDITOR use nvim in terminal
+export EDITOR='nvim'                    # $EDITOR use nvim in terminal
 
 ### ALIASES ###
 
@@ -89,3 +89,9 @@ alias preview='fzf --preview="bat --color=always --style=numbers --theme OneHalf
 # System
 alias q='exit'
 alias c='clear'
+
+# pip upgrade
+alias pip-up='pip install --upgrade pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "\""{print $1}"\"" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
+
+# refresh bash
+alias refresh='source ~/.bashrc'
