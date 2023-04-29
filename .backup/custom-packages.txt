@@ -13,5 +13,6 @@ yt-dlp - https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip
 gallery-dl - https://github.com/mikf/gallery-dl#pip
 
 # github
+vscode-icons - https://github.com/vscode-icons/vscode-icons/releases
 cht.sh - https://github.com/chubin/cheat.sh#installation
 NerdFonts - https://github.com/ryanoasis/nerd-fonts#option-5-clone-the-repo
