@@ -4,5 +4,6 @@
 [alias]
 	stat = status
 	ac = commit -am
+	dif-fr = diff main origin/main
 [advice]
 	statusHints = false
