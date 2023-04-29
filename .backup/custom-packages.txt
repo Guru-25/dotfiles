@@ -1,6 +1,7 @@
 # dnf
 brave-browser - https://brave.com/linux/
 bat-extras - https://github.com/eth-p/bat-extras#fedora-unofficial
+starship - https://github.com/starship/starship#step-1-install-starship
 
 # manual
 64Gram Desktop - https://github.com/TDesktop-x64/tdesktop/releases
@@ -12,3 +13,4 @@ gallery-dl - https://github.com/mikf/gallery-dl#pip
 
 # github
 cht.sh - https://github.com/chubin/cheat.sh#installation
+NerdFonts - https://github.com/ryanoasis/nerd-fonts#option-5-clone-the-repo

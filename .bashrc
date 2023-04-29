@@ -104,3 +104,6 @@ alias refresh='source ~/.bashrc'
 
 # edit .bashrc
 alias bashrc='nvim ~/.bashrc'
+
+### SETTING THE STARSHIP PROMPT ###
+eval "$(starship init bash)"

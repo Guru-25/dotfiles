@@ -179,6 +179,7 @@ rpmfusion-free-release
 rpmfusion-nonfree-release
 speexdsp
 stacer
+starship
 syncthing
 systemd-boot-unsigned
 tree-sitter-cli
