@@ -31,6 +31,7 @@ exa
 f38-backgrounds-base
 f38-backgrounds-gnome
 fedora-workstation-repositories
+fira-code-fonts
 flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
