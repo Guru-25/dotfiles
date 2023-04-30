@@ -30,6 +30,12 @@ unset rc
 export HISTCONTROL=ignoredups:erasedups # no duplicate entries
 export EDITOR='nvim'                    # $EDITOR use nvim in terminal
 
+### SET MANPAGER
+
+### "bat" as manpager
+export MANPAGER='sh -c "col -bx | bat -l man -p"'
+export MANROFFOPT='-c'
+
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
 ex ()
@@ -112,18 +118,17 @@ alias jctl='journalctl -p 3 -xb'
 # weather
 alias wttr='curl wttr.in/madurai'
 
-# bat
-alias cat='bat -p $@'
-alias man='batman $1'
-
 # pip upgrade
 alias pip-up='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "\""{print $1}"\"" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # refresh bash
 alias refresh='source ~/.bashrc'
 
-# edit .bashrc
-alias bashrc='nvim ~/.bashrc'
+# edit conf
+alias aliasconf='nvim ~/.bashrc'
+alias dnfconf='sudo nvim /etc/dnf/dnf.conf'
+alias dnfrepo='cd /etc/yum.repos.d/'
+alias dnsconf='sudo nvim /etc/systemd/resolved.conf' # run 'sudo systemctl restart systemd-resolved' after changing
 
 ### COLOR SCRIPT ###
 colorscript -e zwaves

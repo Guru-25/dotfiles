@@ -1,6 +1,5 @@
 # dnf
 brave-browser - https://brave.com/linux/
-bat-extras - https://github.com/eth-p/bat-extras#fedora-unofficial
 starship - https://github.com/starship/starship#step-1-install-starship
 shell-color-scripts - https://copr.fedorainfracloud.org/coprs/foopsss/shell-color-scripts/
 

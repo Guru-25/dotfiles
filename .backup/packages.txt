@@ -13,7 +13,6 @@ arpack
 autoconf
 automake
 bat
-bat-extras
 blosc
 bluez-obexd
 braille-printer-app
