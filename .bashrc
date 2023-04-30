@@ -27,7 +27,35 @@ fi
 unset rc
 
 ### EXPORT
-export EDITOR='nvim' # $EDITOR use nvim in terminal
+export HISTCONTROL=ignoredups:erasedups # no duplicate entries
+export EDITOR='nvim'                    # $EDITOR use nvim in terminal
+
+### ARCHIVE EXTRACTION
+# usage: ex <file>
+ex ()
+{
+  if [ -f "$1" ] ; then
+    case $1 in
+      *.tar.bz2)   tar xjf $1   ;;
+      *.tar.gz)    tar xzf $1   ;;
+      *.bz2)       bunzip2 $1   ;;
+      *.rar)       unrar x $1   ;;
+      *.gz)        gunzip $1    ;;
+      *.tar)       tar xf $1    ;;
+      *.tbz2)      tar xjf $1   ;;
+      *.tgz)       tar xzf $1   ;;
+      *.zip)       unzip $1     ;;
+      *.Z)         uncompress $1;;
+      *.7z)        7z x $1      ;;
+      *.deb)       ar x $1      ;;
+      *.tar.xz)    tar xf $1    ;;
+      *.tar.zst)   unzstd $1    ;;
+      *)           echo "'$1' cannot be extracted via ex()" ;;
+    esac
+  else
+    echo "'$1' is not a valid file"
+  fi
+}
 
 ### SEARCH INSTALLED PACKAGES
 search() {
@@ -35,6 +63,12 @@ search() {
 }
 
 ### ALIASES ###
+
+# codium
+alias codium='flatpak run com.vscodium.codium'
+
+# navigation
+alias ..='cd ..'
 
 # vim
 alias vim='nvim'
@@ -44,6 +78,7 @@ alias ls='exa --color=always --group-directories-first'     # my preferred listi
 alias la='exa -a --color=always --group-directories-first'  # all files and dirs
 alias ll='exa -al --color=always --group-directories-first' # long format
 alias lt='exa -aT --color=always --group-directories-first' # tree listing
+alias l.='exa -a | grep -E "^\."'
 
 # confirm before overwriting something
 alias cp='cp -i'
@@ -64,6 +99,9 @@ alias up='sudo dnf upgrade; flatpak update'
 
 # bare git repo alias for dotfiles
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# termbin
+alias tb='nc termbin.com 9999'
 
 # dnf and flatpak packages list
 alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "done\n"'
