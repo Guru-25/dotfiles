@@ -66,7 +66,7 @@ alias yt-dlp-thumbnail='yt-dlp --skip-download --no-embed-subs --convert-thumbna
 alias send='ffsend up -v -S -y --qr'
 
 # dnf and flatpak update
-alias up='sudo dnf upgrade ; flatpak update'
+alias up='sudo dnf upgrade; flatpak update'
 
 # bare git repo alias for dotfiles
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
