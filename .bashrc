@@ -27,9 +27,7 @@ fi
 unset rc
 
 ### EXPORT
-export TERM='xterm-256color'            # getting proper colors
-export HISTCONTROL=ignoredups:erasedups # no duplicate entries
-export EDITOR='nvim'                    # $EDITOR use nvim in terminal
+export EDITOR='nvim' # $EDITOR use nvim in terminal
 
 ### SEARCH INSTALLED PACKAGES
 search() {
@@ -52,15 +50,11 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
-# adding flags
-alias df='df -h'     # human-readable sizes
-alias free='free -m' # show sizes in MB
-
 # yt-dlp
 alias yt-dlp-audio='yt-dlp -f ba -x --audio-format mp3 --no-embed-subs -P "~/Music/"'
 alias yt-dlp-best='yt-dlp -f bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b'
 alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnail -P "~/Downloads/"'
-alias yt-dlp-thumbnail='yt-dlp --skip-download --no-embed-subs --convert-thumbnails png -P "~/Pictures/"'
+alias yt-dlp-thumb='yt-dlp --skip-download --no-embed-subs --convert-thumbnails png -P "~/Pictures/"'
 
 # ffsend
 alias send='ffsend up -v -S -y --qr'
@@ -93,7 +87,7 @@ alias refresh='source ~/.bashrc'
 # edit .bashrc
 alias bashrc='nvim ~/.bashrc'
 
-### RANDOM COLOR SCRIPT ###
+### COLOR SCRIPT ###
 colorscript -e zwaves
 
 ### SETTING THE STARSHIP PROMPT ###
