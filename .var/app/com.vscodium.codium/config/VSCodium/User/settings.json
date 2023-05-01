@@ -20,7 +20,6 @@
     "workbench.colorTheme": "Atom One Dark",
     "window.titleBarStyle": "custom",
     "code-runner.executorMap": {
-
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt ; echo -e",
@@ -79,7 +78,7 @@
     "terminal.integrated.profiles.linux": {
       "bash": {
         "path": "/usr/bin/flatpak-spawn",
-        "args": ["--host", "--env=TERM=xterm-256color", "bash"]
+        "args": ["--host", "--env=TERM=xterm-256color", "zsh"]
       }
     }
 }
