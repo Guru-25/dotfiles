@@ -33,10 +33,12 @@ python3 -m pip install -U gallery-dl
 
 - [ffsend](https://github.com/timvisee/ffsend#linux-prebuilt-binaries) - https://github.com/timvisee/ffsend/releases/latest
 ```
+cd ~/Downloads/
 # Rename binary to ffsend
-mv ./ffsend-* ./ffsend
+mv ./ffsend-*-linux-x64 ./ffsend
 chmod a+x ./ffsend
 sudo mv ./ffsend /usr/local/bin/
+rm ffsend
 ```
 
 - [cht.sh](https://github.com/chubin/cheat.sh#installation)
@@ -49,12 +51,16 @@ curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x
 git clone https://github.com/dylanaraps/neofetch
 cd neofetch
 sudo make install
+cd ..
+rm -rf neofetch/
 ```
 
 # fonts/extension/plugins
 - [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases)
 ```
+cd ~/Downloads/
 codium --install-extension vscode-icons-*.vsix
+rm vscode-icons-*.vsix
 ```
 
 - [NerdFonts](https://github.com/ryanoasis/nerd-fonts#option-5-clone-the-repo)
@@ -62,6 +68,8 @@ codium --install-extension vscode-icons-*.vsix
 git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
 cd nerd-fonts
 git sparse-checkout add patched-fonts/FiraCode
+cd ..
+rm -rf nerd-fonts
 ```
 ```
 ./install.sh FiraCode
@@ -70,6 +78,7 @@ git sparse-checkout add patched-fonts/FiraCode
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+rm install.sh
 ```
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
