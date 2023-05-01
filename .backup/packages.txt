@@ -35,6 +35,7 @@ flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
 fzf
+gcc
 gdal-libs
 gdcm
 gdk-pixbuf2-xlib
@@ -177,7 +178,6 @@ roc-toolkit
 rpm-sequoia
 rpmfusion-free-release
 rpmfusion-nonfree-release
-shell-color-scripts
 speexdsp
 stacer
 starship
@@ -198,6 +198,7 @@ xprop
 xrandr
 xsel
 xwininfo
+zsh
 
 # flatpak
 com.dropbox.Client

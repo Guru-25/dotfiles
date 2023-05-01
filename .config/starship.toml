@@ -1,12 +1,12 @@
+command_timeout = 1000
+
 [username]
 format = "[$user]($style) on "
 show_always = true
-style_user = "149 bold"
 
 [hostname]
 format = "[$ssh_symbol$hostname]($style) "
 ssh_only = false
-style = "green bold"
 ssh_symbol = " "
 
 [character]

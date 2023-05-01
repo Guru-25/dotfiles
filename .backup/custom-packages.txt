@@ -1,7 +1,6 @@
 # dnf
 brave-browser - https://brave.com/linux/
 starship - https://github.com/starship/starship#step-1-install-starship
-shell-color-scripts - https://copr.fedorainfracloud.org/coprs/foopsss/shell-color-scripts/
 
 # manual
 64Gram Desktop - https://github.com/TDesktop-x64/tdesktop/releases
