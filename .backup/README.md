@@ -18,3 +18,4 @@
 - zsh-autosuggestions - https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh
 - zsh-syntax-highlighting - https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh
 - zsh-fzf-history-search - https://github.com/joshskidmore/zsh-fzf-history-search#oh-my-zsh
+- neofetch - https://github.com/dylanaraps/neofetch/wiki/Installation#latest-git-master-bleeding-edge

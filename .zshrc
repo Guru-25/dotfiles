@@ -113,7 +113,6 @@ ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
 ### EXPORT
 export EDITOR='nvim' # $EDITOR use nvim in terminal
-export VISUAL='nvim' # $VISUAL use Emacs in GUI mode
 
 ### SET MANPAGER
 
