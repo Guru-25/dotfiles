@@ -5,6 +5,6 @@
         "instagram":
         {
             "cookies": "~/.config/gallery-dl/cookies.txt"
-        },
-    },
+        }
+    }
 }

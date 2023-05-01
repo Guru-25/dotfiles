@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -163,13 +164,6 @@ fi
 
 IFS=$SAVEIFS
 
-### UPGRADE ALL INSTALLED PIP PACKAGES
-function pip-up {
-  local xargs="xargs --no-run-if-empty"
-  xargs --version 2>/dev/null | grep -q GNU || xargs="xargs"
-  pip list --outdated | awk 'NR > 2 { print $1 }' | ${=xargs} pip install --upgrade
-}
-
 ### SEARCH INSTALLED PACKAGES
 function search() {
 	grep "$1" ~/.backup/packages.txt
@@ -227,6 +221,8 @@ alias jctl='journalctl -p 3 -xb'
 
 # weather
 alias wttr='curl wttr.in/madurai'
+
+alias pip-up='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # refresh zsh
 alias refresh='source ~/.zshrc'
