@@ -58,7 +58,7 @@ rm -rf neofetch/
 - [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases)
 ```
 cd ~/Downloads/
-codium --install-extension vscode-icons-*.vsix
+flatpak run com.vscodium.codium --install-extension vscode-icons-*.vsix
 rm vscode-icons-*.vsix
 ```
 
