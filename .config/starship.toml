@@ -6,6 +6,7 @@ show_always = true
 
 [hostname]
 format = "[$ssh_symbol$hostname]($style) "
+style = "purple bold"
 ssh_only = false
 ssh_symbol = " "
 
