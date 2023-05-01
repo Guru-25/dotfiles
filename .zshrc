@@ -73,6 +73,7 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
 	zsh-autosuggestions
 	zsh-syntax-highlighting
+  zsh-fzf-history-search
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -120,7 +121,7 @@ export MANROFFOPT='-c'
 
 ### ARCHIVE EXTRACTION
 # usage: ex <file>
-ex ()
+function ex ()
 {
   if [ -f "$1" ] ; then
     case $1 in
@@ -145,8 +146,15 @@ ex ()
   fi
 }
 
+### UPGRADE ALL INSTALLED PIP PACKAGES
+function pip-up {
+  local xargs="xargs --no-run-if-empty"
+  xargs --version 2>/dev/null | grep -q GNU || xargs="xargs"
+  pip list --outdated | awk 'NR > 2 { print $1 }' | ${=xargs} pip install --upgrade
+}
+
 ### SEARCH INSTALLED PACKAGES
-search() {
+function search() {
 	grep "$1" ~/.backup/packages.txt
 }
 
@@ -199,9 +207,6 @@ alias jctl='journalctl -p 3 -xb'
 
 # weather
 alias wttr='curl wttr.in/madurai'
-
-# pip upgrade
-alias pip-up='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "\""{print $1}"\"" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # refresh zsh
 alias refresh='source ~/.zshrc'
