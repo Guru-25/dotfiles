@@ -1,7 +1,6 @@
 # dnf
 - [brave-browser](https://brave.com/linux/)
 ```
-sudo dnf install dnf-plugins-core
 sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
 sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 sudo dnf install brave-browser
@@ -68,17 +67,18 @@ rm vscode-icons-*.vsix
 git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
 cd nerd-fonts
 git sparse-checkout add patched-fonts/FiraCode
-cd ..
-rm -rf nerd-fonts
 ```
 ```
 ./install.sh FiraCode
+```
+```
+cd ..
+rm -rf nerd-fonts
 ```
 
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-rm install.sh
 ```
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
