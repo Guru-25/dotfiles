@@ -171,21 +171,21 @@ function search() {
 ### RCLONE
 function rc() {
   if [ -z "$1" ]; then
-    echo "usage: rc <source>"
+    echo "Usage: rc SOURCE"
   else
     rclone copy -P "$1" dropbox:/rclone/
   fi
 }
 function rcdl() {
   if [ -z "$1" ]; then
-    echo "usage: rcdl <source>"
+    echo "Usage: rcdl [FILE]"
   else
     rclone copy -P dropbox:/rclone/"$1" ~/Downloads/
   fi
 }
 function rcdel() {
   if [ -z "$1" ]; then
-    echo "Usage: rcdel <source>"
+    echo "Usage: rcdel [FILE]"
   else
     rclone delete -P dropbox:/rclone/"$1"
   fi
@@ -262,7 +262,7 @@ alias codiumconf='nvim ~/.var/app/com.vscodium.codium/config/VSCodium/User/setti
 alias gitconf='nvim ~/.gitconfig'
 
 # rclone
-alias rcls='rclone ls dropbox:/rclone'
+alias rcls='rclone ls dropbox:/rclone --human-readable'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
