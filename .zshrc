@@ -168,6 +168,29 @@ function search() {
 	grep "$1" ~/.backup/packages.txt
 }
 
+### RCLONE
+function rc() {
+  if [ -z "$1" ]; then
+    echo "usage: rc <source>"
+  else
+    rclone copy -P "$1" dropbox:/rclone/
+  fi
+}
+function rcdl() {
+  if [ -z "$1" ]; then
+    echo "usage: rcdl <source>"
+  else
+    rclone copy -P dropbox:/rclone/"$1" ~/Downloads/
+  fi
+}
+function rcdel() {
+  if [ -z "$1" ]; then
+    echo "Usage: rcdel <source>"
+  else
+    rclone delete -P dropbox:/rclone/"$1"
+  fi
+}
+
 ### ALIASES ###
 
 # codium
@@ -237,6 +260,9 @@ alias yt-dlpconf='nvim ~/.config/yt-dlp/config'
 alias starshipconf='nvim ~/.config/starship.toml'
 alias codiumconf='nvim ~/.var/app/com.vscodium.codium/config/VSCodium/User/settings.json'
 alias gitconf='nvim ~/.gitconfig'
+
+# rclone
+alias rcls='rclone ls dropbox:/rclone'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
