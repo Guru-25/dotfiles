@@ -11,10 +11,6 @@ sudo dnf install brave-browser
 sudo dnf copr enable atim/starship
 sudo dnf install starship
 ```
-Add the following to the end of `~/.zshrc`:
-```
-eval '$(starship init zsh)'
-```
 
 # pip
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip)
@@ -28,7 +24,14 @@ python3 -m pip install -U gallery-dl
 ```
 
 # package/software
-- [64Gram Desktop](https://github.com/TDesktop-x64/tdesktop/releases)
+- 64Gram Desktop - https://github.com/TDesktop-x64/tdesktop/releases
+```
+cd ~/Downloads/
+unzip 64Gram_*_linux.zip
+mv Telegram ~/.local/share/64Gram/ && mv Updater ~/.local/share/64Gram/
+cd ~/.local/share/64Gram/
+./Telegram
+```
 
 - [ffsend](https://github.com/timvisee/ffsend#linux-prebuilt-binaries) - https://github.com/timvisee/ffsend/releases/latest
 ```
@@ -85,33 +88,15 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
-Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
-```
-plugins=(
-    zsh-autosuggestions
-)
-```
 
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 ```
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
-Activate the plugin in `~/.zshrc`:
-```
-plugins=(
-    zsh-syntax-highlighting
-)
-```
 
 - [zsh-fzf-history-search](https://github.com/joshskidmore/zsh-fzf-history-search#oh-my-zsh)
 ```
 git clone https://github.com/joshskidmore/zsh-fzf-history-search ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-fzf-history-search
-```
-Enable it in your `.zshrc` by adding it to your plugin list:
-```
-plugins=(
-    zsh-fzf-history-search
-)
 ```
 
 - [NvChad](https://nvchad.com/docs/quickstart/install)
