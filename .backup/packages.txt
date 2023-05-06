@@ -209,11 +209,11 @@ zsh
 com.dropbox.Client
 com.github.Eloston.UngoogledChromium
 com.github.tchx84.Flatseal
+com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
 com.obsproject.Studio
 com.vscodium.codium
 org.cryptomator.Cryptomator
-org.gnome.Extensions
 org.nomacs.ImageLounge
 org.strawberrymusicplayer.strawberry
 tv.kodi.Kodi
