@@ -5,6 +5,7 @@ ImageMagick-libs
 SuperLU
 aajohan-comfortaa-fonts
 abseil-cpp
+alacritty
 anaconda
 anaconda-install-env-deps
 anaconda-live
@@ -12,6 +13,7 @@ armadillo
 arpack
 autoconf
 automake
+awesome
 bat
 blosc
 bluez-obexd
@@ -40,6 +42,7 @@ gdal-libs
 gdcm
 gdk-pixbuf2-xlib
 geos
+gnome-shell-extension-pop-shell
 gnome-tweaks
 google-noto-sans-cjk-vf-fonts
 graphviz
@@ -50,6 +53,7 @@ gstreamer1-plugins-bad-free-fluidsynth
 gstreamer1-plugins-bad-free-wildmidi
 gstreamer1-plugins-bad-free-zbar
 gstreamer1-plugins-good-extras
+gtk-murrine-engine
 gts
 hdf-libs
 hdf5
@@ -177,6 +181,7 @@ roc-toolkit
 rpm-sequoia
 rpmfusion-free-release
 rpmfusion-nonfree-release
+sassc
 speexdsp
 stacer
 starship
@@ -192,6 +197,7 @@ w3m-img
 webkitgtk6.0
 xdpyinfo
 xerces-c
+xinput
 xorg-x11-fonts-ISO8859-1-100dpi
 xprop
 xrandr

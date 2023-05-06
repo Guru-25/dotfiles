@@ -1,13 +1,14 @@
 appindicatorsupport@rgcjonas.gmail.com
-drive-menu@gnome-shell-extensions.gcampax.github.com
 blur-my-shell@aunetx
 dash-to-dock@micxgx.gmail.com
-Hide_Activities@shay.shayel.org
 pano@elhan.io
 gsconnect@andyholmes.github.io
-caffeine@patapon.info
+lockkeys@vaina.lt
+user-theme@gnome-shell-extensions.gcampax.github.com
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
 places-menu@gnome-shell-extensions.gcampax.github.com
 window-list@gnome-shell-extensions.gcampax.github.com
+pop-shell@system76.com
+status-area-horizontal-spacing@mathematical.coffee.gmail.com

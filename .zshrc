@@ -260,6 +260,7 @@ alias yt-dlpconf='nvim ~/.config/yt-dlp/config'
 alias starshipconf='nvim ~/.config/starship.toml'
 alias codiumconf='nvim ~/.var/app/com.vscodium.codium/config/VSCodium/User/settings.json'
 alias gitconf='nvim ~/.gitconfig'
+alias alacrittyconf='nvim ~/.config/alacritty/alacritty.yml'
 
 # rclone
 alias rcls='rclone ls dropbox:/rclone --human-readable'

@@ -107,3 +107,35 @@ rm -rf ~/.local/share/nvim
 ```
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
+
+- [pop-shell](https://github.com/pop-os/shell#packaging-status)
+```
+sudo dnf install xprop
+sudo npm install -g typescript
+```
+
+- [Orchis-theme](https://github.com/vinceliuice/Orchis-theme#requirements)
+```
+sudo dnf install gtk-murrine-engine sassc
+```
+```
+git clone https://github.com/vinceliuice/Orchis-theme
+cd Orchis-theme
+.install.sh
+cd ..
+rm -rf Orchis-theme/
+```
+
+- [papirus-icon-theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme#root-directory-recommended)
+```
+wget -qO- https://git.io/papirus-icon-theme-install | sh
+```
+
+- [Vimix-cursors](https://github.com/vinceliuice/Vimix-cursors#installation)
+```
+git clone https://github.com/vinceliuice/Vimix-cursors
+cd Vimix-cursors
+./install.sh
+cd ..
+rm -rf Vimix-cursors
+```
