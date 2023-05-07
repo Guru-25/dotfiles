@@ -13,7 +13,6 @@ armadillo
 arpack
 autoconf
 automake
-awesome
 bat
 blosc
 bluez-obexd
@@ -183,7 +182,6 @@ rpmfusion-free-release
 rpmfusion-nonfree-release
 sassc
 speexdsp
-stacer
 starship
 syncthing
 systemd-boot-unsigned
@@ -208,12 +206,14 @@ zsh
 # flatpak
 com.dropbox.Client
 com.github.Eloston.UngoogledChromium
+com.github.qarmin.czkawka
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
 com.obsproject.Studio
 com.vscodium.codium
 org.cryptomator.Cryptomator
+org.gnome.seahorse.Application
 org.nomacs.ImageLounge
 org.strawberrymusicplayer.strawberry
 tv.kodi.Kodi

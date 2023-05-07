@@ -236,7 +236,7 @@ alias tb='nc termbin.com 9999'
 alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "done\n"'
 
 # backup gnome extension list
-alias extbackup='gnome-extensions list > ~/.backup/extensions.txt'
+alias extbackup='gnome-extensions list > ~/.backup/extensions.txt && printf "done\n"'
 
 # ps
 alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'

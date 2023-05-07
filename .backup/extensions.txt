@@ -6,6 +6,7 @@ gsconnect@andyholmes.github.io
 lockkeys@vaina.lt
 user-theme@gnome-shell-extensions.gcampax.github.com
 status-area-horizontal-spacing@mathematical.coffee.gmail.com
+Vitals@CoreCoding.com
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
