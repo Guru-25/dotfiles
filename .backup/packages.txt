@@ -189,7 +189,6 @@ tree-sitter-cli
 unibilium
 unixODBC
 uriparser
-vlc
 w3m
 w3m-img
 webkitgtk6.0
@@ -215,5 +214,5 @@ com.vscodium.codium
 org.cryptomator.Cryptomator
 org.gnome.seahorse.Application
 org.nomacs.ImageLounge
-org.strawberrymusicplayer.strawberry
+org.videolan.VLC
 tv.kodi.Kodi

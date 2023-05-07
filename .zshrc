@@ -193,8 +193,9 @@ function rcdel() {
 
 ### ALIASES ###
 
-# codium
+# flatpak
 alias codium='flatpak run com.vscodium.codium'
+alias vlc='flatpak run org.videolan.VLC'
 
 # navigation
 alias ..='cd ..'
