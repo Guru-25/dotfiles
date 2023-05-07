@@ -238,6 +238,9 @@ alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalle
 # backup gnome extension list
 alias extbackup='gnome-extensions list > ~/.backup/extensions.txt'
 
+# ps
+alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
+
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
 
