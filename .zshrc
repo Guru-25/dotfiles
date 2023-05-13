@@ -195,6 +195,7 @@ function rcdel() {
 
 # ssh
 alias sshd='sudo /usr/sbin/sshd'
+alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
 
 # flatpak
 alias codium='flatpak run com.vscodium.codium'
