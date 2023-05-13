@@ -11,11 +11,9 @@
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "terminal.integrated.autoReplies": {},
     "explorer.confirmDragAndDrop": false,
     "git.decorations.enabled": false,
     "scm.diffDecorations": "none",
-    "editor.codeActionsOnSave": {},
     "liveServer.settings.donotShowInfoMsg": true,
     "workbench.colorTheme": "Atom One Dark",
     "window.titleBarStyle": "custom",
@@ -74,12 +72,12 @@
         "sml": "cd $dir && sml $fileName"
     },
     "explorer.confirmDelete": false,
-    "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.profiles.linux": {
       "bash": {
         "path": "/usr/bin/flatpak-spawn",
         "args": ["--host", "--env=TERM=xterm-256color", "zsh"]
       }
     },
-    "terminal.integrated.fontFamily": "FiraCode Nerd Font"
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.defaultProfile.linux": "bash"
 }

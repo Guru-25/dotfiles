@@ -193,6 +193,9 @@ function rcdel() {
 
 ### ALIASES ###
 
+# ssh
+alias sshd='sudo /usr/sbin/sshd'
+
 # flatpak
 alias codium='flatpak run com.vscodium.codium'
 alias vlc='flatpak run org.videolan.VLC'
