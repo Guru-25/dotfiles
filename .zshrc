@@ -193,10 +193,6 @@ function rcdel() {
 
 ### ALIASES ###
 
-# ssh
-alias sshd='sudo /usr/sbin/sshd && ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
-alias kill-sshd='sudo pkill sshd'
-
 # flatpak
 alias codium='flatpak run com.vscodium.codium'
 alias vlc='flatpak run org.videolan.VLC'
@@ -269,6 +265,7 @@ alias starshipconf='nvim ~/.config/starship.toml'
 alias codiumconf='nvim ~/.var/app/com.vscodium.codium/config/VSCodium/User/settings.json'
 alias gitconf='nvim ~/.gitconfig'
 alias alacrittyconf='nvim ~/.config/alacritty/alacritty.yml'
+alias sshdconf='sudo nvim /etc/ssh/sshd_config'
 
 # rclone
 alias rcls='rclone ls dropbox:/rclone --human-readable'
