@@ -2,7 +2,6 @@ appindicatorsupport@rgcjonas.gmail.com
 blur-my-shell@aunetx
 dash-to-dock@micxgx.gmail.com
 pano@elhan.io
-gsconnect@andyholmes.github.io
 user-theme@gnome-shell-extensions.gcampax.github.com
 status-area-horizontal-spacing@mathematical.coffee.gmail.com
 Vitals@CoreCoding.com
