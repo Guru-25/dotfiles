@@ -409,7 +409,6 @@ colors: *Custom
   #     args: ["Hello, World!"]
   #
   #command: None
-
 #selection:
   # This string contains all characters that are used as separators for
   # "semantic words" in Alacritty.
@@ -933,4 +932,3 @@ colors: *Custom
 
   # Highlight window damage information.
   #highlight_damage: false
-

@@ -181,6 +181,7 @@ rpm-sequoia
 rpmfusion-free-release
 rpmfusion-nonfree-release
 sassc
+scrcpy
 speexdsp
 starship
 syncthing
