@@ -274,5 +274,8 @@ alias sshdconf='sudo nvim /etc/ssh/sshd_config'
 # rclone
 alias rcls='rclone ls dropbox:/rclone --human-readable'
 
+# xampp
+alias xampp='sudo /opt/lampp/lampp'
+
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"

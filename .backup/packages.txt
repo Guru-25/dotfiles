@@ -84,6 +84,7 @@ liblqr-1
 libmd
 libmng
 libmysofa
+libnsl
 libppd
 libpq
 libqhull_r
@@ -104,6 +105,7 @@ luajit
 luajit2.1-luv
 minizip-ng
 mkfontscale
+mod_perl
 msgpack
 ncurses-devel
 neovim
