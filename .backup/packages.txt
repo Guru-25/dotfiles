@@ -111,6 +111,7 @@ ncurses-devel
 neovim
 netcdf
 netpbm
+nmap
 nodejs
 ogdi
 oneVPL

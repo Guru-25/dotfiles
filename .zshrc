@@ -277,5 +277,9 @@ alias rcls='rclone ls dropbox:/rclone --human-readable'
 # xampp
 alias xampp='sudo /opt/lampp/lampp'
 
+# scripts
+alias android='~/.scripts/android.sh'
+alias sftp-android='~/.scripts/sftp-android.sh'
+
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
