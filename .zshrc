@@ -201,9 +201,6 @@ alias notepadqq='flatpak run com.notepadqq.Notepadqq'
 # navigation
 alias ..='cd ..'
 
-# ip
-alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
-
 # vim
 alias vim='nvim'
 
@@ -270,16 +267,13 @@ alias codiumconf='nvim ~/.var/app/com.vscodium.codium/config/VSCodium/User/setti
 alias gitconf='nvim ~/.gitconfig'
 alias alacrittyconf='nvim ~/.config/alacritty/alacritty.yml'
 alias sshdconf='sudo nvim /etc/ssh/sshd_config'
+alias sshconf='nvim ~/.ssh/config'
 
 # rclone
 alias rcls='rclone ls dropbox:/rclone --human-readable'
 
 # xampp
 alias xampp='sudo /opt/lampp/lampp'
-
-# scripts
-alias android='~/.scripts/android.sh'
-alias sftp-android='~/.scripts/sftp-android.sh'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
