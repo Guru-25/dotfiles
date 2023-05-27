@@ -121,7 +121,7 @@ sudo dnf install gtk-murrine-engine sassc
 ```
 git clone https://github.com/vinceliuice/Orchis-theme
 cd Orchis-theme
-.install.sh
+./install.sh
 cd ..
 rm -rf Orchis-theme/
 ```
