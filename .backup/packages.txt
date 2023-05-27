@@ -41,6 +41,7 @@ gdal-libs
 gdcm
 gdk-pixbuf2-xlib
 geos
+gettext
 gnome-shell-extension-pop-shell
 gnome-tweaks
 google-noto-sans-cjk-vf-fonts
@@ -107,6 +108,7 @@ minizip-ng
 mkfontscale
 mod_perl
 msgpack
+nautilus-python
 ncurses-devel
 neovim
 netcdf

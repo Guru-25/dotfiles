@@ -139,3 +139,15 @@ cd Vimix-cursors
 cd ..
 rm -rf Vimix-cursors
 ```
+
+- [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal#restart-nautilus)
+```
+git clone https://github.com/Stunkymonkey/nautilus-open-any-terminal
+cd nautilus-open-any-terminal
+```
+```
+sudo tools/update-extension-system.sh install
+```
+```
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+```
