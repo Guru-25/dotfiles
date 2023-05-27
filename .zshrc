@@ -229,7 +229,7 @@ alias send='ffsend up -v -S -y --qr'
 alias up='sudo dnf upgrade; flatpak update'
 
 # bare git repo alias for dotfiles
-alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 # termbin
 alias tb='nc termbin.com 9999'
