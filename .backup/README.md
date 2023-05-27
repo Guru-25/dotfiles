@@ -151,7 +151,7 @@ sudo tools/update-extension-system.sh install
 ```
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 ```
-``
+```
 cd ..
 rm -rf nautilus-open-any-terminal
 ```
