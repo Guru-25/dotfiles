@@ -180,7 +180,6 @@ qemu-user-static-x86
 qemu-user-static-xtensa
 qt5-qtimageformats
 quazip-qt5
-rclone
 roc-toolkit
 rpm-sequoia
 rpmfusion-free-release
@@ -191,6 +190,7 @@ speexdsp
 starship
 syncthing
 systemd-boot-unsigned
+tig
 tree-sitter-cli
 unibilium
 unixODBC

@@ -120,75 +120,9 @@ export EDITOR='nvim' # $EDITOR use nvim in terminal
 export MANPAGER='sh -c "col -bx | bat -l man -p"'
 export MANROFFOPT='-c'
 
-### Function extract for common file formats ###
-SAVEIFS=$IFS
-IFS=$(echo -en "\n\b")
-
-function extract {
- if [ -z "$1" ]; then
-    # display usage if no parameters given
-    echo "Usage: extract <path/file_name>.<zip|rar|bz2|gz|tar|tbz2|tgz|Z|7z|xz|ex|tar.bz2|tar.gz|tar.xz>"
-    echo "       extract <path/file_name_1.ext> [path/file_name_2.ext] [path/file_name_3.ext]"
- else
-    for n in "$@"
-    do
-      if [ -f "$n" ] ; then
-          case "${n%,}" in
-            *.cbt|*.tar.bz2|*.tar.gz|*.tar.xz|*.tbz2|*.tgz|*.txz|*.tar)
-                         tar xvf "$n"       ;;
-            *.lzma)      unlzma ./"$n"      ;;
-            *.bz2)       bunzip2 ./"$n"     ;;
-            *.cbr|*.rar)       unrar x -ad ./"$n" ;;
-            *.gz)        gunzip ./"$n"      ;;
-            *.cbz|*.epub|*.zip)       unzip ./"$n"       ;;
-            *.z)         uncompress ./"$n"  ;;
-            *.7z|*.arj|*.cab|*.cb7|*.chm|*.deb|*.dmg|*.iso|*.lzh|*.msi|*.pkg|*.rpm|*.udf|*.wim|*.xar)
-                         7z x ./"$n"        ;;
-            *.xz)        unxz ./"$n"        ;;
-            *.exe)       cabextract ./"$n"  ;;
-            *.cpio)      cpio -id < ./"$n"  ;;
-            *.cba|*.ace)      unace x ./"$n"      ;;
-            *)
-                         echo "extract: '$n' - unknown archive method"
-                         return 1
-                         ;;
-          esac
-      else
-          echo "'$n' - file does not exist"
-          return 1
-      fi
-    done
-fi
-}
-
-IFS=$SAVEIFS
-
 ### SEARCH INSTALLED PACKAGES
 function search() {
 	grep "$1" ~/.backup/packages.txt
-}
-
-### RCLONE
-function rc() {
-  if [ -z "$1" ]; then
-    echo "Usage: rc SOURCE"
-  else
-    rclone copy -P "$1" dropbox:/rclone/
-  fi
-}
-function rcdl() {
-  if [ -z "$1" ]; then
-    echo "Usage: rcdl [FILE]"
-  else
-    rclone copy -P dropbox:/rclone/"$1" ~/Downloads/
-  fi
-}
-function rcdel() {
-  if [ -z "$1" ]; then
-    echo "Usage: rcdel [FILE]"
-  else
-    rclone delete -P dropbox:/rclone/"$1"
-  fi
 }
 
 ### ALIASES ###
@@ -203,6 +137,7 @@ alias ..='cd ..'
 
 # myip
 alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
+
 # vim
 alias vim='nvim'
 
@@ -227,14 +162,25 @@ alias yt-dlp-thumb='yt-dlp --skip-download --no-embed-subs --convert-thumbnails 
 # ffsend
 alias send='ffsend up -v -S -y --qr'
 
+# bare git repo alias for dotfiles
+alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias ctig='GIT_DIR=$HOME/.cfg GIT_WORK_TREE=$HOME tig'
+
+function cfg(){
+  if [[ "$#" -eq 0 ]]; then
+    (cd /
+    for i in $(config ls-files); do
+      echo -n "$(config -c color.status=always status $i -s | sed "s#$i##")"
+      echo -e "¬/$i¬\e[0;33m$(config -c color.ui=always log -1 --format="%s" -- $i)\e[0m"
+    done
+    ) | column -t --separator=¬ -T2
+  else
+    config $*
+  fi
+}
+
 # dnf and flatpak update
 alias up='sudo dnf upgrade; flatpak update'
-
-# bare git repo alias for dotfiles
-alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-
-# termbin
-alias tb='nc termbin.com 9999'
 
 # dnf and flatpak packages list
 alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "done\n"'
@@ -270,9 +216,6 @@ alias gitconf='nvim ~/.gitconfig'
 alias alacrittyconf='nvim ~/.config/alacritty/alacritty.yml'
 alias sshdconf='sudo nvim /etc/ssh/sshd_config'
 alias sshconf='nvim ~/.ssh/config'
-
-# rclone
-alias rcls='rclone ls dropbox:/rclone --human-readable'
 
 # xampp
 alias xampp='sudo /opt/lampp/lampp'
