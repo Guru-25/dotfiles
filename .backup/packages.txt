@@ -37,8 +37,10 @@ gnome-disk-utility
 gnome-shell-extension-appindicator
 gnome-shell-extension-blur-my-shell
 gnome-shell-extension-dash-to-dock
+gnome-shell-extension-drive-menu
 gnome-shell-extension-no-overview
 gnome-shell-extension-pop-shell
+gnome-shell-extension-user-theme
 gnome-tweaks
 google-noto-sans-cjk-vf-fonts
 graphviz
@@ -206,5 +208,6 @@ org.cryptomator.Cryptomator
 org.gnome.seahorse.Application
 org.libreoffice.LibreOffice
 org.nomacs.ImageLounge
+org.telegram.desktop
 org.videolan.VLC
 tv.kodi.Kodi

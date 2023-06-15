@@ -23,16 +23,6 @@ python3 -m pip install -U yt-dlp
 python3 -m pip install -U gallery-dl
 ```
 
-# package/software
-- 64Gram Desktop - https://github.com/TDesktop-x64/tdesktop/releases
-```
-cd ~/Downloads/
-unzip 64Gram_*_linux.zip
-mv Telegram ~/.local/share/64Gram/ && mv Updater ~/.local/share/64Gram/
-cd ~/.local/share/64Gram/
-./Telegram
-```
-
 - [ffsend](https://github.com/timvisee/ffsend#linux-prebuilt-binaries) - https://github.com/timvisee/ffsend/releases/latest
 ```
 cd ~/Downloads/

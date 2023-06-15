@@ -7,4 +7,4 @@ Vitals@CoreCoding.com
 drive-menu@gnome-shell-extensions.gcampax.github.com
 user-theme@gnome-shell-extensions.gcampax.github.com
 pop-shell@system76.com
-background-logo@fedorahosted.org
+no-overview@fthx
