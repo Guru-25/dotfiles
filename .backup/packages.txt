@@ -204,8 +204,9 @@ com.notepadqq.Notepadqq
 com.obsproject.Studio
 com.vscodium.codium
 org.cryptomator.Cryptomator
+org.gnome.Shotwell
+org.gnome.eog
 org.libreoffice.LibreOffice
-org.nomacs.ImageLounge
 org.telegram.desktop
 org.videolan.VLC
 tv.kodi.Kodi
