@@ -1,4 +1,4 @@
 [Context]
 shared=!ipc
 sockets=!x11
-devices=!all;dri
+filesystems=home;!host

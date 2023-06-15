@@ -1,3 +1,4 @@
-[Session Bus Policy]
-com.canonical.AppMenu.Registrar=none
-org.gtk.vfs.*=none
+[Context]
+shared=!ipc;!network
+sockets=!pulseaudio;!x11
+filesystems=home;!host

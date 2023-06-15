@@ -1,2 +1,4 @@
 [Context]
-shared=!ipc
+sockets=!pulseaudio
+devices=!all;dri
+filesystems=~/me/VSCodium;!host

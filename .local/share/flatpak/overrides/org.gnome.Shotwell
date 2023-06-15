@@ -1,7 +1,7 @@
 [Context]
 shared=!ipc;!network
+sockets=!x11
 devices=!all;dri
-filesystems=home;!host
 
 [Session Bus Policy]
 org.freedesktop.secrets=none
