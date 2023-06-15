@@ -173,7 +173,6 @@ rpm-sequoia
 rpmfusion-free-release
 rpmfusion-nonfree-release
 sassc
-scrcpy
 speexdsp
 starship
 syncthing
@@ -205,7 +204,6 @@ com.notepadqq.Notepadqq
 com.obsproject.Studio
 com.vscodium.codium
 org.cryptomator.Cryptomator
-org.gnome.seahorse.Application
 org.libreoffice.LibreOffice
 org.nomacs.ImageLounge
 org.telegram.desktop
