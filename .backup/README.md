@@ -132,6 +132,9 @@ rm -rf Vimix-cursors
 
 - [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal#restart-nautilus)
 ```
+sudo dnf install nautilus-python
+```
+```
 git clone https://github.com/Stunkymonkey/nautilus-open-any-terminal
 cd nautilus-open-any-terminal
 ```
