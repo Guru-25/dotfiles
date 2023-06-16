@@ -1,5 +1,0 @@
-[Context]
-shared=!network
-
-[Session Bus Policy]
-org.freedesktop.secrets=none

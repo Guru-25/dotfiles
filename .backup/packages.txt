@@ -195,7 +195,6 @@ zsh
 
 # flatpak
 ca.desrt.dconf-editor
-com.dropbox.Client
 com.github.Eloston.UngoogledChromium
 com.github.qarmin.czkawka
 com.github.tchx84.Flatseal
@@ -203,7 +202,6 @@ com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
 com.obsproject.Studio
 com.vscodium.codium
-org.cryptomator.Cryptomator
 org.gnome.Shotwell
 org.gnome.eog
 org.libreoffice.LibreOffice
