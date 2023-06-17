@@ -220,5 +220,8 @@ alias sshconf='nvim ~/.ssh/config'
 # xampp
 alias xampp='sudo /opt/lampp/lampp'
 
+# revanced
+alias revanced='~/me/revanced-builder/revanced-builder-linux'
+
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
