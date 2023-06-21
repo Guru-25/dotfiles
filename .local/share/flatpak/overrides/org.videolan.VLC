@@ -1,5 +1,5 @@
 [Context]
-shared=!ipc;!network
+shared=!ipc
 devices=!all;dri
 filesystems=!host
 
