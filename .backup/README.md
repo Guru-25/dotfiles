@@ -148,3 +148,8 @@ gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacri
 cd ..
 rm -rf nautilus-open-any-terminal
 ```
+
+- [tgpt](https://github.com/aandrew-me/tgpt#download-for-gnulinux--or-macos-)
+```
+curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash -s /usr/local/bin
+```
