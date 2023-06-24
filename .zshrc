@@ -182,20 +182,14 @@ function cfg(){
 # dnf and flatpak update
 alias up='sudo dnf upgrade; flatpak update'
 
-# dnf and flatpak packages list
-alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "done\n"'
-
-# backup gnome extension list
-alias extbackup='gnome-extensions list > ~/.backup/extensions.txt && printf "done\n"'
+# dnf, flatpak and gnome-extensions list
+alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "\n# gnome-extensions\n" >> ~/.backup/packages.txt && gnome-extensions list >> ~/.backup/packages.txt && printf "done\n"'
 
 # ps
 alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
-
-# weather
-alias wttr='curl wttr.in/madurai'
 
 alias pip-up='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
@@ -221,7 +215,7 @@ alias sshconf='nvim ~/.ssh/config'
 alias xampp='sudo /opt/lampp/lampp'
 
 # revanced
-alias revanced='~/me/revanced-builder/revanced-builder-linux'
+alias revanced='cd ~/me/revanced-builder/ && ./revanced-builder-linux'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
