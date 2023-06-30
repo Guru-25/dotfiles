@@ -1,0 +1,45 @@
+{
+  "sources": {
+    "patches": "revanced/revanced-patches",
+    "integrations": "revanced/revanced-integrations"
+  },
+  "patches": [
+    {
+      "name": "com.google.android.youtube",
+      "patches": [
+        "client-spoof",
+        "disable-player-popup-panels",
+        "disable-shorts-on-startup",
+        "disable-zoom-haptics",
+        "hdr-auto-brightness",
+        "hide-ads",
+        "hide-breaking-news-shelf",
+        "hide-cast-button",
+        "hide-crowdfunding-box",
+        "hide-endscreen-cards",
+        "hide-floating-microphone-button",
+        "hide-info-cards",
+        "hide-video-action-buttons",
+        "hide-watch-in-vr",
+        "hide-watermark",
+        "minimized-playback",
+        "old-quality-layout",
+        "open-links-externally",
+        "premium-heading",
+        "remember-video-quality",
+        "remove-player-controls-background",
+        "return-youtube-dislike",
+        "seekbar-tapping",
+        "sponsorblock",
+        "vanced-microg-support",
+        "video-ads"
+      ]
+    },
+    {
+      "name": "com.instagram.android",
+      "patches": [
+        "hide-timeline-ads"
+      ]
+    }
+  ]
+}

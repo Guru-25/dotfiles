@@ -129,17 +129,10 @@ function search() {
 
 # flatpak
 alias codium='flatpak run com.vscodium.codium'
-alias vlc='flatpak run org.videolan.VLC'
 alias notepadqq='flatpak run com.notepadqq.Notepadqq'
-
-# navigation
-alias ..='cd ..'
 
 # myip
 alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
-
-# vim
-alias vim='nvim'
 
 # Changing "ls" to "exa"
 alias ls='exa --color=always --group-directories-first'     # my preferred listing
@@ -160,7 +153,7 @@ alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnai
 alias yt-dlp-thumb='yt-dlp --skip-download --no-embed-subs --convert-thumbnails png -P "~/Pictures/"'
 
 # ffsend
-alias send='ffsend up -v -S -y --qr'
+alias send='ffsend up -y --qr'
 
 # bare git repo alias for dotfiles
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
@@ -191,6 +184,7 @@ alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
 
+# python-pip
 alias pip-up='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # refresh zsh
@@ -198,18 +192,7 @@ alias refresh='source ~/.zshrc'
 
 # edit conf
 alias aliasconf='nvim ~/.zshrc'
-alias dnfconf='sudo nvim /etc/dnf/dnf.conf'
-alias dnfrepo='cd /etc/yum.repos.d/'
-alias dnsconf='sudo nvim /etc/systemd/resolved.conf' # run 'sudo systemctl restart systemd-resolved' after changing
 alias backupconf='nvim ~/.backup/README.md'
-alias gallery-dlconf='nvim ~/.config/gallery-dl/config.json'
-alias yt-dlpconf='nvim ~/.config/yt-dlp/config'
-alias starshipconf='nvim ~/.config/starship.toml'
-alias codiumconf='nvim ~/.var/app/com.vscodium.codium/config/VSCodium/User/settings.json'
-alias gitconf='nvim ~/.gitconfig'
-alias alacrittyconf='nvim ~/.config/alacritty/alacritty.yml'
-alias sshdconf='sudo nvim /etc/ssh/sshd_config'
-alias sshconf='nvim ~/.ssh/config'
 
 # xampp
 alias xampp='sudo /opt/lampp/lampp'
