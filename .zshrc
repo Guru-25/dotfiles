@@ -172,20 +172,23 @@ function cfg(){
   fi
 }
 
-# dnf and flatpak update
-alias up='sudo dnf upgrade; flatpak update'
+# dnf, flatpak and pip
+alias dnfu='sudo dnf upgrade -y'
+alias dnfur='sudo dnf upgrade --refresh -y'
+alias flatu='flatpak update -y'
+alias cleanup='sudo dnf autoremove && flatpak remove --unused'
+alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # dnf, flatpak and gnome-extensions list
 alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "\n# gnome-extensions\n" >> ~/.backup/packages.txt && gnome-extensions list >> ~/.backup/packages.txt && printf "done\n"'
 
-# ps
+# stats
+alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep -E "state:|percentage:" | sed "s/fully-charged/charging/g"'
+alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
 alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
-
-# python-pip
-alias pip-up='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # refresh zsh
 alias refresh='source ~/.zshrc'

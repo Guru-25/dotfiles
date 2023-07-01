@@ -40,6 +40,12 @@
       "patches": [
         "hide-timeline-ads"
       ]
+    },
+    {
+      "name": "ml.docilealligator.infinityforreddit",
+      "patches": [
+        "change-oauth-client-id"
+      ]
     }
   ]
 }
