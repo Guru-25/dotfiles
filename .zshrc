@@ -203,5 +203,8 @@ alias xampp='sudo /opt/lampp/lampp'
 # revanced
 alias revanced='cd ~/me/revanced-builder/ && ./revanced-builder-linux'
 
+# adb
+alias debug='adb connect 192.168.29.100:$(nmap -sT 192.168.29.100 -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
+
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
