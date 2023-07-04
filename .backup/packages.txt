@@ -100,6 +100,7 @@ neovim
 netcdf
 netpbm
 nm-connection-editor
+nmap
 nodejs
 ogdi
 oneVPL

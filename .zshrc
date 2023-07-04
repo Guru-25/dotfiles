@@ -120,9 +120,13 @@ export EDITOR='nvim' # $EDITOR use nvim in terminal
 export MANPAGER='sh -c "col -bx | bat -l man -p"'
 export MANROFFOPT='-c'
 
+### VARIABLES
+PKG_BKUP_PATH="$HOME/.backup/packages.txt"
+ANDROID_IP='192.168.29.100'
+
 ### SEARCH INSTALLED PACKAGES
 function search() {
-	grep "$1" ~/.backup/packages.txt
+	grep "$1" $PKG_BKUP_PATH
 }
 
 ### ALIASES ###
@@ -180,7 +184,7 @@ alias cleanup='sudo dnf autoremove && flatpak remove --unused'
 alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # dnf, flatpak and gnome-extensions list
-alias backup='printf "# dnf\n" > ~/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> ~/.backup/packages.txt && printf "\n# flatpak\n" >> ~/.backup/packages.txt && flatpak list --columns=application --app >> ~/.backup/packages.txt && printf "\n# gnome-extensions\n" >> ~/.backup/packages.txt && gnome-extensions list >> ~/.backup/packages.txt && printf "done\n"'
+alias backup='printf "# dnf\n" > $PKG_BKUP_PATH && dnf rq --userinstalled --qf "%{name}" >> $PKG_BKUP_PATH && printf "\n# flatpak\n" >> $PKG_BKUP_PATH && flatpak list --columns=application --app >> $PKG_BKUP_PATH && printf "\n# gnome-extensions\n" >> $PKG_BKUP_PATH && gnome-extensions list >> $PKG_BKUP_PATH && printf "done\n"'
 
 # stats
 alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep -E "state:|percentage:" | sed "s/fully-charged/charging/g"'
@@ -204,7 +208,7 @@ alias xampp='sudo /opt/lampp/lampp'
 alias revanced='cd ~/me/revanced-builder/ && ./revanced-builder-linux'
 
 # adb
-alias debug='adb connect 192.168.29.100:$(nmap -sT 192.168.29.100 -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
+alias debug='adb connect $ANDROID_IP:$(nmap -sT $ANDROID_IP -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
