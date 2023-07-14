@@ -80,5 +80,6 @@
       }
     },
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-    "terminal.integrated.defaultProfile.linux": "bash"
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "security.workspace.trust.untrustedFiles": "open"
 }
