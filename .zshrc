@@ -201,12 +201,6 @@ alias refresh='source ~/.zshrc'
 alias aliasconf='nvim ~/.zshrc'
 alias backupconf='nvim ~/.backup/README.md'
 
-# xampp
-alias xampp='sudo /opt/lampp/lampp'
-
-# revanced
-alias revanced='cd ~/me/revanced-builder/ && ./revanced-builder-linux'
-
 # adb
 alias debug='adb connect $ANDROID_IP:$(nmap -sT $ANDROID_IP -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
 
