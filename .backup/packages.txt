@@ -94,6 +94,7 @@ luajit2.1-luv
 minizip-ng
 mkfontscale
 msgpack
+mullvad-vpn
 nautilus-python
 ncurses-devel
 neovim

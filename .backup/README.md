@@ -12,6 +12,12 @@ sudo dnf copr enable atim/starship
 sudo dnf install starship
 ```
 
+- [Mullvad VPN](https://mullvad.net/en/help/install-mullvad-app-linux/)
+```
+wget --content-disposition https://mullvad.net/download/app/rpm/latest
+sudo dnf install -y ./MullvadVPN-XXXX.X_x86_64.rpm
+```
+
 # pip
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip)
 ```
