@@ -44,10 +44,8 @@ gnome-shell-extension-no-overview
 gnome-shell-extension-pop-shell
 gnome-shell-extension-user-theme
 gnome-terminal
-gnome-tweaks
 google-noto-sans-cjk-vf-fonts
 graphviz
-gtk-murrine-engine
 gts
 hdf-libs
 hdf5
@@ -170,7 +168,6 @@ qt5-qtimageformats
 quazip-qt5
 roc-toolkit
 rpm-sequoia
-sassc
 speexdsp
 starship
 syncthing
@@ -192,9 +189,7 @@ xwininfo
 zsh
 
 # flatpak
-ca.desrt.dconf-editor
 com.github.Eloston.UngoogledChromium
-com.github.qarmin.czkawka
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
@@ -212,10 +207,6 @@ appindicatorsupport@rgcjonas.gmail.com
 blur-my-shell@aunetx
 dash-to-dock@micxgx.gmail.com
 pano@elhan.io
-status-area-horizontal-spacing@mathematical.coffee.gmail.com
-Vitals@CoreCoding.com
-drive-menu@gnome-shell-extensions.gcampax.github.com
-user-theme@gnome-shell-extensions.gcampax.github.com
 pop-shell@system76.com
 no-overview@fthx
 background-logo@fedorahosted.org
