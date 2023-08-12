@@ -1,4 +1,0 @@
-[Context]
-shared=!ipc
-sockets=!x11
-filesystems=home;!host

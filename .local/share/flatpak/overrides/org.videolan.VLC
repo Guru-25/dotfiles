@@ -1,7 +1,0 @@
-[Context]
-shared=!ipc
-devices=!all;dri
-filesystems=!host
-
-[Session Bus Policy]
-org.freedesktop.secrets=none

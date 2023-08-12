@@ -135,7 +135,7 @@ function search() {
 alias notepadqq='flatpak run com.notepadqq.Notepadqq'
 
 # myip
-alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
+# alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
 
 # Changing "ls" to "exa"
 alias ls='exa --color=always --group-directories-first'     # my preferred listing
@@ -150,10 +150,10 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # yt-dlp
-alias yt-dlp-audio='yt-dlp -f ba -x --audio-format mp3 --no-embed-subs -P "~/Music/"'
-alias yt-dlp-best='yt-dlp -f bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b'
-alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnail -P "~/Downloads/"'
-alias yt-dlp-thumb='yt-dlp --skip-download --no-embed-subs --convert-thumbnails png -P "~/Pictures/"'
+# alias yt-dlp-audio='yt-dlp -f ba -x --audio-format mp3 --no-embed-subs -P "~/Music/"'
+# alias yt-dlp-best='yt-dlp -f bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b'
+# alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnail -P "~/Downloads/"'
+# alias yt-dlp-thumb='yt-dlp --skip-download --no-embed-subs --convert-thumbnails png -P "~/Pictures/"'
 
 # ffsend
 alias send='ffsend up -y --qr'
@@ -186,8 +186,8 @@ alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]];
 alias backup='printf "# dnf\n" > $PKG_BKUP_PATH && dnf rq --userinstalled --qf "%{name}" >> $PKG_BKUP_PATH && printf "\n# flatpak\n" >> $PKG_BKUP_PATH && flatpak list --columns=application --app >> $PKG_BKUP_PATH && printf "\n# gnome-extensions\n" >> $PKG_BKUP_PATH && gnome-extensions list >> $PKG_BKUP_PATH && printf "done\n"'
 
 # stats
-alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
-alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
+# alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
+# alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
@@ -200,7 +200,7 @@ alias aliasconf='nvim ~/.zshrc'
 alias backupconf='nvim ~/.backup/README.md'
 
 # adb
-alias debug='adb connect $ANDROID_IP:$(nmap -sT $ANDROID_IP -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
+# alias debug='adb connect $ANDROID_IP:$(nmap -sT $ANDROID_IP -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
