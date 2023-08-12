@@ -16,6 +16,7 @@ catimg
 cfitsio
 chkconfig
 cmake-filesystem
+codium
 compat-lua-libs
 dleyna
 dracut-live
@@ -196,7 +197,6 @@ com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
 com.obsproject.Studio
-com.vscodium.codium
 org.gnome.Shotwell
 org.gnome.eog
 org.libreoffice.LibreOffice
