@@ -29,6 +29,7 @@ flexiblas-openblas-openmp64
 freexl
 fzf
 gcc
+gcc-c++
 gdal-libs
 gdcm
 gdk-pixbuf2-xlib
@@ -36,13 +37,10 @@ geos
 gettext
 gnome-disk-utility
 gnome-shell-extension-appindicator
-gnome-shell-extension-background-logo
 gnome-shell-extension-blur-my-shell
 gnome-shell-extension-dash-to-dock
-gnome-shell-extension-drive-menu
 gnome-shell-extension-no-overview
 gnome-shell-extension-pop-shell
-gnome-shell-extension-user-theme
 gnome-terminal
 google-noto-sans-cjk-vf-fonts
 graphviz
@@ -166,8 +164,11 @@ qemu-user-static-x86
 qemu-user-static-xtensa
 qt5-qtimageformats
 quazip-qt5
+remmina
 roc-toolkit
 rpm-sequoia
+rpmfusion-free-release
+rpmfusion-nonfree-release
 speexdsp
 starship
 syncthing
@@ -177,6 +178,7 @@ tree-sitter-cli
 unibilium
 unixODBC
 uriparser
+vlc
 webkitgtk6.0
 xdpyinfo
 xerces-c
@@ -199,14 +201,12 @@ org.gnome.Shotwell
 org.gnome.eog
 org.libreoffice.LibreOffice
 org.telegram.desktop
-org.videolan.VLC
 tv.kodi.Kodi
 
 # gnome-extensions
+pano@elhan.io
+pop-shell@system76.com
 appindicatorsupport@rgcjonas.gmail.com
 blur-my-shell@aunetx
 dash-to-dock@micxgx.gmail.com
-pano@elhan.io
-pop-shell@system76.com
 no-overview@fthx
-background-logo@fedorahosted.org

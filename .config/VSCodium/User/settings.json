@@ -1,0 +1,18 @@
+{
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.runInTerminal": true,
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.linkedEditing": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "scm.diffDecorations": "none",
+    "workbench.colorTheme": "Atom One Dark",
+    "window.titleBarStyle": "custom",
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "security.workspace.trust.untrustedFiles": "open",
+}

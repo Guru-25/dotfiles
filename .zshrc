@@ -132,7 +132,6 @@ function search() {
 ### ALIASES ###
 
 # flatpak
-alias codium='flatpak run com.vscodium.codium'
 alias notepadqq='flatpak run com.notepadqq.Notepadqq'
 
 # myip
@@ -187,7 +186,6 @@ alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]];
 alias backup='printf "# dnf\n" > $PKG_BKUP_PATH && dnf rq --userinstalled --qf "%{name}" >> $PKG_BKUP_PATH && printf "\n# flatpak\n" >> $PKG_BKUP_PATH && flatpak list --columns=application --app >> $PKG_BKUP_PATH && printf "\n# gnome-extensions\n" >> $PKG_BKUP_PATH && gnome-extensions list >> $PKG_BKUP_PATH && printf "done\n"'
 
 # stats
-alias battery='upower -i /org/freedesktop/UPower/devices/battery_BAT1 | grep -E "state:|percentage:" | sed "s/fully-charged/charging/g"'
 alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
 alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
 

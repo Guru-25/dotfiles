@@ -12,10 +12,24 @@ sudo dnf copr enable atim/starship
 sudo dnf install starship
 ```
 
-- [Mullvad VPN](https://mullvad.net/en/help/install-mullvad-app-linux/)
+- [mullvad-vpn](https://mullvad.net/en/help/install-mullvad-app-linux/)
 ```
 wget --content-disposition https://mullvad.net/download/app/rpm/latest
 sudo dnf install -y ./MullvadVPN-XXXX.X_x86_64.rpm
+```
+
+- [vlc](https://www.videolan.org/vlc/download-fedora.html)
+```
+su -
+dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
+dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+dnf install vlc
+```
+
+- [codium](https://vscodium.com/#install-on-fedora-rhel-centos-rockylinux-opensuse-rpm-package)
+```
+sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+sudo dnf install codium
 ```
 
 # pip
@@ -52,7 +66,7 @@ rm -rf neofetch/
 - [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases)
 ```
 cd ~/Downloads/
-flatpak run com.vscodium.codium --install-extension vscode-icons-*.vsix
+codium --install-extension vscode-icons-*.vsix
 rm vscode-icons-*.vsix
 ```
 
