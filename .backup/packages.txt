@@ -192,7 +192,7 @@ xwininfo
 zsh
 
 # flatpak
-com.github.Eloston.UngoogledChromium
+ca.desrt.dconf-editor
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
@@ -206,7 +206,7 @@ tv.kodi.Kodi
 # gnome-extensions
 pano@elhan.io
 pop-shell@system76.com
-appindicatorsupport@rgcjonas.gmail.com
 blur-my-shell@aunetx
-dash-to-dock@micxgx.gmail.com
 no-overview@fthx
+dash-to-dock@micxgx.gmail.com
+appindicatorsupport@rgcjonas.gmail.com
