@@ -75,6 +75,10 @@ plugins=(
 	zsh-autosuggestions
 	zsh-syntax-highlighting
 	zsh-fzf-history-search
+  auto-notify
+)
+export AUTO_NOTIFY_IGNORE=(
+  "cd"
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -107,9 +111,9 @@ source $ZSH/oh-my-zsh.sh
 #
 
 ### disable underline in zsh-syntax-highlighting
-(( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
-ZSH_HIGHLIGHT_STYLES[path]=none
-ZSH_HIGHLIGHT_STYLES[path_prefix]=none
+#(( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
+#ZSH_HIGHLIGHT_STYLES[path]=none
+#ZSH_HIGHLIGHT_STYLES[path_prefix]=none
 
 ### EXPORT
 export EDITOR='nvim' # $EDITOR use nvim in terminal

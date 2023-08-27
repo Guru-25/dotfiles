@@ -137,3 +137,5 @@ gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacri
 cd ..
 rm -rf nautilus-open-any-terminal
 ```
+
+- [Mullvad Broweser](https://mullvad.net/en/download/browser/linux)

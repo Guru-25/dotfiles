@@ -5,6 +5,7 @@ aajohan-comfortaa-fonts
 abseil-cpp
 alacritty
 android-tools
+argon2
 armadillo
 arpack
 bat
@@ -29,7 +30,6 @@ flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
 fzf
-gcc
 gcc-c++
 gdal-libs
 gdcm
@@ -51,6 +51,7 @@ hdf5
 imlib2
 initscripts
 ipp-usb
+java-17-openjdk-devel
 javascriptcoregtk6.0
 kernel
 kernel-core
@@ -176,6 +177,7 @@ syncthing
 systemd-boot-unsigned
 tig
 tree-sitter-cli
+tuned
 unibilium
 unixODBC
 uriparser
