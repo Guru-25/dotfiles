@@ -12,6 +12,7 @@ bat
 blosc
 bluez-obexd
 brave-browser
+cabextract
 caca-utils
 catimg
 cfitsio
@@ -92,6 +93,7 @@ luajit2.1-luv
 minizip-ng
 mkfontscale
 msgpack
+msttcore-fonts-installer
 mullvad-vpn
 nautilus-python
 ncurses-devel
@@ -101,6 +103,7 @@ netpbm
 nm-connection-editor
 nmap
 nodejs
+obs-studio
 ogdi
 oneVPL
 oneVPL-intel-gpu
@@ -186,6 +189,7 @@ webkitgtk6.0
 xdpyinfo
 xerces-c
 xinput
+xorg-x11-font-utils
 xorg-x11-fonts-ISO8859-1-100dpi
 xprop
 xrandr
@@ -198,7 +202,6 @@ ca.desrt.dconf-editor
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
-com.obsproject.Studio
 org.gnome.Shotwell
 org.gnome.eog
 org.libreoffice.LibreOffice

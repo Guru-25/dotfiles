@@ -1,5 +1,0 @@
-[Context]
-shared=!ipc;!network
-sockets=!x11
-devices=!all;dri
-filesystems=~/Videos/Screencasts;!host
