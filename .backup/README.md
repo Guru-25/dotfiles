@@ -104,6 +104,11 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/joshskidmore/zsh-fzf-history-search ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-fzf-history-search
 ```
 
+- [auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify#installation)
+```
+git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
+```
+
 - [NvChad](https://nvchad.com/docs/quickstart/install)
 ```
 rm -rf ~/.config/nvim
