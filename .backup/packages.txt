@@ -202,10 +202,9 @@ ca.desrt.dconf-editor
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.notepadqq.Notepadqq
+org.gnome.Loupe
 org.gnome.Shotwell
-org.gnome.eog
 org.libreoffice.LibreOffice
-org.telegram.desktop
 tv.kodi.Kodi
 
 # gnome-extensions
