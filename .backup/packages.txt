@@ -94,7 +94,6 @@ minizip-ng
 mkfontscale
 msgpack
 msttcore-fonts-installer
-mullvad-vpn
 nautilus-python
 ncurses-devel
 neovim
@@ -180,7 +179,6 @@ syncthing
 systemd-boot-unsigned
 tig
 tree-sitter-cli
-tuned
 unibilium
 unixODBC
 uriparser

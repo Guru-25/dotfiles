@@ -10,7 +10,7 @@
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
     "scm.diffDecorations": "none",
-    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.colorTheme": "Atom One Dark",
     "window.titleBarStyle": "custom",
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",

@@ -120,18 +120,8 @@ export EDITOR='nvim' # $EDITOR use nvim in terminal
 
 ### SET MANPAGER
 
-### "bat" as manpager
-export MANPAGER='sh -c "col -bx | bat -l man -p"'
-export MANROFFOPT='-c'
-
-### VARIABLES
-PKG_BKUP_PATH="$HOME/.backup/packages.txt"
-ANDROID_IP='192.168.29.100'
-
-### SEARCH INSTALLED PACKAGES
-function search() {
-	grep "$1" $PKG_BKUP_PATH
-}
+### "nvim" as manpager
+export MANPAGER='nvim +Man!'
 
 ### ALIASES ###
 
@@ -187,7 +177,7 @@ alias cleanup='sudo dnf autoremove && flatpak remove --unused'
 alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
 # dnf, flatpak and gnome-extensions list
-alias backup='printf "# dnf\n" > $PKG_BKUP_PATH && dnf rq --userinstalled --qf "%{name}" >> $PKG_BKUP_PATH && printf "\n# flatpak\n" >> $PKG_BKUP_PATH && flatpak list --columns=application --app >> $PKG_BKUP_PATH && printf "\n# gnome-extensions\n" >> $PKG_BKUP_PATH && gnome-extensions list >> $PKG_BKUP_PATH && printf "done\n"'
+alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> $HOME/.backup/packages.txt && printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && flatpak list --columns=application --app >> $HOME/.backup/packages.txt && printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && gnome-extensions list >> $HOME/.backup/packages.txt && printf "done\n"'
 
 # stats
 # alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
@@ -204,7 +194,7 @@ alias aliasconf='nvim ~/.zshrc'
 alias backupconf='nvim ~/.backup/README.md'
 
 # adb
-# alias debug='adb connect $ANDROID_IP:$(nmap -sT $ANDROID_IP -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
+# alias debug='adb connect 192.168.29.100:$(nmap -sT 192.168.29.100 -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"

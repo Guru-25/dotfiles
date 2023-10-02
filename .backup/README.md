@@ -12,12 +12,6 @@ sudo dnf copr enable atim/starship
 sudo dnf install starship
 ```
 
-- [mullvad-vpn](https://mullvad.net/en/help/install-mullvad-app-linux/)
-```
-wget --content-disposition https://mullvad.net/download/app/rpm/latest
-sudo dnf install -y ./MullvadVPN-XXXX.X_x86_64.rpm
-```
-
 - [vlc](https://www.videolan.org/vlc/download-fedora.html)
 ```
 su -
@@ -142,5 +136,3 @@ gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacri
 cd ..
 rm -rf nautilus-open-any-terminal
 ```
-
-- [Mullvad Broweser](https://mullvad.net/en/download/browser/linux)
