@@ -69,11 +69,7 @@ rm vscode-icons-*.vsix
 git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
 cd nerd-fonts
 git sparse-checkout add patched-fonts/FiraCode
-```
-```
 ./install.sh FiraCode
-```
-```
 cd ..
 rm -rf nerd-fonts
 ```
@@ -107,32 +103,22 @@ git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plu
 ```
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
-```
-```
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
 
 - [pop-shell](https://github.com/pop-os/shell#packaging-status)
 ```
-sudo dnf install xprop
+sudo dnf install gnome-shell-extension-pop-shell xprop
 sudo npm install -g typescript
 ```
 
 - [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal#restart-nautilus)
 ```
 sudo dnf install nautilus-python
-```
-```
 git clone https://github.com/Stunkymonkey/nautilus-open-any-terminal
 cd nautilus-open-any-terminal
-```
-```
 sudo tools/update-extension-system.sh install
-```
-```
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
-```
-```
 cd ..
 rm -rf nautilus-open-any-terminal
 ```
