@@ -1,6 +1,7 @@
 # dnf
 CharLS
 SuperLU
+VirtualBox-7.0
 aajohan-comfortaa-fonts
 abseil-cpp
 alacritty
@@ -14,15 +15,19 @@ bluez-obexd
 brave-browser
 cabextract
 caca-utils
+cairo-devel
+cairo-gobject-devel
 catimg
 cfitsio
 chkconfig
 cmake-filesystem
 codium
 compat-lua-libs
+dkms
 dleyna
+dmidecode
 dracut-live
-exa
+eza
 f38-backgrounds-base
 f38-backgrounds-gnome
 fedora-workstation-repositories
@@ -40,12 +45,15 @@ gettext
 gnome-disk-utility
 gnome-shell-extension-appindicator
 gnome-shell-extension-blur-my-shell
-gnome-shell-extension-dash-to-dock
+gnome-shell-extension-dash-to-panel
 gnome-shell-extension-no-overview
 gnome-shell-extension-pop-shell
 gnome-terminal
+gobject-introspection-devel
 google-noto-sans-cjk-vf-fonts
 graphviz
+grub-customizer
+gtk3-devel
 gts
 hdf-libs
 hdf5
@@ -56,9 +64,11 @@ java-17-openjdk-devel
 javascriptcoregtk6.0
 kernel
 kernel-core
+kernel-devel
 kernel-modules
 kernel-modules-core
 kernel-modules-extra
+kodi
 langpacks-en
 lasi
 libXxf86dga
@@ -113,6 +123,7 @@ opencv-core
 openfec
 openssh-server
 openssl
+perl
 proj
 proj-data
 proj-data-at
@@ -142,6 +153,7 @@ proj-data-sk
 proj-data-uk
 proj-data-us
 proj-data-za
+python3-devel
 python3-neovim
 python3-pip
 python3-satyr
@@ -203,12 +215,12 @@ com.notepadqq.Notepadqq
 org.gnome.Loupe
 org.gnome.Shotwell
 org.libreoffice.LibreOffice
-tv.kodi.Kodi
 
 # gnome-extensions
 pano@elhan.io
+Vitals@CoreCoding.com
 pop-shell@system76.com
 blur-my-shell@aunetx
 no-overview@fthx
-dash-to-dock@micxgx.gmail.com
 appindicatorsupport@rgcjonas.gmail.com
+dash-to-panel@jderose9.github.com

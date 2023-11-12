@@ -12,6 +12,12 @@ sudo dnf copr enable atim/starship
 sudo dnf install starship
 ```
 
+- [codium](https://vscodium.com/#install-on-fedora-rhel-centos-rockylinux-opensuse-rpm-package)
+```
+sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+sudo dnf install codium
+```
+
 - [vlc](https://www.videolan.org/vlc/download-fedora.html)
 ```
 su -
@@ -20,10 +26,18 @@ dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-rel
 dnf install vlc
 ```
 
-- [codium](https://vscodium.com/#install-on-fedora-rhel-centos-rockylinux-opensuse-rpm-package)
+- [Oracle VM VirtualBox](https://www.linuxcapable.com/how-to-install-virtualbox-7-0-on-fedora-linux/)
 ```
-sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-sudo dnf install codium
+sudo dnf upgrade --refresh
+sudo dnf install kernel-devel kernel-headers dkms qt5-qtx11extras elfutils-libelf-devel zlib-devel
+sudo wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo -P /etc/yum.repos.d/
+dnf search VirtualBox
+sudo dnf install VirtualBox-x.x
+sudo systemctl enable vboxdrv --now
+vboxmanage -v | cut -dr -f1
+wget https://download.virtualbox.org/virtualbox/x.x.x/Oracle_VM_VirtualBox_Extension_Pack-x.x.x.vbox-extpack
+sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-x.x.x.vbox-extpack
+sudo usermod -a -G vboxusers $USER
 ```
 
 # pip
