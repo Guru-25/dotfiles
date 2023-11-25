@@ -26,18 +26,12 @@ dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-rel
 dnf install vlc
 ```
 
-- [Oracle VM VirtualBox](https://www.linuxcapable.com/how-to-install-virtualbox-7-0-on-fedora-linux/)
+- [Virtual Machine Manager](https://vashinator.com/install-virt-manager-on-fedora/)
 ```
-sudo dnf upgrade --refresh
-sudo dnf install kernel-devel kernel-headers dkms qt5-qtx11extras elfutils-libelf-devel zlib-devel
-sudo wget http://download.virtualbox.org/virtualbox/rpm/fedora/virtualbox.repo -P /etc/yum.repos.d/
-dnf search VirtualBox
-sudo dnf install VirtualBox-x.x
-sudo systemctl enable vboxdrv --now
-vboxmanage -v | cut -dr -f1
-wget https://download.virtualbox.org/virtualbox/x.x.x/Oracle_VM_VirtualBox_Extension_Pack-x.x.x.vbox-extpack
-sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-x.x.x.vbox-extpack
-sudo usermod -a -G vboxusers $USER
+sudo dnf install @virtualization
+sudo systemctl start libvirtd
+sudo systemctl enable libvirtd
+sudo usermod -a -G libvirt $(whoami)
 ```
 
 # pip
@@ -135,4 +129,10 @@ sudo tools/update-extension-system.sh install
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 cd ..
 rm -rf nautilus-open-any-terminal
+```
+
+- [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq#auto-cpufreq-installer)
+```
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
 ```

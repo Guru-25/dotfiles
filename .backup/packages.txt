@@ -1,7 +1,6 @@
 # dnf
 CharLS
 SuperLU
-VirtualBox-7.0
 aajohan-comfortaa-fonts
 abseil-cpp
 alacritty
@@ -46,7 +45,6 @@ gnome-disk-utility
 gnome-shell-extension-appindicator
 gnome-shell-extension-blur-my-shell
 gnome-shell-extension-dash-to-panel
-gnome-shell-extension-no-overview
 gnome-shell-extension-pop-shell
 gnome-terminal
 gobject-introspection-devel
@@ -94,6 +92,7 @@ libspatialite
 libtermkey
 libtree-sitter
 libunistring1.0
+libvirt
 libvterm
 libwmf-lite
 libzip
@@ -180,7 +179,6 @@ qemu-user-static-x86
 qemu-user-static-xtensa
 qt5-qtimageformats
 quazip-qt5
-remmina
 roc-toolkit
 rpm-sequoia
 rpmfusion-free-release
@@ -194,6 +192,8 @@ tree-sitter-cli
 unibilium
 unixODBC
 uriparser
+virt-install
+virt-manager
 vlc
 webkitgtk6.0
 xdpyinfo
@@ -221,6 +221,5 @@ pano@elhan.io
 Vitals@CoreCoding.com
 pop-shell@system76.com
 blur-my-shell@aunetx
-no-overview@fthx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com
