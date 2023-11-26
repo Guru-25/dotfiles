@@ -214,6 +214,7 @@ com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 org.gnome.Loupe
 org.gnome.Shotwell
+org.gnome.baobab
 org.libreoffice.LibreOffice
 
 # gnome-extensions
