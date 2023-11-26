@@ -126,7 +126,7 @@ export MANPAGER='nvim +Man!'
 ### ALIASES ###
 
 # flatpak
-alias notepadqq='flatpak run com.notepadqq.Notepadqq'
+alias texteditor='flatpak run org.gnome.TextEditor'
 
 # myip
 # alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
