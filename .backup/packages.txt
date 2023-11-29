@@ -47,7 +47,6 @@ gnome-shell-extension-blur-my-shell
 gnome-shell-extension-dash-to-panel
 gnome-shell-extension-pop-shell
 gnome-terminal
-gnome-text-editor
 gobject-introspection-devel
 google-noto-sans-cjk-vf-fonts
 graphviz
@@ -214,6 +213,7 @@ com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 org.gnome.Loupe
 org.gnome.Shotwell
+org.gnome.TextEditor
 org.gnome.baobab
 org.libreoffice.LibreOffice
 
