@@ -44,7 +44,9 @@ gettext
 gnome-disk-utility
 gnome-shell-extension-appindicator
 gnome-shell-extension-blur-my-shell
+gnome-shell-extension-caffeine
 gnome-shell-extension-dash-to-panel
+gnome-shell-extension-gsconnect
 gnome-shell-extension-pop-shell
 gnome-terminal
 gobject-introspection-devel
@@ -103,6 +105,7 @@ minizip-ng
 mkfontscale
 msgpack
 msttcore-fonts-installer
+nautilus-gsconnect
 nautilus-python
 ncurses-devel
 neovim
@@ -123,6 +126,7 @@ openfec
 openssh-server
 openssl
 perl
+powertop
 proj
 proj-data
 proj-data-at
@@ -220,7 +224,10 @@ org.libreoffice.LibreOffice
 # gnome-extensions
 pano@elhan.io
 Vitals@CoreCoding.com
+ideapad@laurento.frittella
 pop-shell@system76.com
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com
+caffeine@patapon.info
+gsconnect@andyholmes.github.io

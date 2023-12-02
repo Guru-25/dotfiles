@@ -169,6 +169,10 @@ function cfg(){
   fi
 }
 
+function setcharging() {
+  echo ${1:-1}  | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode
+}
+
 # dnf, flatpak and pip
 alias dnfu='sudo dnf upgrade -y'
 alias dnfur='sudo dnf upgrade --refresh -y'
@@ -198,3 +202,5 @@ alias backupconf='nvim ~/.backup/README.md'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
+
+eval "$(_AUTO_CPUFREQ_COMPLETE=zsh_source auto-cpufreq)"
