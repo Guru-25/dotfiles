@@ -22,9 +22,9 @@ chkconfig
 cmake-filesystem
 codium
 compat-lua-libs
+divested-release
 dkms
 dleyna
-dmidecode
 dracut-live
 eza
 f38-backgrounds-base
@@ -101,6 +101,7 @@ libzip
 lshw
 luajit
 luajit2.1-luv
+microcode_ctl
 minizip-ng
 mkfontscale
 msgpack
@@ -112,7 +113,6 @@ neovim
 netcdf
 netpbm
 nm-connection-editor
-nmap
 nodejs
 obs-studio
 ogdi
@@ -126,7 +126,6 @@ openfec
 openssh-server
 openssl
 perl
-powertop
 proj
 proj-data
 proj-data-at
@@ -183,6 +182,7 @@ qemu-user-static-x86
 qemu-user-static-xtensa
 qt5-qtimageformats
 quazip-qt5
+real-ucode
 roc-toolkit
 rpm-sequoia
 rpmfusion-free-release
@@ -196,8 +196,6 @@ tree-sitter-cli
 unibilium
 unixODBC
 uriparser
-virt-install
-virt-manager
 vlc
 webkitgtk6.0
 xdpyinfo

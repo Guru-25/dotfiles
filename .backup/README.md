@@ -35,16 +35,6 @@ sudo usermod -a -G libvirt $(whoami)
 ```
 
 # pip
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip)
-```
-python3 -m pip install -U yt-dlp
-```
-
-- [gallery-dl](https://github.com/mikf/gallery-dl#pip)
-```
-python3 -m pip install -U gallery-dl
-```
-
 - [ffsend](https://github.com/timvisee/ffsend#linux-prebuilt-binaries) - https://github.com/timvisee/ffsend/releases/latest
 ```
 cd ~/Downloads/

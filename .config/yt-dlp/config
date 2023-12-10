@@ -1,1 +1,0 @@
--f bv[height<=1080][ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b --no-mtime --embed-subs --sub-langs en.* --embed-thumbnail --embed-metadata -P "~/Videos/"

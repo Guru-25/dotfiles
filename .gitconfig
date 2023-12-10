@@ -12,3 +12,6 @@
 	lg = log --oneline --decorate --all --graph
 [advice]
 	statusHints = false
+[safe]
+	directory = /media/data/Guru/VSCodium/data-structures
+	directory = /media/data/Guru/VSCodium/oops
