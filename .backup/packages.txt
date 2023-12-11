@@ -49,6 +49,8 @@ gnome-shell-extension-dash-to-panel
 gnome-shell-extension-gsconnect
 gnome-shell-extension-pop-shell
 gnome-terminal
+gnome-themes-extra
+gnome-tweaks
 gobject-introspection-devel
 google-noto-sans-cjk-vf-fonts
 graphviz
@@ -89,9 +91,6 @@ libmysofa
 libnsl
 libpq
 libqhull_r
-libreoffice-calc
-libreoffice-impress
-libreoffice-writer
 librttopo
 libspatialite
 libtermkey
@@ -223,6 +222,7 @@ com.mattjakeman.ExtensionManager
 org.gnome.Loupe
 org.gnome.Shotwell
 org.gnome.TextEditor
+org.libreoffice.LibreOffice
 
 # gnome-extensions
 pano@elhan.io
