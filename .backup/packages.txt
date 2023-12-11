@@ -89,6 +89,9 @@ libmysofa
 libnsl
 libpq
 libqhull_r
+libreoffice-calc
+libreoffice-impress
+libreoffice-writer
 librttopo
 libspatialite
 libtermkey
@@ -126,6 +129,8 @@ openfec
 openssh-server
 openssl
 perl
+power-profiles-daemon
+powertop
 proj
 proj-data
 proj-data-at
@@ -188,10 +193,12 @@ rpm-sequoia
 rpmfusion-free-release
 rpmfusion-nonfree-release
 speexdsp
+stacer
 starship
 syncthing
 systemd-boot-unsigned
 tig
+timeshift
 tree-sitter-cli
 unibilium
 unixODBC
@@ -216,8 +223,6 @@ com.mattjakeman.ExtensionManager
 org.gnome.Loupe
 org.gnome.Shotwell
 org.gnome.TextEditor
-org.gnome.baobab
-org.libreoffice.LibreOffice
 
 # gnome-extensions
 pano@elhan.io
