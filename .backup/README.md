@@ -34,6 +34,16 @@ sudo systemctl enable libvirtd
 sudo usermod -a -G libvirt $(whoami)
 ```
 
+- [LibreOffice](https://www.fosslinux.com/1510/how-to-install-libreoffice-5-3-in-fedora-25.htm) - [Download](https://www.libreoffice.org/download/download-libreoffice/)
+```
+cd Downloads
+tar -xvf LibreOffice_x.x.x_Linux_x86-64_rpm.tar.gz
+cd LibreOffice_x.x.x_Linux_x86-64_rpm
+sudo dnf install RPMS/*.rpm
+cd ..
+rm -rf sudo dnf install RPMS/*.rpm
+```
+
 # pip
 - [ffsend](https://github.com/timvisee/ffsend#linux-prebuilt-binaries) - https://github.com/timvisee/ffsend/releases/latest
 ```

@@ -1,4 +1,0 @@
-[Context]
-shared=!ipc;!network
-sockets=!pulseaudio;!x11
-filesystems=home;!host
