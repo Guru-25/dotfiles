@@ -71,6 +71,7 @@ kernel-modules
 kernel-modules-core
 kernel-modules-extra
 kodi
+kodi-inputstream-adaptive
 langpacks-en
 lasi
 libXxf86dga
