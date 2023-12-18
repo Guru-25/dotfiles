@@ -140,12 +140,6 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
-# yt-dlp
-# alias yt-dlp-audio='yt-dlp -f ba -x --audio-format mp3 --no-embed-subs -P "~/Music/"'
-# alias yt-dlp-best='yt-dlp -f bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4]/b'
-# alias yt-dlp-subs='yt-dlp --skip-download --convert-subs srt --no-embed-thumbnail -P "~/Downloads/"'
-# alias yt-dlp-thumb='yt-dlp --skip-download --no-embed-subs --convert-thumbnails png -P "~/Pictures/"'
-
 # ffsend
 alias send='ffsend up -y --qr'
 
@@ -180,10 +174,6 @@ alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]];
 # dnf, flatpak and gnome-extensions list
 alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> $HOME/.backup/packages.txt && printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && flatpak list --columns=application --app >> $HOME/.backup/packages.txt && printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && gnome-extensions list >> $HOME/.backup/packages.txt && printf "done\n"'
 
-# stats
-# alias mem="free -m | awk 'NR==2{printf \"RAM Usage: %.1f%%\\n\\n\", (\$3/\$2)*100}' && ps -eo comm,%cpu,pid,%mem --sort=-%mem | head -n 11 | sed 's/COMMAND/PROCESS/g'"
-# alias psgrep='ps aux | grep -v grep | grep -i -e VSZ -e'
-
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
 
@@ -193,9 +183,6 @@ alias refresh='source ~/.zshrc'
 # edit conf
 alias aliasconf='nvim ~/.zshrc'
 alias backupconf='nvim ~/.backup/README.md'
-
-# adb
-# alias debug='adb connect 192.168.29.100:$(nmap -sT 192.168.29.100 -p30000-49999 | awk -F/ "/tcp open/{print \$1}")'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
