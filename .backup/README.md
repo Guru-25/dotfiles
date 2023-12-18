@@ -130,9 +130,3 @@ gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacri
 cd ..
 rm -rf nautilus-open-any-terminal
 ```
-
-- [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq#auto-cpufreq-installer)
-```
-git clone https://github.com/AdnanHodzic/auto-cpufreq.git
-cd auto-cpufreq && sudo ./auto-cpufreq-installer
-```

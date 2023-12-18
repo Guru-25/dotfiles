@@ -125,9 +125,6 @@ export MANPAGER='nvim +Man!'
 
 ### ALIASES ###
 
-# flatpak
-alias texteditor='flatpak run org.gnome.TextEditor'
-
 # myip
 # alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
 
@@ -202,5 +199,3 @@ alias backupconf='nvim ~/.backup/README.md'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
-
-eval "$(_AUTO_CPUFREQ_COMPLETE=zsh_source auto-cpufreq)"

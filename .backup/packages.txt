@@ -49,6 +49,7 @@ gnome-shell-extension-dash-to-panel
 gnome-shell-extension-gsconnect
 gnome-shell-extension-pop-shell
 gnome-terminal
+gnome-text-editor
 gnome-themes-extra
 gnome-tweaks
 gobject-introspection-devel
@@ -171,7 +172,6 @@ openfec
 openssh-server
 openssl
 perl
-power-profiles-daemon
 powertop
 proj
 proj-data
@@ -234,6 +234,7 @@ roc-toolkit
 rpm-sequoia
 rpmfusion-free-release
 rpmfusion-nonfree-release
+smartmontools
 speexdsp
 stacer
 starship
@@ -242,6 +243,8 @@ syncthing
 systemd-boot-unsigned
 tig
 timeshift
+tlp
+tlp-rdw
 tree-sitter-cli
 unibilium
 unixODBC
@@ -265,7 +268,6 @@ com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 org.gnome.Loupe
 org.gnome.Shotwell
-org.gnome.TextEditor
 
 # gnome-extensions
 pano@elhan.io
