@@ -44,7 +44,7 @@ cd ..
 rm -rf sudo dnf install RPMS/*.rpm
 ```
 
-# pip
+# others
 - [ffsend](https://github.com/timvisee/ffsend#linux-prebuilt-binaries) - https://github.com/timvisee/ffsend/releases/latest
 ```
 cd ~/Downloads/
@@ -64,7 +64,6 @@ cd ..
 rm -rf neofetch/
 ```
 
-# fonts/extension/plugins
 - [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases)
 ```
 cd ~/Downloads/
