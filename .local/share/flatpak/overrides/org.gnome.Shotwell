@@ -1,6 +1,6 @@
 [Context]
 shared=!ipc;!network
-sockets=!x11
+sockets=!fallback-x11;!x11
 devices=!all;dri
 
 [Session Bus Policy]

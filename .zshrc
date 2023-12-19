@@ -164,6 +164,9 @@ function setcharging() {
   echo ${1:-1}  | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode
 }
 
+# flatpak
+alias gnome-text-editor='flatpak run org.gnome.TextEditor'
+
 # dnf, flatpak and pip
 alias dnfu='sudo dnf upgrade -y'
 alias dnfur='sudo dnf upgrade --refresh -y'

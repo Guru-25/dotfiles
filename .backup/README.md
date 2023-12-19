@@ -18,30 +18,12 @@ sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw
 sudo dnf install codium
 ```
 
-- [vlc](https://www.videolan.org/vlc/download-fedora.html)
-```
-su -
-dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-dnf install vlc
-```
-
 - [Virtual Machine Manager](https://vashinator.com/install-virt-manager-on-fedora/)
 ```
 sudo dnf install @virtualization
 sudo systemctl start libvirtd
 sudo systemctl enable libvirtd
 sudo usermod -a -G libvirt $(whoami)
-```
-
-- [LibreOffice](https://www.fosslinux.com/1510/how-to-install-libreoffice-5-3-in-fedora-25.htm) - [Download](https://www.libreoffice.org/download/download-libreoffice/)
-```
-cd Downloads
-tar -xvf LibreOffice_x.x.x_Linux_x86-64_rpm.tar.gz
-cd LibreOffice_x.x.x_Linux_x86-64_rpm
-sudo dnf install RPMS/*.rpm
-cd ..
-rm -rf sudo dnf install RPMS/*.rpm
 ```
 
 # others
@@ -128,4 +110,9 @@ sudo tools/update-extension-system.sh install
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 cd ..
 rm -rf nautilus-open-any-terminal
+```
+
+- [Xtreme Download Manager](https://github.com/subhra74/xdm/releases)
+```
+sudo rpm -i xdman_gtk-x.x.x.x.x86_64.rpm
 ```
