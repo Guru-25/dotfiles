@@ -1,0 +1,4 @@
+<favourites>
+    <favourite name="Tamil" thumb="https://jioimages.cdn.jio.com/imagespublic/logos/langGen/Tamil_1579245819981.jpg">ActivateWindow(10025,&quot;plugin://plugin.video.jiotv/resources/lib/main/show_category/?_pickle_=8004953b000000000000007d94288c075f7469746c655f948c0554616d696c948c0e63617465676f72794f724c616e679468028c026279948c094c616e67756167657394752e&quot;,return)</favourite>
+    <favourite name="cricket.m3u">ActivateWindow(10025,&quot;/home/guru/Videos/cricket.m3u&quot;,return)</favourite>
+</favourites>

@@ -1,0 +1,24 @@
+{
+  "float": [
+    {
+      "class": "com.obsproject.Studio"
+    },
+    {
+      "class": "stacer"
+    },
+    {
+      "class": "gnome-system-monitor"
+    },
+    {
+      "class": "pop-shell-exceptions"
+    },
+    {
+      "class": "org.gnome.NautilusPreviewer"
+    },
+    {
+      "class": "xdm-app"
+    }
+  ],
+  "skiptaskbarhidden": [],
+  "log_on_focus": false
+}
