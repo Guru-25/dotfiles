@@ -139,9 +139,6 @@ alias cp='cp -i'
 alias mv='mv -i'
 alias rm='rm -i'
 
-# ffsend
-alias send='ffsend up -y --qr'
-
 # bare git repo alias for dotfiles
 alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias ctig='GIT_DIR=$HOME/.cfg GIT_WORK_TREE=$HOME tig'

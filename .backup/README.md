@@ -27,16 +27,6 @@ sudo usermod -a -G libvirt $(whoami)
 ```
 
 # others
-- [ffsend](https://github.com/timvisee/ffsend#linux-prebuilt-binaries) - https://github.com/timvisee/ffsend/releases/latest
-```
-cd ~/Downloads/
-# Rename binary to ffsend
-mv ./ffsend-*-linux-x64 ./ffsend
-chmod a+x ./ffsend
-sudo mv ./ffsend /usr/local/bin/
-rm ffsend
-```
-
 - [neofetch](https://github.com/dylanaraps/neofetch/wiki/Installation#latest-git-master-bleeding-edge)
 ```
 git clone https://github.com/dylanaraps/neofetch
