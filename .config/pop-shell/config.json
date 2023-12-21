@@ -17,6 +17,9 @@
     },
     {
       "class": "xdm-app"
+    },
+    {
+      "class": "auto-cpufreq"
     }
   ],
   "skiptaskbarhidden": [],

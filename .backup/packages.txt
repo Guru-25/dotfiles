@@ -30,6 +30,7 @@ eza
 f38-backgrounds-base
 f38-backgrounds-gnome
 fedora-workstation-repositories
+ffmpeg-free
 fira-code-fonts
 flexiblas-netlib64
 flexiblas-openblas-openmp64
@@ -88,7 +89,6 @@ libmd
 libmng
 libmysofa
 libnsl
-libobasis7.6-ooofonts
 libpq
 libqhull_r
 librttopo
@@ -103,6 +103,7 @@ libzip
 lshw
 luajit
 luajit2.1-luv
+mesa-va-drivers
 microcode_ctl
 minizip-ng
 mkfontscale

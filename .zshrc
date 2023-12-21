@@ -74,7 +74,6 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
 	zsh-autosuggestions
 	zsh-syntax-highlighting
-	zsh-fzf-history-search
   auto-notify
 )
 export AUTO_NOTIFY_IGNORE=(
@@ -160,8 +159,17 @@ function cfg(){
   fi
 }
 
-function setcharging() {
+function conservation() {
   echo ${1:-1}  | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode
+}
+
+# auto-cpufreq
+function performance() {
+  if [[ $1 == 0 ]]; then
+    sudo auto-cpufreq --force=reset   
+  else
+    sudo auto-cpufreq --force=performance
+  fi
 }
 
 # flatpak
@@ -189,3 +197,5 @@ alias backupconf='nvim ~/.backup/README.md'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
+
+eval "$(_AUTO_CPUFREQ_COMPLETE=zsh_source auto-cpufreq)"

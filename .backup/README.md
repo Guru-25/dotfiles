@@ -78,11 +78,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-- [zsh-fzf-history-search](https://github.com/joshskidmore/zsh-fzf-history-search#oh-my-zsh)
-```
-git clone https://github.com/joshskidmore/zsh-fzf-history-search ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-fzf-history-search
-```
-
 - [auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify#installation)
 ```
 git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
@@ -115,4 +110,12 @@ rm -rf nautilus-open-any-terminal
 - [Xtreme Download Manager](https://github.com/subhra74/xdm/releases)
 ```
 sudo rpm -i xdman_gtk-x.x.x.x.x86_64.rpm
+```
+
+- [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq?tab=readme-ov-file#auto-cpufreq-installer)
+```
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+cd ..
+rm -rf auto-cpufreq
 ```
