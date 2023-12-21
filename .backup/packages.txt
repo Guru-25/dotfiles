@@ -195,10 +195,8 @@ speexdsp
 stacer
 starship
 sushi
-syncthing
 systemd-boot-unsigned
 tig
-timeshift
 tlp
 tlp-rdw
 tree-sitter-cli

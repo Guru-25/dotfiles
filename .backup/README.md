@@ -119,3 +119,22 @@ cd auto-cpufreq && sudo ./auto-cpufreq-installer
 cd ..
 rm -rf auto-cpufreq
 ```
+
+- [syncthing](https://syncthing.net/downloads/)
+```
+cd Downloads
+tar -xf syncthing-linux-amd64-x.x.x.tar.gz
+cd syncthing-linux-amd64-x.x.x.tar.gz
+mv syncthing ~/.local/bin/
+cd ..
+rm -rf syncthing-linux-amd64-x.x.x
+rm syncthing-linux-amd64-x.x.x.tar.gz
+```
+
+- [uad](https://github.com/0x192/universal-android-debloater/releases)
+```
+cd Downloads
+tar -xf uad_gui-linux.tar.gz
+mv uad_gui-linux ~/.local/bin/uad
+rm uad_gui-linux.tar.gz
+```
