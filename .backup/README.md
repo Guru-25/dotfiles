@@ -97,11 +97,6 @@ cd ..
 rm -rf nautilus-open-any-terminal
 ```
 
-- [Xtreme Download Manager](https://github.com/subhra74/xdm/releases)
-```
-sudo rpm -i xdman_gtk-x.x.x.x.x86_64.rpm
-```
-
 - [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq?tab=readme-ov-file#auto-cpufreq-installer)
 ```
 git clone https://github.com/AdnanHodzic/auto-cpufreq.git

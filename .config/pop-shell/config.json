@@ -20,6 +20,9 @@
     },
     {
       "class": "auto-cpufreq"
+    },
+    {
+      "class": "gsconnect-preferences"
     }
   ],
   "skiptaskbarhidden": [],

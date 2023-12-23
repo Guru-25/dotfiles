@@ -76,8 +76,9 @@ plugins=(
 	zsh-syntax-highlighting
   auto-notify
 )
-export AUTO_NOTIFY_IGNORE=(
-  "cd"
+
+export AUTO_NOTIFY_WHITELIST=(
+  "dnfu" "flatu"
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -109,30 +110,18 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 
-### disable underline in zsh-syntax-highlighting
-#(( ${+ZSH_HIGHLIGHT_STYLES} )) || typeset -A ZSH_HIGHLIGHT_STYLES
-#ZSH_HIGHLIGHT_STYLES[path]=none
-#ZSH_HIGHLIGHT_STYLES[path_prefix]=none
-
 ### EXPORT
 export EDITOR='nvim' # $EDITOR use nvim in terminal
-
-### SET MANPAGER
 
 ### "nvim" as manpager
 export MANPAGER='nvim +Man!'
 
 ### ALIASES ###
 
-# myip
-# alias myip='ip addr show | grep "inet " | grep -v 127.0.0.1 | awk "{print \$2}" | cut -d "/" -f 1'
-
 # Changing "ls" to "exa"
 alias ls='eza --color=always --group-directories-first'     # my preferred listing
 alias la='eza -a --color=always --group-directories-first'  # all files and dirs
 alias ll='eza -al --color=always --group-directories-first' # long format
-alias lt='eza -aT --color=always --group-directories-first' # tree listing
-alias l.='eza -a | grep -E "^\."'
 
 # confirm before overwriting something
 alias cp='cp -i'
@@ -140,22 +129,9 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # bare git repo alias for dotfiles
-alias config='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-alias ctig='GIT_DIR=$HOME/.cfg GIT_WORK_TREE=$HOME tig'
+alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-function cfg(){
-  if [[ "$#" -eq 0 ]]; then
-    (cd /
-    for i in $(config ls-files); do
-      echo -n "$(config -c color.status=always status $i -s | sed "s#$i##")"
-      echo -e "¬/$i¬\e[0;33m$(config -c color.ui=always log -1 --format="%s" -- $i)\e[0m"
-    done
-    ) | column -t --separator=¬ -T2
-  else
-    config $*
-  fi
-}
-
+# conservation  mode
 function conservation() {
   echo ${1:-1}  | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode
 }
@@ -169,12 +145,12 @@ function performance() {
   fi
 }
 
-# flatpak
+# short alias
 alias gnome-text-editor='flatpak run org.gnome.TextEditor'
+alias code='codium'
 
 # dnf, flatpak and pip
 alias dnfu='sudo dnf upgrade -y'
-alias dnfur='sudo dnf upgrade --refresh -y'
 alias flatu='flatpak update -y'
 alias cleanup='sudo dnf autoremove && flatpak remove --unused'
 alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
@@ -195,4 +171,5 @@ alias backupconf='nvim ~/.backup/README.md'
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
 
+### auto-cpufreq completion
 eval "$(_AUTO_CPUFREQ_COMPLETE=zsh_source auto-cpufreq)"

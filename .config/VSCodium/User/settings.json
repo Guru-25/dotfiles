@@ -16,4 +16,7 @@
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "security.workspace.trust.untrustedFiles": "open",
     "git.decorations.enabled": false,
+    "code-runner.enableAppInsights": false,
+    "workbench.enableExperiments": false,
+    "update.showReleaseNotes": false,
 }
