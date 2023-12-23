@@ -196,7 +196,6 @@ stacer
 starship
 sushi
 systemd-boot-unsigned
-tig
 tlp
 tlp-rdw
 tree-sitter-cli
@@ -204,7 +203,6 @@ unibilium
 unixODBC
 uriparser
 webkitgtk6.0
-xdman_gtk
 xdpyinfo
 xerces-c
 xinput
@@ -222,6 +220,7 @@ com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 io.github.celluloid_player.Celluloid
+net.agalwood.Motrix
 org.gnome.Loupe
 org.gnome.Shotwell
 org.gnome.TextEditor

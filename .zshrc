@@ -78,7 +78,7 @@ plugins=(
 )
 
 export AUTO_NOTIFY_WHITELIST=(
-  "dnfu" "flatu"
+  "dnf" "flatpak"
 )
 
 source $ZSH/oh-my-zsh.sh
