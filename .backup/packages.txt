@@ -186,8 +186,10 @@ qemu-user-static-xtensa
 qt5-qtimageformats
 quazip-qt5
 real-ucode
+remove-retired-packages
 roc-toolkit
 rpm-sequoia
+rpmconf
 rpmfusion-free-release
 rpmfusion-nonfree-release
 smartmontools

@@ -26,6 +26,12 @@ sudo systemctl enable libvirtd
 sudo usermod -a -G libvirt $(whoami)
 ```
 
+- [msttcore-fonts-installer]
+```
+sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
+sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+```
+
 # others
 - [neofetch](https://github.com/dylanaraps/neofetch/wiki/Installation#latest-git-master-bleeding-edge)
 ```
