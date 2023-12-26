@@ -1,9 +1,0 @@
-[Context]
-shared=!ipc
-sockets=!pulseaudio;!fallback-x11;!x11
-devices=!all;dri
-filesystems=!xdg-run/gvfs;!xdg-run/gvfsd;!xdg-pictures
-
-[Session Bus Policy]
-org.gtk.vfs.*=none
-org.gnome.SettingsDaemon.MediaKeys=none

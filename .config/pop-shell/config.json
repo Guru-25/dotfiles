@@ -23,6 +23,9 @@
     },
     {
       "class": "gsconnect-preferences"
+    },
+    {
+      "class": "gnome-terminal-server"
     }
   ],
   "skiptaskbarhidden": [],

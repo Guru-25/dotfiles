@@ -30,7 +30,6 @@ eza
 f38-backgrounds-base
 f38-backgrounds-gnome
 fedora-workstation-repositories
-ffmpeg-free
 fira-code-fonts
 flexiblas-netlib64
 flexiblas-openblas-openmp64
@@ -60,6 +59,7 @@ gtk3-devel
 gts
 hdf-libs
 hdf5
+htop
 imlib2
 initscripts
 ipp-usb
@@ -75,6 +75,7 @@ langpacks-en
 lasi
 libXxf86dga
 libaec
+libavcodec-freeworld
 libblkio
 libcupsfilters
 libeot
@@ -82,6 +83,7 @@ libgda-sqlite
 libgeotiff
 libgta
 libheif
+libheif-freeworld
 libkml
 liblerc
 liblqr-1
@@ -96,6 +98,7 @@ libspatialite
 libtermkey
 libtree-sitter
 libunistring1.0
+libva-utils
 libvirt
 libvterm
 libwmf-lite
@@ -103,10 +106,12 @@ libzip
 lshw
 luajit
 luajit2.1-luv
-mesa-va-drivers
+mesa-va-drivers-freeworld
+mesa-vdpau-drivers-freeworld
 microcode_ctl
 minizip-ng
 mkfontscale
+mpv
 msgpack
 msttcore-fonts-installer
 nautilus-gsconnect
@@ -221,7 +226,6 @@ ca.desrt.dconf-editor
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
-io.github.celluloid_player.Celluloid
 net.agalwood.Motrix
 org.gnome.Loupe
 org.gnome.Shotwell
