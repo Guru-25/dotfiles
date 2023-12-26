@@ -52,6 +52,7 @@ gnome-terminal
 gnome-themes-extra
 gnome-tweaks
 gobject-introspection-devel
+google-noto-emoji-fonts
 google-noto-sans-cjk-vf-fonts
 graphviz
 grub-customizer
@@ -122,6 +123,7 @@ netcdf
 netpbm
 nm-connection-editor
 nodejs
+nvtop
 ogdi
 oneVPL
 oneVPL-intel-gpu
