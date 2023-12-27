@@ -135,3 +135,11 @@ wget https://raw.githubusercontent.com/Bugswriter/myyt/main/myyt
 mv myyt yt
 chmod +x yt
 ```
+
+- [ff2mpv](https://github.com/woodruffw/ff2mpv/wiki/Installation-on-Linux#install-using-script-recommended)
+```
+git clone https://github.com/woodruffw/ff2mpv
+mv ff2mpv ~/.config/
+cd ~/.config/ff2mpv/
+./install.sh firefox
+```
