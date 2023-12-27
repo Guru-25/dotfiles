@@ -1,11 +1,4 @@
 # dnf
-- [brave-browser](https://brave.com/linux/)
-```
-sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
-sudo dnf install brave-browser
-```
-
 - [starship](https://github.com/starship/starship#step-1-install-starship)
 ```
 sudo dnf copr enable atim/starship
@@ -133,12 +126,6 @@ rm uad_gui-linux.tar.gz
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip)
 ```
 python3 -m pip install -U yt-dlp
-```
-
-- [play-with-mpv](https://github.com/Thann/play-with-mpv?tab=readme-ov-file#installation)
-```
-pip install git+https://github.com/thann/play-with-mpv --user
-cp ~/.local/share/applications/thann.play-with-mpv.desktop ~/.config/autostart
 ```
 
 - [myyt](https://github.com/Bugswriter/myyt?tab=readme-ov-file#requirements)

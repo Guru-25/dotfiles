@@ -11,7 +11,6 @@ arpack
 bat
 blosc
 bluez-obexd
-brave-browser
 cabextract
 caca-utils
 cairo-devel
@@ -31,6 +30,7 @@ f38-backgrounds-base
 f38-backgrounds-gnome
 fedora-workstation-repositories
 fira-code-fonts
+firefox
 flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
@@ -230,7 +230,6 @@ com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 net.agalwood.Motrix
 org.gnome.Loupe
-org.gnome.Shotwell
 org.gnome.TextEditor
 org.libreoffice.LibreOffice
 tv.kodi.Kodi
