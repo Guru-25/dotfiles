@@ -16,16 +16,13 @@
       "class": "org.gnome.NautilusPreviewer"
     },
     {
-      "class": "xdm-app"
+      "class": "gnome-terminal-server"
     },
     {
       "class": "auto-cpufreq"
     },
     {
       "class": "gsconnect-preferences"
-    },
-    {
-      "class": "gnome-terminal-server"
     }
   ],
   "skiptaskbarhidden": [],

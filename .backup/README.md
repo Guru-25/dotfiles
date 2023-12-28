@@ -128,14 +128,6 @@ rm uad_gui-linux.tar.gz
 python3 -m pip install -U yt-dlp
 ```
 
-- [myyt](https://github.com/Bugswriter/myyt?tab=readme-ov-file#requirements)
-```
-cd ~/.local/bin/
-wget https://raw.githubusercontent.com/Bugswriter/myyt/main/myyt
-mv myyt yt
-chmod +x yt
-```
-
 - [ff2mpv](https://github.com/woodruffw/ff2mpv/wiki/Installation-on-Linux#install-using-script-recommended)
 ```
 git clone https://github.com/woodruffw/ff2mpv

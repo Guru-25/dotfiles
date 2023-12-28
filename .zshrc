@@ -155,8 +155,8 @@ alias flatu='flatpak update -y'
 alias cleanup='sudo dnf autoremove && flatpak remove --unused'
 alias pipu='pip install -U pip && if [[ $(pip list --outdated | wc -l) -gt 2 ]]; then pip list --outdated --format=columns | awk "{print $1}" | tail -n +3 | xargs -n1 pip install -U; else echo "No outdated packages to upgrade"; fi'
 
-# dnf, flatpak and gnome-extensions list
-alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> $HOME/.backup/packages.txt && printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && flatpak list --columns=application --app >> $HOME/.backup/packages.txt && printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && gnome-extensions list >> $HOME/.backup/packages.txt && printf "done\n"'
+# dnf, flatpak, pip and gnome-extensions list
+alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> $HOME/.backup/packages.txt && printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && flatpak list --columns=application --app >> $HOME/.backup/packages.txt && printf "\n# pip\n" >> $HOME/.backup/packages.txt && pip list --user --format freeze >> $HOME/.backup/packages.txt && printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && gnome-extensions list >> $HOME/.backup/packages.txt && printf "done\n"'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'

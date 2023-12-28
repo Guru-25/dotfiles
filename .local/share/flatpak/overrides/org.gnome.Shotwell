@@ -1,7 +1,0 @@
-[Context]
-shared=!ipc;!network
-sockets=!fallback-x11;!x11
-devices=!all;dri
-
-[Session Bus Policy]
-org.freedesktop.secrets=none
