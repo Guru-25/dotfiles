@@ -1,0 +1,6 @@
+[Context]
+shared=!ipc;!network
+filesystems=/home/guru/.local/share/Cryptomator;/media/data/Guru/Cryptomator
+
+[Session Bus Policy]
+org.freedesktop.secrets=none
