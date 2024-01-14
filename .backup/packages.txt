@@ -135,6 +135,8 @@ openfec
 openssh-server
 openssl
 perl
+postgresql
+postgresql-server
 power-profiles-daemon
 powertop
 proj
@@ -212,6 +214,7 @@ tree-sitter-cli
 unibilium
 unixODBC
 uriparser
+vstudio
 webkitgtk6.0
 xdpyinfo
 xerces-c
