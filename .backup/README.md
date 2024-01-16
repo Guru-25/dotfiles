@@ -123,11 +123,6 @@ mv uad_gui-linux ~/.local/bin/uad
 rm uad_gui-linux.tar.gz
 ```
 
-- [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#with-pip)
-```
-python3 -m pip install -U yt-dlp
-```
-
 - [ff2mpv](https://github.com/woodruffw/ff2mpv/wiki/Installation-on-Linux#install-using-script-recommended)
 ```
 git clone https://github.com/woodruffw/ff2mpv
@@ -135,3 +130,10 @@ mv ff2mpv ~/.config/
 cd ~/.config/ff2mpv/
 ./install.sh firefox
 ```
+
+- [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary)
+```
+curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp
+chmod a+rx ~/.local/bin/yt-dlp
+```
+
