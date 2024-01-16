@@ -11,7 +11,7 @@ sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw
 sudo dnf install codium
 ```
 
-- [Virtual Machine Manager](https://vashinator.com/install-virt-manager-on-fedora/)
+- [virt-manager](https://vashinator.com/install-virt-manager-on-fedora/)
 ```
 sudo dnf install @virtualization
 sudo systemctl start libvirtd
@@ -42,7 +42,7 @@ codium --install-extension vscode-icons-*.vsix
 rm vscode-icons-*.vsix
 ```
 
-- [NerdFonts](https://github.com/ryanoasis/nerd-fonts#option-5-clone-the-repo)
+- [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#option-5-clone-the-repo)
 ```
 git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
 cd nerd-fonts
@@ -130,7 +130,7 @@ cd ~/.config/ff2mpv/
 ./install.sh firefox
 ```
 
-- [VStudio](https://valentina-db.com/en/all-downloads/vstudio/current)
+- [vstudio](https://valentina-db.com/en/all-downloads/vstudio/current)
 ```
 cd ~/Downloads
 sudo rpm -i vstudio_x64_*_lin.rpm
