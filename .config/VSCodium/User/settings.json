@@ -19,5 +19,4 @@
     "code-runner.enableAppInsights": false,
     "workbench.enableExperiments": false,
     "update.showReleaseNotes": false,
-    "window.zoomLevel": 1,
 }

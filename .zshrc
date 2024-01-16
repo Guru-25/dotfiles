@@ -167,6 +167,10 @@ alias refresh='source ~/.zshrc'
 alias aliasconf='nvim ~/.zshrc'
 alias backupconf='nvim ~/.backup/README.md'
 
+# dbms
+alias dbms='sudo systemctl start postgresql.service && /opt/VStudio/vstudio'
+alias dbms-kill='sudo systemctl stop postgresql.service'
+
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
 

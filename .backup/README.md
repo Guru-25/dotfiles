@@ -82,7 +82,6 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 - [pop-shell](https://github.com/pop-os/shell#packaging-status)
 ```
 sudo dnf install gnome-shell-extension-pop-shell xprop
-sudo npm install -g typescript
 ```
 
 - [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal#restart-nautilus)
@@ -106,7 +105,7 @@ rm -rf auto-cpufreq
 
 - [syncthing](https://syncthing.net/downloads/)
 ```
-cd Downloads
+cd ~/Downloads
 tar -xf syncthing-linux-amd64-x.x.x.tar.gz
 cd syncthing-linux-amd64-x.x.x.tar.gz
 mv syncthing ~/.local/bin/
@@ -117,7 +116,7 @@ rm syncthing-linux-amd64-x.x.x.tar.gz
 
 - [uad](https://github.com/0x192/universal-android-debloater/releases)
 ```
-cd Downloads
+cd ~/Downloads
 tar -xf uad_gui-linux.tar.gz
 mv uad_gui-linux ~/.local/bin/uad
 rm uad_gui-linux.tar.gz
@@ -129,6 +128,13 @@ git clone https://github.com/woodruffw/ff2mpv
 mv ff2mpv ~/.config/
 cd ~/.config/ff2mpv/
 ./install.sh firefox
+```
+
+- [VStudio](https://valentina-db.com/en/all-downloads/vstudio/current)
+```
+cd ~/Downloads
+sudo rpm -i vstudio_x64_*_lin.rpm
+rm vstudio_x64_*_lin.rpm
 ```
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary)
