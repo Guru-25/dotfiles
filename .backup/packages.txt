@@ -24,7 +24,6 @@ eza
 f38-backgrounds-base
 f38-backgrounds-gnome
 fira-code-fonts
-firefox
 flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
