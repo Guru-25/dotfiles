@@ -200,6 +200,7 @@ unixODBC
 uriparser
 vstudio
 webkitgtk6.0
+wireshark
 xdpyinfo
 xerces-c
 xorg-x11-font-utils

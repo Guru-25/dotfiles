@@ -125,6 +125,7 @@ rm uad_gui-linux.tar.gz
 - [ff2mpv](https://github.com/woodruffw/ff2mpv/wiki/Installation-on-Linux#install-using-script-recommended)
 ```
 git clone https://github.com/woodruffw/ff2mpv
+rm -rf ~/.config/ff2mpv/
 mv ff2mpv ~/.config/
 cd ~/.config/ff2mpv/
 ./install.sh firefox
@@ -133,6 +134,7 @@ cd ~/.config/ff2mpv/
 - [vstudio](https://valentina-db.com/en/all-downloads/vstudio/current)
 ```
 cd ~/Downloads
+sudo dnf remove vstudio
 sudo rpm -i vstudio_x64_*_lin.rpm
 rm vstudio_x64_*_lin.rpm
 ```
