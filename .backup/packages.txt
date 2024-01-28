@@ -213,6 +213,7 @@ zsh
 
 # flatpak
 ca.desrt.dconf-editor
+cc.arduino.IDE2
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
