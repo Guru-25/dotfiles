@@ -111,6 +111,7 @@ neovim
 netcdf
 netpbm
 nm-connection-editor
+nodejs
 nvtop
 ogdi
 oneVPL
@@ -198,7 +199,6 @@ tree-sitter-cli
 unibilium
 unixODBC
 uriparser
-vstudio
 webkitgtk6.0
 wireshark
 xdpyinfo
@@ -228,6 +228,7 @@ tv.kodi.Kodi
 pano@elhan.io
 Vitals@CoreCoding.com
 ideapad@laurento.frittella
+pip-on-top@rafostar.github.com
 pop-shell@system76.com
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com

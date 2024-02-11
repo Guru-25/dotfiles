@@ -131,14 +131,6 @@ cd ~/.config/ff2mpv/
 ./install.sh firefox
 ```
 
-- [vstudio](https://valentina-db.com/en/all-downloads/vstudio/current)
-```
-cd ~/Downloads
-sudo dnf remove vstudio
-sudo rpm -i vstudio_x64_*_lin.rpm
-rm vstudio_x64_*_lin.rpm
-```
-
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary)
 ```
 curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp
@@ -155,3 +147,8 @@ sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox
 rm firefox-*.tar.bz2 
 ```
 
+- [DataGrip](https://www.jetbrains.com/help/datagrip/installation-guide.html#standalone)
+```
+sudo tar xzf datagrip-*.tar.gz -C /opt/
+opt/DataGrip-*/bin/datagrip.sh
+```
