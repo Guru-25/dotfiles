@@ -32,6 +32,9 @@
     },
     {
       "class": "jetbrains-studio"
+    },
+    {
+      "class": "virt-manager"
     }
   ],
   "skiptaskbarhidden": [],

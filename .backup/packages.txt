@@ -11,6 +11,8 @@ blosc
 bluez-obexd
 cabextract
 caca-utils
+cairo-devel
+cairo-gobject-devel
 catimg
 cfitsio
 chkconfig
@@ -49,6 +51,7 @@ google-noto-emoji-fonts
 google-noto-sans-cjk-vf-fonts
 graphviz
 grub-customizer
+gtk3-devel
 gts
 hdf-libs
 hdf5
@@ -156,6 +159,7 @@ proj-data-sk
 proj-data-uk
 proj-data-us
 proj-data-za
+python3-devel
 python3-neovim
 python3-satyr
 qemu-block-blkio
