@@ -95,6 +95,7 @@ libtree-sitter
 libunistring1.0
 libva-utils
 libvirt
+libvpl
 libvterm
 libwmf-lite
 libzip
@@ -117,7 +118,6 @@ nm-connection-editor
 nodejs
 nvtop
 ogdi
-oneVPL
 oneVPL-intel-gpu
 open-sans-fonts
 openblas-openmp64
