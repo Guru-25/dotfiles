@@ -53,6 +53,7 @@ graphviz
 grub-customizer
 gtk3-devel
 gts
+hardened_malloc
 hdf-libs
 hdf5
 htop

@@ -84,12 +84,13 @@ git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 sudo dnf install gnome-shell-extension-pop-shell xprop
 ```
 
-- [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal#restart-nautilus)
+- [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal?tab=readme-ov-file#from-source)
 ```
 sudo dnf install nautilus-python
-git clone https://github.com/Stunkymonkey/nautilus-open-any-terminal
+git clone https://github.com/Stunkymonkey/nautilus-open-any-terminal.git
 cd nautilus-open-any-terminal
-sudo tools/update-extension-system.sh install
+make
+sudo make install schema
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 cd ..
 rm -rf nautilus-open-any-terminal
