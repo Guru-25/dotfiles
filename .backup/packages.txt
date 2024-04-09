@@ -9,6 +9,7 @@ armadillo
 arpack
 blosc
 bluez-obexd
+brave-browser
 cabextract
 caca-utils
 cairo-devel
@@ -25,6 +26,7 @@ dracut-live
 eza
 f38-backgrounds-base
 f38-backgrounds-gnome
+ffmpeg
 fira-code-fonts
 flexiblas-netlib64
 flexiblas-openblas-openmp64
@@ -75,6 +77,7 @@ libaec
 libavcodec-freeworld
 libblkio
 libcupsfilters
+libcurl
 libeot
 libgda-sqlite
 libgeotiff

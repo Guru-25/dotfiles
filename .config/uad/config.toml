@@ -1,1 +1,3 @@
-theme = "Lupin"
+[general]
+theme = ""
+expert_mode = false
