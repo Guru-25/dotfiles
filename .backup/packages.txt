@@ -98,6 +98,7 @@ libtermkey
 libtree-sitter
 libunistring1.0
 libva-utils
+libvdpau-va-gl
 libvirt
 libvpl
 libvterm
@@ -207,6 +208,7 @@ tree-sitter-cli
 unibilium
 unixODBC
 uriparser
+virt-what
 webkitgtk6.0
 wireshark
 xdpyinfo
@@ -230,6 +232,7 @@ org.cryptomator.Cryptomator
 org.gnome.Loupe
 org.gnome.TextEditor
 org.libreoffice.LibreOffice
+org.mozilla.firefox
 tv.kodi.Kodi
 
 # gnome-extensions

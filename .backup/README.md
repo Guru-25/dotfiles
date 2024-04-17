@@ -138,16 +138,6 @@ curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.l
 chmod a+rx ~/.local/bin/yt-dlp
 ```
 
-- [firefox](https://support.mozilla.org/en-US/kb/install-firefox-linux) - [Download](https://www.mozilla.org/en-US/firefox/linux/)
-```
-cd ~/Downloads
-tar xjf firefox-*.tar.bz2
-sudo mv firefox /opt
-sudo ln -s /opt/firefox/firefox /usr/local/bin/firefox
-sudo wget https://raw.githubusercontent.com/mozilla/sumo-kb/main/install-firefox-linux/firefox.desktop -P /usr/local/share/applications
-rm firefox-*.tar.bz2 
-```
-
 - [DataGrip](https://www.jetbrains.com/help/datagrip/installation-guide.html#standalone)
 ```
 sudo tar xzf datagrip-*.tar.gz -C /opt/
