@@ -123,15 +123,6 @@ mv uad_gui-linux ~/.local/bin/uad
 rm uad_gui-linux.tar.gz
 ```
 
-- [ff2mpv](https://github.com/woodruffw/ff2mpv/wiki/Installation-on-Linux#install-using-script-recommended)
-```
-git clone https://github.com/woodruffw/ff2mpv
-rm -rf ~/.config/ff2mpv/
-mv ff2mpv ~/.config/
-cd ~/.config/ff2mpv/
-./install.sh firefox
-```
-
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary)
 ```
 curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp
@@ -142,4 +133,14 @@ chmod a+rx ~/.local/bin/yt-dlp
 ```
 sudo tar xzf datagrip-*.tar.gz -C /opt/
 opt/DataGrip-*/bin/datagrip.sh
+```
+
+- [Android Studio](https://developer.android.com/studio) - https://developer.android.com/studio/install
+
+- [Brave Web Browser](https://brave.com/en-in/linux/#release-channel-installation)
+```
+sudo dnf install dnf-plugins-core
+sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
+sudo dnf install brave-browser
 ```

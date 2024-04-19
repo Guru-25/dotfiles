@@ -5,9 +5,6 @@ user_pref("privacy.clearOnShutdown.history", false); // 2811
 /* disable RFP letterboxing [FF67+] ***/
 user_pref("privacy.resistFingerprinting.letterboxing", false); // 4504
 
-/* experimental RFP [FF91+] ***/
-user_pref("privacy.resistFingerprinting.exemptedDomains", "web.whatsapp.com"); // 4505
-
 /* enable DNS-over-HTTPS (DoH) [FF60+] ***/
 user_pref("network.trr.mode", 3); // 0710
 

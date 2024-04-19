@@ -133,8 +133,6 @@ openssh-server
 openssl
 postgresql
 postgresql-server
-power-profiles-daemon
-powertop
 proj
 proj-data
 proj-data-at
@@ -197,6 +195,7 @@ rpm-sequoia
 rpmconf
 rpmfusion-free-release
 rpmfusion-nonfree-release
+smartmontools
 speexdsp
 stacer
 starship
