@@ -37,6 +37,8 @@ gdal-libs
 gdcm
 geos
 gettext
+ghostscript-tools-fonts
+ghostscript-tools-printing
 git
 gnome-disk-utility
 gnome-shell-extension-appindicator
@@ -108,7 +110,6 @@ luajit
 luajit2.1-luv
 mesa-va-drivers-freeworld
 mesa-vdpau-drivers-freeworld
-microcode_ctl
 minizip-ng
 mkfontscale
 mpv
@@ -188,7 +189,6 @@ qemu-user-static-x86
 qemu-user-static-xtensa
 qt5-qtimageformats
 quazip-qt5
-real-ucode
 remove-retired-packages
 roc-toolkit
 rpm-sequoia
