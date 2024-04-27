@@ -137,15 +137,6 @@ function conservation() {
   echo ${1:-1}  | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode
 }
 
-# auto-cpufreq
-function performance() {
-  if [[ $1 == 0 ]]; then
-    sudo auto-cpufreq --force=reset   
-  else
-    sudo auto-cpufreq --force=performance
-  fi
-}
-
 # short alias
 alias gnome-text-editor='flatpak run org.gnome.TextEditor'
 alias code='codium'
@@ -174,6 +165,3 @@ alias dbms-kill='sudo systemctl stop postgresql.service'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"
-
-### auto-cpufreq completion
-eval "$(_AUTO_CPUFREQ_COMPLETE=zsh_source auto-cpufreq)"

@@ -11,14 +11,6 @@ sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw
 sudo dnf install codium
 ```
 
-- [virt-manager](https://vashinator.com/install-virt-manager-on-fedora/)
-```
-sudo dnf install @virtualization
-sudo systemctl start libvirtd
-sudo systemctl enable libvirtd
-sudo usermod -a -G libvirt $(whoami)
-```
-
 - [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/)
 ```
 sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
@@ -96,14 +88,6 @@ cd ..
 rm -rf nautilus-open-any-terminal
 ```
 
-- [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq?tab=readme-ov-file#auto-cpufreq-installer)
-```
-git clone https://github.com/AdnanHodzic/auto-cpufreq.git
-cd auto-cpufreq && sudo ./auto-cpufreq-installer
-cd ..
-rm -rf auto-cpufreq
-```
-
 - [syncthing](https://syncthing.net/downloads/)
 ```
 cd ~/Downloads
@@ -115,12 +99,14 @@ rm -rf syncthing-linux-amd64-x.x.x
 rm syncthing-linux-amd64-x.x.x.tar.gz
 ```
 
-- [uad](https://github.com/0x192/universal-android-debloater/releases)
+- [uad-ng](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest)
 ```
 cd ~/Downloads
-tar -xf uad_gui-linux.tar.gz
-mv uad_gui-linux ~/.local/bin/uad
+unzip uad-ng-linux.zip
+mv uad-ng-linux ~/.local/bin/uad-ng
+chmod +x ~/.local/bin/uad-ng
 rm uad_gui-linux.tar.gz
+rm -f uad-ng*
 ```
 
 - [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary)

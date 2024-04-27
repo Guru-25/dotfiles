@@ -19,22 +19,10 @@
       "class": "gnome-terminal-server"
     },
     {
-      "class": "auto-cpufreq"
-    },
-    {
-      "class": "gsconnect-preferences"
-    },
-    {
-      "class": "vstudio"
-    },
-    {
-      "class": "Wireshark"
-    },
-    {
       "class": "jetbrains-studio"
     },
     {
-      "class": "virt-manager"
+      "class": "gsconnect-preferences"
     }
   ],
   "skiptaskbarhidden": [],

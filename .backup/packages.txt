@@ -32,7 +32,6 @@ flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
 fzf
-gcc-c++
 gdal-libs
 gdcm
 geos
@@ -50,7 +49,6 @@ gnome-shell-extension-pop-shell
 gnome-terminal
 gnome-themes-extra
 gnome-tweaks
-gobject-introspection-devel
 google-noto-emoji-fonts
 google-noto-sans-cjk-vf-fonts
 graphviz
@@ -68,7 +66,6 @@ java-17-openjdk-devel
 javascriptcoregtk6.0
 kernel
 kernel-core
-kernel-devel
 kernel-modules
 kernel-modules-core
 kernel-modules-extra
@@ -101,7 +98,6 @@ libtree-sitter
 libunistring1.0
 libva-utils
 libvdpau-va-gl
-libvirt
 libvpl
 libvterm
 libwmf-lite
@@ -130,10 +126,10 @@ openblas-openmp64
 openblas-serial
 opencv-core
 openfec
-openssh-server
 openssl
 postgresql
 postgresql-server
+power-profiles-daemon
 proj
 proj-data
 proj-data-at
@@ -195,21 +191,17 @@ rpm-sequoia
 rpmconf
 rpmfusion-free-release
 rpmfusion-nonfree-release
-smartmontools
 speexdsp
+sssd-client
 stacer
 starship
 sushi
 systemd-boot-unsigned
-tlp
-tlp-rdw
 tree-sitter-cli
 unibilium
 unixODBC
 uriparser
-virt-what
 webkitgtk6.0
-wireshark
 xdpyinfo
 xerces-c
 xorg-x11-font-utils
@@ -222,11 +214,9 @@ zsh
 
 # flatpak
 ca.desrt.dconf-editor
-cc.arduino.IDE2
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
-net.agalwood.Motrix
 org.cryptomator.Cryptomator
 org.gnome.Loupe
 org.gnome.TextEditor
