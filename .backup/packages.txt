@@ -9,7 +9,6 @@ armadillo
 arpack
 blosc
 bluez-obexd
-brave-browser
 cabextract
 caca-utils
 cairo-devel
@@ -105,7 +104,6 @@ libzip
 luajit
 luajit2.1-luv
 mesa-va-drivers-freeworld
-mesa-vdpau-drivers-freeworld
 minizip-ng
 mkfontscale
 mpv
@@ -214,12 +212,14 @@ zsh
 
 # flatpak
 ca.desrt.dconf-editor
+com.brave.Browser
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 org.cryptomator.Cryptomator
 org.gnome.Loupe
 org.gnome.TextEditor
+org.kde.kdenlive
 org.libreoffice.LibreOffice
 org.mozilla.firefox
 tv.kodi.Kodi

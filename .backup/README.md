@@ -122,11 +122,3 @@ opt/DataGrip-*/bin/datagrip.sh
 ```
 
 - [Android Studio](https://developer.android.com/studio) - https://developer.android.com/studio/install
-
-- [Brave Web Browser](https://brave.com/en-in/linux/#release-channel-installation)
-```
-sudo dnf install dnf-plugins-core
-sudo dnf config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
-sudo rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
-sudo dnf install brave-browser
-```

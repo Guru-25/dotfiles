@@ -152,9 +152,6 @@ alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinst
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'
 
-# refresh zsh
-alias refresh='source ~/.zshrc'
-
 # edit conf
 alias aliasconf='nvim ~/.zshrc'
 alias backupconf='nvim ~/.backup/README.md'
