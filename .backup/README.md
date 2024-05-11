@@ -11,6 +11,11 @@ sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw
 sudo dnf install codium
 ```
 
+- [pop-shell](https://github.com/pop-os/shell#packaging-status)
+```
+sudo dnf install gnome-shell-extension-pop-shell xprop
+```
+
 - [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/)
 ```
 sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
@@ -71,10 +76,6 @@ rm -rf ~/.local/share/nvim
 git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
 ```
 
-- [pop-shell](https://github.com/pop-os/shell#packaging-status)
-```
-sudo dnf install gnome-shell-extension-pop-shell xprop
-```
 
 - [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal?tab=readme-ov-file#from-source)
 ```

@@ -25,6 +25,7 @@ dracut-live
 eza
 f38-backgrounds-base
 f38-backgrounds-gnome
+fastfetch
 ffmpeg
 fira-code-fonts
 flexiblas-netlib64
@@ -52,6 +53,14 @@ google-noto-emoji-fonts
 google-noto-sans-cjk-vf-fonts
 graphviz
 grub-customizer
+gstreamer1-plugins-bad-free-extras
+gstreamer1-plugins-bad-free-fluidsynth
+gstreamer1-plugins-bad-free-opencv
+gstreamer1-plugins-bad-free-wildmidi
+gstreamer1-plugins-bad-free-zbar
+gstreamer1-plugins-good-extras
+gstreamer1-plugins-good-gtk
+gstreamer1-plugins-good-qt6
 gtk3-devel
 gts
 hardened_malloc
@@ -68,6 +77,7 @@ kernel-core
 kernel-modules
 kernel-modules-core
 kernel-modules-extra
+lame
 langpacks-en
 lasi
 libXxf86dga
@@ -187,6 +197,7 @@ remove-retired-packages
 roc-toolkit
 rpm-sequoia
 rpmconf
+rpmfusion-free-obsolete-packages
 rpmfusion-free-release
 rpmfusion-nonfree-release
 speexdsp
@@ -235,3 +246,4 @@ appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com
 caffeine@patapon.info
 gsconnect@andyholmes.github.io
+quick-settings-tweaks@qwreey
