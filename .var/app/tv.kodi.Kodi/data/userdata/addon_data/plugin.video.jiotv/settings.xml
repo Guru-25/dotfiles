@@ -1,0 +1,40 @@
+<settings version="2">
+    <setting id="quality">Manual</setting>
+    <setting id="m3ugen" default="true">false</setting>
+    <setting id="channelsrc" default="true">false</setting>
+    <setting id="enablehost" default="true">false</setting>
+    <setting id="usempd" default="true">false</setting>
+    <setting id="mpdnotice" default="true">true</setting>
+    <setting id="number_toggle" default="true">false</setting>
+    <setting id="epgsource" default="true">https://tobalan.github.io/epg.xml.gz</setting>
+    <setting id="Entertainment" default="true">true</setting>
+    <setting id="Lifestyle">false</setting>
+    <setting id="Infotainment" default="true">true</setting>
+    <setting id="Devotional">false</setting>
+    <setting id="Jio Darshan">false</setting>
+    <setting id="News">false</setting>
+    <setting id="Business News">false</setting>
+    <setting id="Movies" default="true">true</setting>
+    <setting id="Music" default="true">true</setting>
+    <setting id="Educational">false</setting>
+    <setting id="Kids" default="true">true</setting>
+    <setting id="Shopping">false</setting>
+    <setting id="Sports" default="true">true</setting>
+    <setting id="Hindi">false</setting>
+    <setting id="English" default="true">true</setting>
+    <setting id="Marathi">false</setting>
+    <setting id="Telugu">false</setting>
+    <setting id="Kannada">false</setting>
+    <setting id="Tamil" default="true">true</setting>
+    <setting id="Punjabi">false</setting>
+    <setting id="Gujarati">false</setting>
+    <setting id="Bengali">false</setting>
+    <setting id="Bhojpuri">false</setting>
+    <setting id="Malayalam">false</setting>
+    <setting id="Odia">false</setting>
+    <setting id="Assamese">false</setting>
+    <setting id="Urdu">false</setting>
+    <setting id="Nepali">false</setting>
+    <setting id="Extra">false</setting>
+    <setting id="mobile" default="true" />
+</settings>

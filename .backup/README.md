@@ -23,14 +23,6 @@ sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore
 ```
 
 # others
-- [neofetch](https://github.com/dylanaraps/neofetch/wiki/Installation#latest-git-master-bleeding-edge)
-```
-git clone https://github.com/dylanaraps/neofetch
-cd neofetch
-sudo make install
-cd ..
-rm -rf neofetch/
-```
 
 - [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases)
 ```

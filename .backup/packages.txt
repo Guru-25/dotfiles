@@ -233,6 +233,7 @@ org.gnome.TextEditor
 org.kde.kdenlive
 org.libreoffice.LibreOffice
 org.mozilla.firefox
+org.telegram.desktop
 tv.kodi.Kodi
 
 # gnome-extensions
@@ -240,10 +241,10 @@ pano@elhan.io
 Vitals@CoreCoding.com
 ideapad@laurento.frittella
 pip-on-top@rafostar.github.com
+quick-settings-tweaks@qwreey
 pop-shell@system76.com
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com
 caffeine@patapon.info
 gsconnect@andyholmes.github.io
-quick-settings-tweaks@qwreey
