@@ -32,6 +32,7 @@ flexiblas-netlib64
 flexiblas-openblas-openmp64
 freexl
 fzf
+gcc
 gdal-libs
 gdcm
 geos
@@ -44,13 +45,13 @@ gnome-shell-extension-appindicator
 gnome-shell-extension-blur-my-shell
 gnome-shell-extension-caffeine
 gnome-shell-extension-dash-to-panel
-gnome-shell-extension-gsconnect
 gnome-shell-extension-pop-shell
 gnome-terminal
 gnome-themes-extra
 gnome-tweaks
 google-noto-emoji-fonts
 google-noto-sans-cjk-vf-fonts
+gparted
 graphviz
 grub-customizer
 gstreamer1-plugins-bad-free-extras
@@ -135,8 +136,6 @@ openblas-serial
 opencv-core
 openfec
 openssl
-postgresql
-postgresql-server
 power-profiles-daemon
 proj
 proj-data
@@ -194,6 +193,7 @@ qemu-user-static-xtensa
 qt5-qtimageformats
 quazip-qt5
 remove-retired-packages
+ripgrep
 roc-toolkit
 rpm-sequoia
 rpmconf
@@ -247,4 +247,3 @@ blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com
 caffeine@patapon.info
-gsconnect@andyholmes.github.io

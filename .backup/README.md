@@ -63,9 +63,12 @@ git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plu
 
 - [NvChad](https://nvchad.com/docs/quickstart/install)
 ```
+sudo dnf install neovim ripgrep gcc make
 rm -rf ~/.config/nvim
 rm -rf ~/.local/share/nvim
-git clone https://github.com/NvChad/NvChad ~/.config/nvim --depth 1 && nvim
+git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
+:MasonInstallAll
+rm -rf ~/.config/nvim/.git
 ```
 
 
@@ -106,12 +109,6 @@ rm -f uad-ng*
 ```
 curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp
 chmod a+rx ~/.local/bin/yt-dlp
-```
-
-- [DataGrip](https://www.jetbrains.com/help/datagrip/installation-guide.html#standalone)
-```
-sudo tar xzf datagrip-*.tar.gz -C /opt/
-opt/DataGrip-*/bin/datagrip.sh
 ```
 
 - [Android Studio](https://developer.android.com/studio) - https://developer.android.com/studio/install
