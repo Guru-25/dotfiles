@@ -79,7 +79,7 @@ plugins=(
 )
 
 export AUTO_NOTIFY_WHITELIST=(
-  "dnf" "flatpak"
+  "dnf" "flatpak" "aria2c" "unrar"
 )
 
 source $ZSH/oh-my-zsh.sh

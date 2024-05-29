@@ -5,6 +5,7 @@ aajohan-comfortaa-fonts
 abseil-cpp
 alacritty
 android-tools
+aria2
 armadillo
 arpack
 blosc
@@ -209,6 +210,7 @@ systemd-boot-unsigned
 tree-sitter-cli
 unibilium
 unixODBC
+unrar
 uriparser
 webkitgtk6.0
 xdpyinfo

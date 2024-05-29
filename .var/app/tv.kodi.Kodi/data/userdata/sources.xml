@@ -5,8 +5,8 @@
     <video>
         <default pathversion="1"></default>
         <source>
-            <name>Videos</name>
-            <path pathversion="1">/home/guru/Videos/</path>
+            <name>Entertainment</name>
+            <path pathversion="1">/media/data/Guru/Entertainment/</path>
             <allowsharing>true</allowsharing>
         </source>
     </video>
