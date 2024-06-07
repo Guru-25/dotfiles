@@ -5,6 +5,7 @@ aajohan-comfortaa-fonts
 abseil-cpp
 alacritty
 android-tools
+argon2
 aria2
 armadillo
 arpack

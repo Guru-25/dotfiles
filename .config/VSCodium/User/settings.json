@@ -20,4 +20,5 @@
     "workbench.enableExperiments": false,
     "update.showReleaseNotes": false,
     "window.zoomLevel": 1,
+    "github.copilot.advanced": {},
 }

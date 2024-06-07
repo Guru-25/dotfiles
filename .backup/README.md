@@ -112,3 +112,10 @@ chmod a+rx ~/.local/bin/yt-dlp
 ```
 
 - [Android Studio](https://developer.android.com/studio) - https://developer.android.com/studio/install
+
+- [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
+```
+cd ~/Downloads/
+codium --install-extension GitHub.copilot-*.vsix
+rm GitHub.copilot-*.vsix
+```
