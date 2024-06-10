@@ -13,6 +13,3 @@ user_pref("signon.rememberSignons", false); // 5003
 
 /* disable location bar suggestion types ***/
 user_pref("browser.urlbar.suggest.topsites", false); // 5010
-
-/* enable all DRM content (EME: Encryption Media Extension) ***/
-user_pref("media.eme.enabled", true); // 5508

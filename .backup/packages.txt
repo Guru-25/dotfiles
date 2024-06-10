@@ -117,6 +117,7 @@ libzip
 luajit
 luajit2.1-luv
 mesa-va-drivers-freeworld
+microcode_ctl
 minizip-ng
 mkfontscale
 mpv

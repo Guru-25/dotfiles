@@ -10,7 +10,6 @@
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
     "scm.diffDecorations": "none",
-    "workbench.colorTheme": "Atom One Dark",
     "window.titleBarStyle": "custom",
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
@@ -20,5 +19,5 @@
     "workbench.enableExperiments": false,
     "update.showReleaseNotes": false,
     "window.zoomLevel": 1,
-    "github.copilot.advanced": {},
+    "workbench.colorTheme": "Atom One Dark",
 }
