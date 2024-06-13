@@ -2,6 +2,7 @@
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH="$PATH:$HOME/.local/share/flutter/bin"
+export PATH=$PATH:$HOME/Android/Sdk/emulator
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
