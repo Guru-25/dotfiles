@@ -71,7 +71,6 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 rm -rf ~/.config/nvim/.git
 ```
 
-
 - [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal?tab=readme-ov-file#from-source)
 ```
 sudo dnf install nautilus-python
@@ -111,7 +110,24 @@ curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.l
 chmod a+rx ~/.local/bin/yt-dlp
 ```
 
-- [Android Studio](https://developer.android.com/studio) - https://developer.android.com/studio/install
+- Android Studio - https://developer.android.com/studio
+```
+cd ~/Downloads/
+rm -rf ~/.local/share/android-studio/
+tar -xf android-studio-x-linux.tar.gz -C ~/.local/share/
+rm android-studio-x-linux.tar.gz
+sudo ~/.local/share/android-studio/bin/studio.sh
+echo 'export PATH="$PATH:$HOME/Android/Sdk/emulator:$PATH"' >> ~/.zshrc
+```
+
+- [flutter](https://docs.flutter.dev/get-started/install/linux/desktop?tab=download#download)
+```
+sudo dnf install clang cmake ninja-build
+cd ~/Downloads/
+tar -xf flutter_linux_*-stable.tar.xz -C ~/.local/share/
+rm flutter_linux_*-stable.tar.xz
+echo 'export PATH="$HOME/.local/share/flutter/bin:$PATH"' >> ~/.zshrc
+```
 
 - [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 ```

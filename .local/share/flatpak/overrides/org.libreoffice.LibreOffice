@@ -1,8 +1,0 @@
-[Context]
-shared=!ipc
-sockets=!pulseaudio;!fallback-x11;!x11
-filesystems=home;!host
-
-[Session Bus Policy]
-com.canonical.AppMenu.Registrar=none
-org.gtk.vfs.*=none

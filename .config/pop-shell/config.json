@@ -19,9 +19,6 @@
       "class": "gnome-terminal-server"
     },
     {
-      "class": "jetbrains-studio"
-    },
-    {
       "class": "gsconnect-preferences"
     }
   ],
