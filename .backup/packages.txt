@@ -76,6 +76,7 @@ gnome-classic-session
 gnome-classic-session-xsession
 gnome-color-manager
 gnome-disk-utility
+gnome-remote-desktop
 gnome-shell-extension-appindicator
 gnome-shell-extension-background-logo
 gnome-shell-extension-blur-my-shell
@@ -84,7 +85,6 @@ gnome-shell-extension-dash-to-panel
 gnome-shell-extension-pop-shell
 gnome-terminal
 gnome-themes-extra
-gnome-tweaks
 gnome-user-docs
 gnome-user-share
 google-noto-emoji-fonts
@@ -320,6 +320,7 @@ unixODBC
 unrar
 uriparser
 virtualbox-guest-additions
+waydroid
 webkitgtk6.0
 words
 xdpyinfo
@@ -335,7 +336,6 @@ zsh
 # flatpak
 ca.desrt.dconf-editor
 com.brave.Browser
-com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 org.cryptomator.Cryptomator

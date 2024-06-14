@@ -83,7 +83,7 @@ cd ..
 rm -rf nautilus-open-any-terminal
 ```
 
-- [syncthing](https://syncthing.net/downloads/)
+- syncthing - https://github.com/syncthing/syncthing/releases/latest
 ```
 cd ~/Downloads
 tar -xf syncthing-linux-amd64-x.x.x.tar.gz
@@ -134,4 +134,27 @@ echo 'export PATH="$HOME/.local/share/flutter/bin:$PATH"' >> ~/.zshrc
 cd ~/Downloads/
 codium --install-extension GitHub.copilot-*.vsix
 rm GitHub.copilot-*.vsix
+```
+
+- Ventoy - https://github.com/ventoy/Ventoy/releases/latest
+```
+cd ~/Downloads/
+tar -xf ventoy-*-linux.tar.gz
+rm ventoy-*-linux.tar.gz
+cd ventoy-*-linux/ventoy-*
+sudo ./VentoyWeb.sh
+cd ~/Downloads/
+rm -rf ventoy-*-linux 
+```
+
+- [autoload.lua](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)
+```
+curl https://raw.githubusercontent.com/mpv-player/mpv/master/TOOLS/lua/autoload.lua -o ~/.config/mpv/scripts/autoload.lua
+```
+
+- arkenfox user.js
+```
+cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox
+./updater.sh
+./prefsCleaner.sh
 ```
