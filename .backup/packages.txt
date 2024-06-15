@@ -81,6 +81,7 @@ gnome-shell-extension-background-logo
 gnome-shell-extension-blur-my-shell
 gnome-shell-extension-caffeine
 gnome-shell-extension-dash-to-panel
+gnome-shell-extension-forge
 gnome-terminal
 gnome-themes-extra
 gnome-user-docs
@@ -104,7 +105,6 @@ gutenprint-cups
 gvfs-smb
 hdf-libs
 hdf5
-htop
 hyperv-daemons
 hyperv-daemons-license
 hypervfcopyd
@@ -348,7 +348,6 @@ pano@elhan.io
 Vitals@CoreCoding.com
 ideapad@laurento.frittella
 pip-on-top@rafostar.github.com
-pop-shell@system76.com
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com
@@ -358,3 +357,4 @@ places-menu@gnome-shell-extensions.gcampax.github.com
 launch-new-instance@gnome-shell-extensions.gcampax.github.com
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
+forge@jmmaranan.com
