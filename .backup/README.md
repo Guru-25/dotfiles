@@ -164,10 +164,10 @@ curl https://raw.githubusercontent.com/mpv-player/mpv/master/TOOLS/lua/autoload.
 - [user.js](https://github.com/arkenfox/user.js/releases/latest)
 ```
 cd ~/Downloads/
-tar -xf user.js-x.tar.gz -C ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
+tar -xf user.js-x.tar.gz -C ~/.var/app/org.mozilla.firefox/.mozilla/firefox/x/
 rm user.js-x.tar.gz
 
-cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox
+cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
 ./updater.sh
 ./prefsCleaner.sh
 ```
