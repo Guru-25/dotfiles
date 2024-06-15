@@ -44,7 +44,6 @@ codium
 compat-lua-libs
 cups
 cyrus-sasl-gssapi
-divested-release
 dleyna
 dmidecode
 dos2unix
@@ -82,7 +81,6 @@ gnome-shell-extension-background-logo
 gnome-shell-extension-blur-my-shell
 gnome-shell-extension-caffeine
 gnome-shell-extension-dash-to-panel
-gnome-shell-extension-pop-shell
 gnome-terminal
 gnome-themes-extra
 gnome-user-docs
@@ -191,7 +189,6 @@ luajit
 luajit2.1-luv
 m17n-db
 mesa-va-drivers-freeworld
-microcode_ctl
 minizip-ng
 mkfontscale
 mozilla-filesystem
@@ -210,7 +207,6 @@ nfs-utils
 ninja-build
 nm-connection-editor
 nmap-ncat
-nodejs
 nvtop
 ogdi
 oneVPL-intel-gpu
@@ -352,7 +348,6 @@ pano@elhan.io
 Vitals@CoreCoding.com
 ideapad@laurento.frittella
 pip-on-top@rafostar.github.com
-quick-settings-tweaks@qwreey
 pop-shell@system76.com
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com

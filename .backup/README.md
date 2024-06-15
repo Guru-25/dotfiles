@@ -5,33 +5,23 @@ sudo dnf copr enable atim/starship
 sudo dnf install starship
 ```
 
-- [codium](https://vscodium.com/#install-on-fedora-rhel-centos-rockylinux-opensuse-rpm-package)
+- [codium](https://vscodium.com/#install)
 ```
 sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
+printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
 sudo dnf install codium
-```
-
-- [pop-shell](https://github.com/pop-os/shell#packaging-status)
-```
-sudo dnf install gnome-shell-extension-pop-shell xprop
-```
-
-- [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/)
-```
-sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
-sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
 ```
 
 # others
 
-- [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases)
+- [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases/latest)
 ```
 cd ~/Downloads/
-codium --install-extension vscode-icons-*.vsix
-rm vscode-icons-*.vsix
+codium --install-extension vscode-icons-x.vsix
+rm vscode-icons-x.vsix
 ```
 
-- [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#option-5-clone-the-repo)
+- [nerd-fonts](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-7-clone-the-repo)
 ```
 git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
 cd nerd-fonts
@@ -41,23 +31,35 @@ cd ..
 rm -rf nerd-fonts
 ```
 
+- [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/)
+```
+sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
+
+sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
+```
+
 - [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation)
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+omz update
 ```
 
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
 ```
+rm -rf ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions/
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 ```
 
 - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
 ```
+rm -rf ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
 - [auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify#installation)
 ```
+rm -rf ~/.oh-my-zsh/custom/plugins/auto-notify/
 git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
 ```
 
@@ -69,29 +71,34 @@ rm -rf ~/.local/share/nvim
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 :MasonInstallAll
 rm -rf ~/.config/nvim/.git
+
+nvim
+:Lazy sync
 ```
 
 - [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal?tab=readme-ov-file#from-source)
 ```
 sudo dnf install nautilus-python
+
 git clone https://github.com/Stunkymonkey/nautilus-open-any-terminal.git
 cd nautilus-open-any-terminal
 make
-sudo make install schema
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+sudo make install-nautilus schema
 cd ..
 rm -rf nautilus-open-any-terminal
+
+sudo glib-compile-schemas /usr/share/glib-2.0/schemas
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal new-tab true
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal flatpak system
 ```
 
-- syncthing - https://github.com/syncthing/syncthing/releases/latest
+- [syncthing](https://github.com/syncthing/syncthing/releases/latest)
 ```
 cd ~/Downloads
-tar -xf syncthing-linux-amd64-x.x.x.tar.gz
-cd syncthing-linux-amd64-x.x.x.tar.gz
-mv syncthing ~/.local/bin/
-cd ..
-rm -rf syncthing-linux-amd64-x.x.x
-rm syncthing-linux-amd64-x.x.x.tar.gz
+tar -xf syncthing-linux-amd64-x.tar.gz -C ~/.local/bin/
+rm syncthing-linux-amd64-x.tar.gz
 ```
 
 - [uad-ng](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest)
@@ -108,43 +115,45 @@ rm -f uad-ng*
 ```
 curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.local/bin/yt-dlp
 chmod a+rx ~/.local/bin/yt-dlp
+
+yt-dlp -U
 ```
 
-- Android Studio - https://developer.android.com/studio
+- [Android Studio](https://developer.android.com/studio)
 ```
 cd ~/Downloads/
 rm -rf ~/.local/share/android-studio/
 tar -xf android-studio-x-linux.tar.gz -C ~/.local/share/
 rm android-studio-x-linux.tar.gz
-sudo ~/.local/share/android-studio/bin/studio.sh
-echo 'export PATH="$PATH:$HOME/Android/Sdk/emulator:$PATH"' >> ~/.zshrc
+~/.local/share/android-studio/bin/studio.sh
 ```
 
 - [flutter](https://docs.flutter.dev/get-started/install/linux/desktop?tab=download#download)
 ```
 sudo dnf install clang cmake ninja-build
 cd ~/Downloads/
-tar -xf flutter_linux_*-stable.tar.xz -C ~/.local/share/
-rm flutter_linux_*-stable.tar.xz
-echo 'export PATH="$HOME/.local/share/flutter/bin:$PATH"' >> ~/.zshrc
+tar -xf flutter_linux_x-stable.tar.xz -C ~/.local/share/
+rm flutter_linux_x-stable.tar.xz
+
+flutter upgrade
 ```
 
 - [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot)
 ```
 cd ~/Downloads/
-codium --install-extension GitHub.copilot-*.vsix
-rm GitHub.copilot-*.vsix
+codium --install-extension GitHub.copilot-x.vsix
+rm GitHub.copilot-x.vsix
 ```
 
-- Ventoy - https://github.com/ventoy/Ventoy/releases/latest
+- [Ventoy](https://github.com/ventoy/Ventoy/releases/latest)
 ```
 cd ~/Downloads/
-tar -xf ventoy-*-linux.tar.gz
-rm ventoy-*-linux.tar.gz
-cd ventoy-*-linux/ventoy-*
+tar -xf ventoy-x-linux.tar.gz
+rm ventoy-x-linux.tar.gz
+cd ventoy-x-linux/ventoy-x
 sudo ./VentoyWeb.sh
 cd ~/Downloads/
-rm -rf ventoy-*-linux 
+rm -rf ventoy-x-linux 
 ```
 
 - [autoload.lua](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)
@@ -152,8 +161,12 @@ rm -rf ventoy-*-linux
 curl https://raw.githubusercontent.com/mpv-player/mpv/master/TOOLS/lua/autoload.lua -o ~/.config/mpv/scripts/autoload.lua
 ```
 
-- arkenfox user.js
+- [user.js](https://github.com/arkenfox/user.js/releases/latest)
 ```
+cd ~/Downloads/
+tar -xf user.js-x.tar.gz -C ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
+rm user.js-x.tar.gz
+
 cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox
 ./updater.sh
 ./prefsCleaner.sh
