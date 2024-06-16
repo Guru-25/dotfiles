@@ -75,6 +75,7 @@ gnome-classic-session
 gnome-classic-session-xsession
 gnome-color-manager
 gnome-disk-utility
+gnome-logs
 gnome-remote-desktop
 gnome-shell-extension-appindicator
 gnome-shell-extension-background-logo
@@ -84,6 +85,7 @@ gnome-shell-extension-dash-to-panel
 gnome-shell-extension-forge
 gnome-terminal
 gnome-themes-extra
+gnome-tweaks
 gnome-user-docs
 gnome-user-share
 google-noto-emoji-fonts
@@ -335,6 +337,7 @@ com.brave.Browser
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 org.cryptomator.Cryptomator
+org.gnome.Calculator
 org.gnome.Loupe
 org.gnome.TextEditor
 org.kde.kdenlive
