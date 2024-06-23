@@ -120,6 +120,7 @@ ibus-m17n
 ibus-typing-booster
 imlib2
 initscripts
+intel-vpl-gpu-rt
 ipp-usb
 java-17-openjdk-devel
 javascriptcoregtk6.0
@@ -209,9 +210,10 @@ nfs-utils
 ninja-build
 nm-connection-editor
 nmap-ncat
+nodejs
+nodejs-npm
 nvtop
 ogdi
-oneVPL-intel-gpu
 open-sans-fonts
 open-vm-tools
 open-vm-tools-desktop
