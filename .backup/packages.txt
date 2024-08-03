@@ -259,6 +259,7 @@ proj-data-za
 python3-cups
 python3-devel
 python3-neovim
+python3-pip
 python3-satyr
 python3-speechd
 qemu-block-blkio
@@ -349,10 +350,10 @@ org.telegram.desktop
 tv.kodi.Kodi
 
 # gnome-extensions
-pano@elhan.io
 Vitals@CoreCoding.com
 ideapad@laurento.frittella
 pip-on-top@rafostar.github.com
+pano@elhan.io
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com

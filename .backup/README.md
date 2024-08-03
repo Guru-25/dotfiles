@@ -161,6 +161,26 @@ rm -rf ventoy-x-linux
 curl https://raw.githubusercontent.com/mpv-player/mpv/master/TOOLS/lua/autoload.lua -o ~/.config/mpv/scripts/autoload.lua
 ```
 
+- [playlistmanager.lua](https://github.com/jonniek/mpv-playlistmanager)
+```
+curl https://raw.githubusercontent.com/jonniek/mpv-playlistmanager/master/playlistmanager.lua -o ~/.config/mpv/scripts/playlistmanager.lua
+```
+
+- [thumbfast.lua](https://github.com/po5/thumbfast)
+```
+curl https://raw.githubusercontent.com/po5/thumbfast/master/thumbfast.lua -o ~/.config/mpv/scripts/thumbfast.lua
+```
+
+- [osc.lua](https://github.com/po5/thumbfast/blob/vanilla-osc/player/lua/osc.lua)
+```
+curl https://raw.githubusercontent.com/po5/thumbfast/vanilla-osc/player/lua/osc.lua -o ~/.config/mpv/scripts/osc.lua
+```
+
+- [webm.lua](https://github.com/ekisu/mpv-webm/releases)
+```
+curl https://github.com/ekisu/mpv-webm/releases/download/latest/webm.lua -o ~/.config/mpv/scripts/webm.lua
+```
+
 - [user.js](https://github.com/arkenfox/user.js/releases/latest)
 ```
 cd ~/Downloads/
