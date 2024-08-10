@@ -28,7 +28,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 omz update
 ```
 
-### [Android Studio](https://developer.android.com/studio) *
+### [Android Studio](https://developer.android.com/studio/releases) *
 ```
 cd ~/Downloads/
 rm -rf ~/.local/share/android-studio/
