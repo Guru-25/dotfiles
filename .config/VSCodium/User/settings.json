@@ -27,4 +27,5 @@
         "scminput": false
     },
     "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmPasteNative": false,
 }
