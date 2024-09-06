@@ -21,11 +21,14 @@
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Atom One Dark",
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
-        "markdown": false,
+        "markdown": true,
         "scminput": false
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmPasteNative": false,
+    "codeium.enableConfig": {
+        "*": false
+    },
 }
