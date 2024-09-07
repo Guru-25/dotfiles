@@ -12,6 +12,12 @@ printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbase
 sudo dnf install codium
 ```
 
+### [Dropbox](https://www.dropbox.com/install-linux)
+```
+sudo dnf install libgnome python3-gpg
+sudo rpm -i nautilus-dropbox-x.x.x86_64.rpm
+```
+
 # others
 
 ### [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/) *
@@ -123,7 +129,9 @@ gsettings set com.github.stunkymonkey.nautilus-open-any-terminal flatpak system
 ### [syncthing](https://github.com/syncthing/syncthing/releases/latest)
 ```
 cd ~/Downloads
-tar -xf syncthing-linux-amd64-x.tar.gz -C ~/.local/bin/
+tar -xf syncthing-linux-amd64-x.tar.gz
+mv syncthing-linux-amd64-x/syncthing ~/.local/bin/
+rm -rf syncthing-linux-amd64-x
 rm syncthing-linux-amd64-x.tar.gz
 ```
 

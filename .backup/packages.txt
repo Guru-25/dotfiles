@@ -142,6 +142,7 @@ libcurl
 libeot
 libgda-sqlite
 libgeotiff
+libgnome
 libgta
 libheif
 libheif-freeworld
@@ -199,6 +200,7 @@ mpv
 msgpack
 msttcore-fonts-installer
 mtr
+nautilus-dropbox
 nautilus-python
 ncurses-devel
 neovim
@@ -258,6 +260,7 @@ proj-data-us
 proj-data-za
 python3-cups
 python3-devel
+python3-gpg
 python3-neovim
 python3-pip
 python3-satyr
