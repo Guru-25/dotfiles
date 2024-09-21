@@ -53,20 +53,6 @@ rm flutter_linux_x-stable.tar.xz
 flutter upgrade
 ```
 
-### [GitHub.copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) *
-```
-cd ~/Downloads/
-codium --install-extension GitHub.copilot-x.vsix
-rm GitHub.copilot-x.vsix
-```
-
-### [vscode-icons](https://github.com/vscode-icons/vscode-icons/releases/latest)
-```
-cd ~/Downloads/
-codium --install-extension vscode-icons-x.vsix
-rm vscode-icons-x.vsix
-```
-
 ### [nerd-fonts](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-7-clone-the-repo)
 ```
 git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
