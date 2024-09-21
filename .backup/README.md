@@ -18,6 +18,13 @@ sudo dnf install libgnome python3-gpg
 sudo rpm -i nautilus-dropbox-x.x.x86_64.rpm
 ```
 
+### [gh-cli](https://github.com/cli/cli/blob/trunk/docs/install_linux.md#fedora-centos-red-hat-enterprise-linux-dnf)
+```
+sudo dnf config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo dnf install gh --repo gh-cli
+
+```
+
 # others
 
 ### [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/) *
@@ -181,4 +188,12 @@ rm user.js-x.tar.gz
 cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
 ./updater.sh
 ./prefsCleaner.sh
+```
+
+### [gh-copilot](https://docs.github.com/en/copilot/managing-copilot/configure-personal-settings/installing-github-copilot-in-the-cli#installing-copilot-in-the-cli) *
+```
+gh auth login
+gh extension install github/gh-copilot
+
+gh extension upgrade gh-copilot
 ```
