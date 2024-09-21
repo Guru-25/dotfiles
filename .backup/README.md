@@ -138,11 +138,8 @@ rm syncthing-linux-amd64-x.tar.gz
 ### [uad-ng](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest)
 ```
 cd ~/Downloads
-unzip uad-ng-linux.zip
 mv uad-ng-linux ~/.local/bin/uad-ng
 chmod +x ~/.local/bin/uad-ng
-rm uad_gui-linux.tar.gz
-rm -f uad-ng*
 ```
 
 ### [yt-dlp](https://github.com/yt-dlp/yt-dlp/wiki/Installation#using-the-release-binary)
