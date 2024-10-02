@@ -68,7 +68,6 @@ geolite2-city
 geolite2-country
 geos
 gettext
-gh
 ghostscript-tools-fonts
 ghostscript-tools-printing
 git

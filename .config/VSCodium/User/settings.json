@@ -5,7 +5,6 @@
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.linkedEditing": true,
-    "git.autofetch": true,
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
@@ -20,14 +19,7 @@
     "update.showReleaseNotes": false,
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Atom One Dark",
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": true
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
     "explorer.confirmPasteNative": false,
-    "codeium.enableConfig": {
-        "*": false
-    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "git.autofetch": true,
 }
