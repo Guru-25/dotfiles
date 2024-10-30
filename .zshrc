@@ -83,6 +83,8 @@ export AUTO_NOTIFY_WHITELIST=(
   "dnf" "flatpak" "aria2c" "unrar"
 )
 
+export CHROME_EXECUTABLE=/var/lib/flatpak/app/com.brave.Browser/x86_64/stable/active/export/bin/com.brave.Browser
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -148,7 +150,7 @@ alias flatu='flatpak update -y'
 alias cleanup='sudo dnf autoremove && flatpak remove --unused'
 
 # dnf, flatpak, pip and gnome-extensions list
-alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}" >> $HOME/.backup/packages.txt && printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && flatpak list --columns=application --app >> $HOME/.backup/packages.txt && printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && gnome-extensions list >> $HOME/.backup/packages.txt && printf "done\n"'
+alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}\n" >> $HOME/.backup/packages.txt && printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && flatpak list --columns=application --app >> $HOME/.backup/packages.txt && printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && gnome-extensions list >> $HOME/.backup/packages.txt && printf "done\n"'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'

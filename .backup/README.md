@@ -18,6 +18,13 @@ sudo dnf install libgnome python3-gpg
 sudo rpm -i nautilus-dropbox-x.x.x86_64.rpm
 ```
 
+### [virtualization](https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started)
+```
+sudo dnf install @virtualization
+sudo systemctl start libvirtd
+sudo usermod -a -G libvirt $(whoami)
+```
+
 # others
 
 ### [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/) *
@@ -36,11 +43,11 @@ omz update
 
 ### [Android Studio](https://developer.android.com/studio/releases) *
 ```
-cd ~/Downloads/
 rm -rf ~/.local/share/android-studio/
+cd ~/Downloads/
 tar -xf android-studio-x-linux.tar.gz -C ~/.local/share/
 rm android-studio-x-linux.tar.gz
-~/.local/share/android-studio/bin/studio.sh
+~/.local/share/android-studio/bin/studio
 ```
 
 ### [flutter](https://docs.flutter.dev/get-started/install/linux/desktop?tab=download#download) *
