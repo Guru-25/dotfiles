@@ -21,7 +21,6 @@ sudo rpm -i nautilus-dropbox-x.x.x86_64.rpm
 ### [virtualization](https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started)
 ```
 sudo dnf install @virtualization
-sudo systemctl start libvirtd
 sudo usermod -a -G libvirt $(whoami)
 ```
 
@@ -141,17 +140,6 @@ curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o ~/.l
 chmod a+rx ~/.local/bin/yt-dlp
 
 yt-dlp -U
-```
-
-### [Ventoy](https://github.com/ventoy/Ventoy/releases/latest)
-```
-cd ~/Downloads/
-tar -xf ventoy-x-linux.tar.gz
-rm ventoy-x-linux.tar.gz
-cd ventoy-x-linux/ventoy-x
-sudo ./VentoyWeb.sh
-cd ~/Downloads/
-rm -rf ventoy-x-linux 
 ```
 
 ### [autoload.lua](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)

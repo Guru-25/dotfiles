@@ -1,5 +1,5 @@
 #!/bin/bash
-source "$HOME/.secrets"
+source "reverse-alias.secret"
 
 # Prompt user for contact input
 echo -n "First Last <email@example.com>: "
