@@ -5,7 +5,7 @@ source "reverse-alias.secret"
 echo -n "First Last <email@example.com>: "
 read contact
 
-# Define the API URL and your API key
+# Define the API URL
 API_URL="https://app.simplelogin.io/api/aliases/3677995/contacts"
 
 # Make the POST request and extract the reverse_alias

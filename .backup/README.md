@@ -24,7 +24,7 @@ sudo dnf install @virtualization
 sudo usermod -a -G libvirt $(whoami)
 ```
 
-# others
+# custom
 
 ### [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/) *
 ```
@@ -129,8 +129,7 @@ rm syncthing-linux-amd64-x.tar.gz
 
 ### [uad-ng](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest)
 ```
-cd ~/Downloads
-mv uad-ng-linux ~/.local/bin/uad-ng
+aria2c --allow-overwrite -d ~/.local/bin -o uad-ng https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest/download/uad-ng-linux
 chmod +x ~/.local/bin/uad-ng
 ```
 

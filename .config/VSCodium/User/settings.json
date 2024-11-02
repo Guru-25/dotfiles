@@ -21,10 +21,10 @@
     "workbench.colorTheme": "Atom One Dark",
     "explorer.confirmPasteNative": false,
     "liveServer.settings.donotShowInfoMsg": true,
-    "git.autofetch": true,
     "codeium.enableConfig": {
         "*": false,
         "code-runner-output": true
     },
     "diffEditor.ignoreTrimWhitespace": false,
+    "mdb.sendTelemetry": false,
 }
