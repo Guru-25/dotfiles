@@ -26,13 +26,6 @@ sudo usermod -a -G libvirt $(whoami)
 
 # custom
 
-### [msttcore-fonts-installer](https://mscorefonts2.sourceforge.net/) *
-```
-sudo dnf install curl cabextract xorg-x11-font-utils fontconfig
-
-sudo rpm -i https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm
-```
-
 ### [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation) *
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
