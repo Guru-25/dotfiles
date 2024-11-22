@@ -1,19 +1,20 @@
 [user]
-	name = Guru
-	email = mail@gururaja.in
-	signingkey = 58FB3EF9E4EDAEBB
+  name = Guru
+  email = mail@gururaja.in
+  signingkey = 58FB3EF9E4EDAEBB
 [alias]
-	st = status
-	ci = commit
-	ac = commit -am
-	co = checkout
-	br = branch
-	df = diff
-	dfr = diff main origin/main
-	lg = log --oneline --decorate --all --graph
+  st = status
+  ci = commit
+  ac = commit -am
+  co = checkout
+  br = branch
+  df = diff
+  dfr = diff main origin/main
+  lg = log --oneline --decorate --all --graph
+  conflict = pull --no-rebase origin main
 [advice]
-	statusHints = false
+  statusHints = false
 [commit]
-	gpgsign = true
+  gpgsign = true
 [init]
-	defaultBranch = main
+  defaultBranch = main

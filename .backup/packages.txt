@@ -285,7 +285,6 @@ iscsi-initiator-utils
 iwlegacy-firmware
 iwlwifi-dvm-firmware
 iwlwifi-mvm-firmware
-java-17-openjdk-devel
 javascriptcoregtk6.0
 jomolhari-fonts
 julietaula-montserrat-fonts
@@ -532,14 +531,6 @@ qt5-qtbase
 qt5-qtbase-gui
 qt5-qtdeclarative
 qt5-qtimageformats
-qt5-qtlocation
-qt5-qtmultimedia
-qt5-qtnetworkauth
-qt5-qtscript
-qt5-qtspeech
-qt5-qtwebchannel
-qt5-qtwebengine
-qt5-qtwebsockets
 qt5-qtxmlpatterns
 quazip-qt5
 quota
@@ -598,6 +589,7 @@ systemd-udev
 tar
 tcpdump
 teamd
+temurin-21-jdk
 thermald
 time
 tiwilink-firmware
@@ -640,7 +632,6 @@ wget2-wget
 which
 whois
 wireplumber
-wireshark
 words
 wpa_supplicant
 xdg-desktop-portal
@@ -688,7 +679,6 @@ tv.kodi.Kodi
 # gnome-extensions
 Vitals@CoreCoding.com
 ideapad@laurento.frittella
-pip-on-top@rafostar.github.com
 pano@elhan.io
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
