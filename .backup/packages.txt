@@ -285,6 +285,7 @@ iscsi-initiator-utils
 iwlegacy-firmware
 iwlwifi-dvm-firmware
 iwlwifi-mvm-firmware
+java-21-openjdk-devel
 javascriptcoregtk6.0
 jomolhari-fonts
 julietaula-montserrat-fonts
@@ -589,7 +590,6 @@ systemd-udev
 tar
 tcpdump
 teamd
-temurin-21-jdk
 thermald
 time
 tiwilink-firmware
