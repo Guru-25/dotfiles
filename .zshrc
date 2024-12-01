@@ -1,4 +1,6 @@
 # If you come from bash you might have to change your $PATH.
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
+export PATH=$JAVA_HOME/bin:$PATH
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH="$PATH:$HOME/.local/share/flutter/bin:$PATH"
