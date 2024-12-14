@@ -124,6 +124,9 @@ export MANPAGER='nvim +Man!'
 
 ### ALIASES ###
 
+# Temporary shell
+alias temp='(export HISTFILE=$(mktemp) && zsh)'
+
 # Changing "ls" to "exa"
 alias ls='eza --color=always --group-directories-first'     # my preferred listing
 alias la='eza -a --color=always --group-directories-first'  # all files and dirs

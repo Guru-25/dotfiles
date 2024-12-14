@@ -1,9 +1,4 @@
 # dnf
-### [starship](https://github.com/starship/starship#step-1-install-starship)
-```
-sudo dnf copr enable atim/starship
-sudo dnf install starship
-```
 
 ### [codium](https://vscodium.com/#install)
 ```
@@ -168,4 +163,10 @@ rm user.js-x.tar.gz
 cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
 ./updater.sh
 ./prefsCleaner.sh
+```
+
+### [starship](https://github.com/starship/starship#step-1-install-starship)
+```
+curl -sS https://starship.rs/install.sh | sh
+starship preset nerd-font-symbols -o ~/.config/starship.toml
 ```

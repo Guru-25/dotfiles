@@ -16,22 +16,16 @@
     "git.decorations.enabled": false,
     "code-runner.enableAppInsights": false,
     "workbench.enableExperiments": false,
-    "update.showReleaseNotes": false,
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Atom One Dark",
     "explorer.confirmPasteNative": false,
     "liveServer.settings.donotShowInfoMsg": true,
-    "codeium.enableConfig": {
-        "*": false,
-        "code-runner-output": true
-    },
     "diffEditor.ignoreTrimWhitespace": false,
     "mdb.sendTelemetry": false,
-    "workbench.editor.empty.hint": "hidden",
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false
-    },
+    }
 }
