@@ -7,16 +7,20 @@ printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbase
 sudo dnf install codium
 ```
 
-### [Dropbox](https://www.dropbox.com/install-linux)
-```
-sudo dnf install libgnome python3-gpg
-sudo rpm -i nautilus-dropbox-x.x.x86_64.rpm
-```
-
 ### [virtualization](https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started)
 ```
 sudo dnf install @virtualization
 sudo usermod -a -G libvirt $(whoami)
+```
+
+# python
+
+### [maestral](https://github.com/SamSchott/maestral#python-package-using-pypi)
+```
+python3 -m venv ~/.local/share/maestral-venv
+source ~/.local/share/maestral-venv/bin/activate
+
+python3 -m pip install --upgrade 'maestral[gui]'
 ```
 
 # custom

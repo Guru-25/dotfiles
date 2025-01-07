@@ -148,6 +148,7 @@ function conservation() {
 # short alias
 alias gnome-text-editor='flatpak run org.gnome.TextEditor'
 alias code='codium'
+alias maestral='source ~/.local/share/maestral-venv/bin/activate && maestral gui'
 
 # dnf, flatpak and pip
 alias dnfu='sudo dnf upgrade -y'

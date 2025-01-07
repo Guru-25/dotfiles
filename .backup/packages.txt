@@ -159,6 +159,7 @@ ghostscript
 ghostscript-tools-fonts
 ghostscript-tools-printing
 git
+git-lfs
 glib-networking
 glibc
 glibc-all-langpacks
@@ -318,7 +319,6 @@ libertas-firmware
 libgda-sqlite
 libgeotiff
 libglvnd-gles
-libgnome
 libgta
 libheif
 libheif-freeworld
@@ -404,7 +404,6 @@ msgpack
 mt7xxx-firmware
 mtr
 nautilus
-nautilus-dropbox
 nautilus-python
 ncurses
 ncurses-devel
@@ -499,7 +498,6 @@ psmisc
 ptyxis
 python3-cups
 python3-devel
-python3-gpg
 python3-neovim
 python3-pip
 python3-satyr
