@@ -88,6 +88,7 @@ cups-filters
 cups-pk-helper
 curl
 cyrus-sasl-gssapi
+davfs2
 dconf
 default-editor
 default-fonts-cjk-mono
