@@ -174,3 +174,9 @@ cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
 curl -sS https://starship.rs/install.sh | sh
 starship preset nerd-font-symbols -o ~/.config/starship.toml
 ```
+
+### [lade](https://github.com/lade-io/lade#linux)
+```
+curl -L https://github.com/lade-io/lade/releases/latest/download/lade-linux-amd64.tar.gz | tar xz
+sudo mv lade /usr/local/bin
+```

@@ -88,7 +88,6 @@ cups-filters
 cups-pk-helper
 curl
 cyrus-sasl-gssapi
-davfs2
 dconf
 default-editor
 default-fonts-cjk-mono
@@ -258,6 +257,7 @@ hdf5
 hdparm
 hfsplus-tools
 hostname
+hugo
 hunspell
 hyperv-daemons
 hyperv-daemons-license
