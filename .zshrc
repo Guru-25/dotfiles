@@ -156,7 +156,17 @@ alias flatu='flatpak update -y'
 alias cleanup='sudo dnf autoremove && flatpak remove --unused'
 
 # dnf, flatpak, pip and gnome-extensions list
-alias backup='printf "# dnf\n" > $HOME/.backup/packages.txt && dnf rq --userinstalled --qf "%{name}\n" >> $HOME/.backup/packages.txt && printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && flatpak list --columns=application --app >> $HOME/.backup/packages.txt && printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && gnome-extensions list >> $HOME/.backup/packages.txt && printf "done\n"'
+alias backup='
+    printf "# dnf\n" > $HOME/.backup/packages.txt && 
+    dnf rq --userinstalled --qf "%{name}\n" >> $HOME/.backup/packages.txt && 
+    printf "\n# flatpak\n" >> $HOME/.backup/packages.txt && 
+    flatpak list --columns=application --app >> $HOME/.backup/packages.txt && 
+    printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && 
+    gnome-extensions list >> $HOME/.backup/packages.txt && 
+    printf "\n# npm\n" >> $HOME/.backup/packages.txt && 
+    npm list -g --depth=0 | awk "{print \$2}" | cut -d"@" -f1 | tail -n +2 >> $HOME/.backup/packages.txt && 
+    printf "done\n"
+'
 
 # get error messages from journalctl
 alias jctl='journalctl -p 3 -xb'

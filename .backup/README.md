@@ -83,6 +83,7 @@ git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plu
 ```
 sudo dnf install neovim ripgrep gcc make
 rm -rf ~/.config/nvim
+rm -rf ~/.local/state/nvim
 rm -rf ~/.local/share/nvim
 git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 :MasonInstallAll

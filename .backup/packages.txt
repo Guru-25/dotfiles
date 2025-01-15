@@ -689,3 +689,9 @@ launch-new-instance@gnome-shell-extensions.gcampax.github.com
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
 forge@jmmaranan.com
+
+# npm
+joplin
+npm
+vercel
+
