@@ -89,7 +89,7 @@ export CHROME_EXECUTABLE=/var/lib/flatpak/app/com.brave.Browser/x86_64/stable/ac
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/env.secret
+source ~/.secrets
 
 # User configuration
 
