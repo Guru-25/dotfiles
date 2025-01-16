@@ -93,6 +93,26 @@ nvim
 :Lazy sync
 ```
 
+### [markdown-preview](https://github.com/iamcco/markdown-preview.nvim#installation--usage)
+```
+nvim ~/.config/nvim/lua/plugins/init.lua
+```
+    {
+        "iamcco/markdown-preview.nvim",
+        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+        ft = { "markdown" },
+        build = function() vim.fn["mkdp#util#install"]() end,
+    }
+```
+nvim ~/.config/nvim/lua/mappings.lua
+```
+    -- mapping for Markdown Preview
+    map("n", "<leader>mp", "<CMD> MarkdownPreview<CR>", { desc = "Open Preview" })
+    map("n", "<leader>mc", "<CMD> MarkdownPreviewStop<CR>", { desc = "Close Preview" })
+```
+:call mkdp#util#install()
+```
+
 ### [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal?tab=readme-ov-file#from-source)
 ```
 sudo dnf install nautilus-python
@@ -174,10 +194,4 @@ cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
 ```
 curl -sS https://starship.rs/install.sh | sh
 starship preset nerd-font-symbols -o ~/.config/starship.toml
-```
-
-### [lade](https://github.com/lade-io/lade#linux)
-```
-curl -L https://github.com/lade-io/lade/releases/latest/download/lade-linux-amd64.tar.gz | tar xz
-sudo mv lade /usr/local/bin
 ```
