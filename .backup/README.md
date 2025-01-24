@@ -41,6 +41,16 @@ rm android-studio-x-linux.tar.gz
 ~/.local/share/android-studio/bin/studio
 ```
 
+### [IntelliJ IDEA Ultimate Edition](https://www.jetbrains.com/idea/download/?section=linux) *
+```
+rm -rf ~/.local/share/idea-IU/
+cd ~/Downloads/
+tar -xzf idea-IU-*.tar.gz -C ~/.local/share/
+mv ~/.local/share/idea-IU-* ~/.local/share/idea-IU
+rm ideaIU-*.tar.gz
+~/.local/share/idea-IU/bin/idea
+```
+
 ### [flutter](https://docs.flutter.dev/get-started/install/linux/desktop?tab=download#download) *
 ```
 sudo dnf install clang cmake ninja-build
