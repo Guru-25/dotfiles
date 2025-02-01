@@ -188,6 +188,7 @@ gnome-shell-extension-forge
 gnome-software
 gnome-system-monitor
 gnome-terminal
+gnome-text-editor
 gnome-themes-extra
 gnome-tweaks
 gnome-user-docs
@@ -416,6 +417,7 @@ netpbm
 nfs-utils
 ninja-build
 nm-connection-editor
+nmap
 nmap-ncat
 nodejs
 nodejs-npm
@@ -499,6 +501,7 @@ psmisc
 ptyxis
 python3-cups
 python3-devel
+python3-inotify
 python3-neovim
 python3-pip
 python3-satyr
@@ -661,13 +664,13 @@ zsh
 
 # flatpak
 ca.desrt.dconf-editor
-com.brave.Browser
+com.github.tchx84.Flatseal
+com.google.Chrome
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 org.cryptomator.Cryptomator
 org.gnome.Calculator
 org.gnome.Loupe
-org.gnome.TextEditor
 org.kde.kdenlive
 org.libreoffice.LibreOffice
 org.mozilla.firefox

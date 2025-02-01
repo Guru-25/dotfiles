@@ -149,7 +149,6 @@ function conservation() {
 }
 
 # short alias
-alias gnome-text-editor='flatpak run org.gnome.TextEditor'
 alias code='codium'
 alias dropbox='source ~/.local/share/maestral-venv/bin/activate && maestral gui'
 
