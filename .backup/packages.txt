@@ -671,6 +671,7 @@ com.obsproject.Studio
 org.cryptomator.Cryptomator
 org.gnome.Calculator
 org.gnome.Loupe
+org.gnome.Snapshot
 org.kde.kdenlive
 org.libreoffice.LibreOffice
 org.mozilla.firefox
