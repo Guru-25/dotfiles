@@ -29,6 +29,7 @@ abrt-tui
 abseil-cpp
 acl
 adobe-source-code-pro-fonts
+adoptium-temurin-java-repository
 alacritty
 alsa-sof-firmware
 alsa-ucm
@@ -73,6 +74,7 @@ cifs-utils
 cirrus-audio-firmware
 clang
 clang-resource-filesystem
+clean-rpm-gpg-pubkey
 cmake
 cmake-filesystem
 codium
@@ -118,6 +120,7 @@ dracut-live
 dracut-network
 e2fsprogs
 efibootmgr
+ente
 ethtool
 exfatprogs
 eza
@@ -226,6 +229,7 @@ grub2-tools
 grub2-tools-efi
 grub2-tools-extra
 grubby
+gstreamer1-plugin-dav1d
 gstreamer1-plugin-libav
 gstreamer1-plugin-openh264
 gstreamer1-plugins-bad-free
@@ -288,7 +292,7 @@ iscsi-initiator-utils
 iwlegacy-firmware
 iwlwifi-dvm-firmware
 iwlwifi-mvm-firmware
-java-17-openjdk-devel
+java-21-openjdk-devel
 javascriptcoregtk6.0
 jomolhari-fonts
 julietaula-montserrat-fonts
@@ -370,6 +374,7 @@ libvterm
 libwmf-lite
 libzip
 linux-firmware
+localsearch
 logrotate
 lohit-assamese-fonts
 lohit-bengali-fonts
@@ -466,6 +471,7 @@ policycoreutils
 policycoreutils-python-utils
 polkit
 ppp
+prefixdevname
 procps-ng
 proj
 proj-data
@@ -515,7 +521,6 @@ qemu-user-static
 qemu-user-static-aarch64
 qemu-user-static-alpha
 qemu-user-static-arm
-qemu-user-static-cris
 qemu-user-static-hexagon
 qemu-user-static-hppa
 qemu-user-static-loongarch64
@@ -587,17 +592,17 @@ systemd
 systemd-boot-unsigned
 systemd-oomd-defaults
 systemd-resolved
+systemd-sysusers
 systemd-udev
 tar
 tcpdump
 teamd
 thermald
 time
+tinysparql
 tiwilink-firmware
 tlwg-waree-fonts
 traceroute
-tracker
-tracker-miners
 tree
 tree-sitter-cli
 tuned-ppd
@@ -681,8 +686,8 @@ tv.kodi.Kodi
 # gnome-extensions
 Vitals@CoreCoding.com
 ideapad@laurento.frittella
-pano@elhan.io
 pip-on-top@rafostar.github.com
+pano@elhan.io
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com

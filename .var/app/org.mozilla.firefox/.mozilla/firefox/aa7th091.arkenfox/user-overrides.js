@@ -1,6 +1,6 @@
 /* override recipe: enable session restore ***/
 user_pref("browser.startup.page", 3); // 0102
-user_pref("privacy.clearOnShutdown_v2.historyFormDataAndDownloads", false); // 2811 FF128+
+user_pref("privacy.clearOnShutdown_v2.browsingHistoryAndDownloads", false); // 2812 FF136+
 
 /* 0710: enable DNS-over-HTTPS (DoH) [FF60+] ***/
 user_pref("network.trr.mode", 3);

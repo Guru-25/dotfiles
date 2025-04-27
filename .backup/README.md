@@ -205,3 +205,11 @@ cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
 curl -sS https://starship.rs/install.sh | sh
 starship preset nerd-font-symbols -o ~/.config/starship.toml
 ```
+
+### [ente](https://github.com/ente-io/photos-desktop/releases/latest)
+```
+sudo dnf remove ente
+cd ~/Downloads/
+sudo rpm -i ente-x-x86_64.rpm
+rm ente-x-x86_64.rpm
+```

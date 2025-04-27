@@ -9,7 +9,6 @@
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
     "scm.diffDecorations": "none",
-    "window.titleBarStyle": "custom",
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
     "security.workspace.trust.untrustedFiles": "open",
@@ -23,10 +22,16 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "mdb.sendTelemetry": false,
     "github.copilot.enable": {
-        "*": true,
+        "*": false,
         "plaintext": false,
         "markdown": false,
         "scminput": false,
         "java": false
+    },
+    "redhat.telemetry.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "chat.agent.enabled": true,
+    "editor.codeActionsOnSave": {
+        
     }
 }
