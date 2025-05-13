@@ -3,7 +3,19 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "extensions.ignoreRecommendations": true,
-    "git.decorations.enabled": false,
     "crashReporting.enabled": "off",
-    "explorer.confirmPasteNative": false
+    "explorer.confirmPasteNative": false,
+    "workbench.colorTheme": "Atom One Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.linkedEditing": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.enableExperiments": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vsicons.dontShowNewVersionMessage": true,
+    "window.zoomLevel": 1
 }

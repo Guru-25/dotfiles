@@ -61,7 +61,7 @@ rm flutter_linux_x-stable.tar.xz
 flutter upgrade
 ```
 
-### [nerd-fonts](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-7-clone-the-repo)
+### [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#option-9-clone-the-repo)
 ```
 git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
 cd nerd-fonts
@@ -81,6 +81,18 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```
 rm -rf ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+### [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
+```
+rm -rf ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/
+git clone https://github.com/marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete
+```
+
+### [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search#install)
+```
+rm -rf ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search/
+git clone https://github.com/zsh-users/zsh-history-substring-search.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 ```
 
 ### [auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify#installation)
@@ -123,7 +135,7 @@ nvim ~/.config/nvim/lua/mappings.lua
 :call mkdp#util#install()
 ```
 
-### [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal?tab=readme-ov-file#from-source)
+### [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal#from-source)
 ```
 sudo dnf install nautilus-python
 

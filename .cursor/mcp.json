@@ -7,6 +7,12 @@
         "--browser",
         "firefox"
       ]
+    },
+    "browser-tools": {
+      "command": "npx",
+      "args": [
+        "@agentdeskai/browser-tools-mcp"
+      ]
     }
   }
 }

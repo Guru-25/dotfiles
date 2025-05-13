@@ -189,8 +189,6 @@ gnome-shell-extension-caffeine
 gnome-shell-extension-dash-to-panel
 gnome-shell-extension-forge
 gnome-software
-gnome-system-monitor
-gnome-terminal
 gnome-text-editor
 gnome-themes-extra
 gnome-tweaks
@@ -414,6 +412,7 @@ mt7xxx-firmware
 mtr
 nautilus
 nautilus-python
+ncdu
 ncurses
 ncurses-devel
 neovim
@@ -506,7 +505,6 @@ proj-data-us
 proj-data-za
 psacct
 psmisc
-ptyxis
 python3-cups
 python3-devel
 python3-inotify
@@ -581,6 +579,7 @@ speech-dispatcher
 speexdsp
 spice-vdagent
 spice-webdavd
+sqlite
 sssd-client
 sssd-common
 sssd-kcm
@@ -675,6 +674,7 @@ com.github.tchx84.Flatseal
 com.google.Chrome
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
+io.missioncenter.MissionCenter
 it.mijorus.gearlever
 org.gnome.Calculator
 org.gnome.Loupe

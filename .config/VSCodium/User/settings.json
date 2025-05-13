@@ -4,7 +4,6 @@
     "workbench.iconTheme": "vscode-icons",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "editor.linkedEditing": true,
     "git.enableSmartCommit": true,
     "explorer.confirmDragAndDrop": false,
     "git.confirmSync": false,
@@ -18,9 +17,6 @@
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Atom One Dark",
     "explorer.confirmPasteNative": false,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "mdb.sendTelemetry": false,
     "github.copilot.enable": {
         "*": true,
         "plaintext": false,
@@ -29,17 +25,5 @@
         "java": false
     },
     "redhat.telemetry.enabled": false,
-    "telemetry.feedback.enabled": false,
-    "mcp": {
-        "servers": {
-            "playwright": {
-                "command": "npx",
-                "args": [
-                    "@playwright/mcp@latest",
-                    "--browser",
-                    "firefox"
-                ]
-            }
-        }
-    }
+    "telemetry.feedback.enabled": false
 }
