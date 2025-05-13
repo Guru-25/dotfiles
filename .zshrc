@@ -80,6 +80,10 @@ plugins=(
   auto-notify
 )
 
+cursor(){
+  (nohup ~/AppImages/cursor.appimage "$@" >/dev/null 2>&1 &)
+}
+
 export AUTO_NOTIFY_WHITELIST=(
   "dnf" "flatpak" "aria2c" "unrar" "pip"
 )
@@ -175,6 +179,9 @@ alias jctl='journalctl -p 3 -xb'
 # edit conf
 alias aliasconf='nvim ~/.zshrc'
 alias backupconf='nvim ~/.backup/README.md'
+
+# ip
+alias ip.me='curl -s https://api.nordvpn.com/v1/helpers/ips/insights | jq .'
 
 ### SETTING THE STARSHIP PROMPT ###
 eval "$(starship init zsh)"

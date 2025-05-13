@@ -213,3 +213,19 @@ cd ~/Downloads/
 sudo rpm -i ente-x-x86_64.rpm
 rm ente-x-x86_64.rpm
 ```
+
+### GitHub Extensions
+```
+gh extension install ghcli/gh-commit
+gh extension install github/gh-models
+
+gh extension upgrade --all
+```
+
+### [playwright](https://github.com/microsoft/playwright/releases/latest)
+```
+mkdir -p ~/.local/share/playwright
+
+npm install playwright
+npx playwright install firefox
+```

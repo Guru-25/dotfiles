@@ -22,7 +22,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "mdb.sendTelemetry": false,
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false,
@@ -30,8 +30,16 @@
     },
     "redhat.telemetry.enabled": false,
     "telemetry.feedback.enabled": false,
-    "chat.agent.enabled": true,
-    "editor.codeActionsOnSave": {
-        
+    "mcp": {
+        "servers": {
+            "playwright": {
+                "command": "npx",
+                "args": [
+                    "@playwright/mcp@latest",
+                    "--browser",
+                    "firefox"
+                ]
+            }
+        }
     }
 }

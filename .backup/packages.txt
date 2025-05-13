@@ -401,10 +401,12 @@ mdadm
 mesa-dri-drivers
 mesa-libEGL
 mesa-va-drivers-freeworld
+mesa-vdpau-drivers-freeworld
 mesa-vulkan-drivers
 minizip-ng
 mkfontscale
 mozilla-filesystem
+mozilla-openh264
 mpage
 mpv
 msgpack
@@ -673,7 +675,7 @@ com.github.tchx84.Flatseal
 com.google.Chrome
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
-org.cryptomator.Cryptomator
+it.mijorus.gearlever
 org.gnome.Calculator
 org.gnome.Loupe
 org.gnome.Snapshot
