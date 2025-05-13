@@ -1,0 +1,9 @@
+{
+    "window.commandCenter": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": true,
+    "git.decorations.enabled": false,
+    "crashReporting.enabled": "off",
+    "explorer.confirmPasteNative": false
+}
