@@ -77,8 +77,6 @@ export ZSH="$HOME/.oh-my-zsh"
 plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
-  zsh-autocomplete
-  zsh-history-substring-search
   auto-notify
 )
 

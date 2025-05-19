@@ -13,9 +13,11 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-    "security.workspace.trust.untrustedFiles": "open",
     "workbench.enableExperiments": false,
     "liveServer.settings.donotShowInfoMsg": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "window.zoomLevel": 1
+    "window.zoomLevel": 1,
+    "terminal.integrated.env.linux": {
+        "ARGV0": null
+    }
 }

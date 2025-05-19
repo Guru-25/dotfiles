@@ -13,6 +13,14 @@ sudo dnf install @virtualization
 sudo usermod -a -G libvirt $(whoami)
 ```
 
+### [Proton VPN](https://protonvpn.com/support/official-linux-vpn-fedora)
+```
+wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.3-1.noarch.rpm"
+sudo dnf install ./protonvpn-stable-release-1.0.3-1.noarch.rpm && sudo dnf check-update --refresh
+sudo dnf install proton-vpn-gnome-desktop
+rm protonvpn-stable-release-1.0.3-1.noarch.rpm
+```
+
 # python
 
 ### [maestral](https://github.com/SamSchott/maestral#python-package-using-pypi)
@@ -81,18 +89,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 ```
 rm -rf ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-```
-
-### [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
-```
-rm -rf ~/.oh-my-zsh/custom/plugins/zsh-autocomplete/
-git clone https://github.com/marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autocomplete
-```
-
-### [zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search#install)
-```
-rm -rf ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search/
-git clone https://github.com/zsh-users/zsh-history-substring-search.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 ```
 
 ### [auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify#installation)
