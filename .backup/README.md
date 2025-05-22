@@ -13,14 +13,6 @@ sudo dnf install @virtualization
 sudo usermod -a -G libvirt $(whoami)
 ```
 
-### [Proton VPN](https://protonvpn.com/support/official-linux-vpn-fedora)
-```
-wget "https://repo.protonvpn.com/fedora-$(cat /etc/fedora-release | cut -d' ' -f 3)-stable/protonvpn-stable-release/protonvpn-stable-release-1.0.3-1.noarch.rpm"
-sudo dnf install ./protonvpn-stable-release-1.0.3-1.noarch.rpm && sudo dnf check-update --refresh
-sudo dnf install proton-vpn-gnome-desktop
-rm protonvpn-stable-release-1.0.3-1.noarch.rpm
-```
-
 # python
 
 ### [maestral](https://github.com/SamSchott/maestral#python-package-using-pypi)

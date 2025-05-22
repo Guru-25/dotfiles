@@ -702,7 +702,6 @@ background-logo@fedorahosted.org
 forge@jmmaranan.com
 
 # npm
-joplin
 npm
 vercel
 
