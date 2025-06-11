@@ -1,0 +1,48 @@
+#!/bin/bash
+source "dropbox.secret"
+
+export MASTER_PASSWORD="$MASTER_PASSWORD"
+
+# Trap Ctrl+C to prevent early exit
+trap '' SIGINT
+
+echo "[INFO] Activating Maestral virtual environment..."
+source ~/.local/share/maestral-venv/bin/activate
+
+echo "[INFO] Launching Maestral GUI in background..."
+setsid maestral gui >/dev/null 2>&1 &
+
+echo "[INFO] Starting Cryptomator unlock..."
+cryptomator_output=$(mktemp)
+
+# Start Cryptomator in background, capture output
+~/.local/share/cryptomator-cli/bin/cryptomator-cli unlock \
+  --password:env=MASTER_PASSWORD \
+  --mounter=org.cryptomator.frontend.fuse.mount.LinuxFuseMountProvider \
+  --mountPoint="$MOUNT_PATH" "$VAULT_PATH" > "$cryptomator_output" 2>&1 &
+
+crypto_pid=$!
+
+# Wait until unlock success appears in logs
+while ! grep -q "Unlocked and mounted vault successfully to" "$cryptomator_output"; do
+    sleep 1
+done
+
+echo "[INFO] Vault unlocked successfully."
+
+# Open Nautilus manually
+nautilus --new-window "$MOUNT_PATH" >/dev/null 2>&1 &
+
+# Prompt user to manually confirm closing
+read -p "[INFO] Press Enter after closing Nautilus to unmount and exit..."
+
+echo "[INFO] Terminating Cryptomator..."
+kill "$crypto_pid" 2>/dev/null
+
+echo "[INFO] Unmounting vault..."
+fusermount -u "$MOUNT_PATH"
+
+echo "[INFO] Vault unmounted. All done."
+
+# Re-enable Ctrl+C
+trap - SIGINT
