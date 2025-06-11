@@ -103,26 +103,6 @@ nvim
 :Lazy sync
 ```
 
-### [markdown-preview](https://github.com/iamcco/markdown-preview.nvim#installation--usage)
-```
-nvim ~/.config/nvim/lua/plugins/init.lua
-```
-    {
-        "iamcco/markdown-preview.nvim",
-        cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
-        ft = { "markdown" },
-        build = function() vim.fn["mkdp#util#install"]() end,
-    }
-```
-nvim ~/.config/nvim/lua/mappings.lua
-```
-    -- mapping for Markdown Preview
-    map("n", "<leader>mp", "<CMD> MarkdownPreview<CR>", { desc = "Open Preview" })
-    map("n", "<leader>mc", "<CMD> MarkdownPreviewStop<CR>", { desc = "Close Preview" })
-```
-:call mkdp#util#install()
-```
-
 ### [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal#from-source)
 ```
 sudo dnf install nautilus-python
@@ -226,6 +206,15 @@ gh extension upgrade --all
 ```
 mkdir -p ~/.local/share/playwright
 
+cd ~/.local/share/playwright
 npm install playwright
 npx playwright install firefox
+```
+
+### [cryptomator-cli](https://github.com/cryptomator/cli/releases/latest)
+```
+cd ~/Downloads
+unzip cryptomator-cli-*-linux-x64.zip
+mv cryptomator-cli ~/.local/share
+rm cryptomator-cli-*-linux-x64.zip
 ```

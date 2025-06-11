@@ -152,7 +152,6 @@ function conservation() {
 
 # short alias
 alias code='codium'
-alias dropbox='source ~/.local/share/maestral-venv/bin/activate && maestral gui'
 alias jp='joplin sync && joplin'
 
 # dnf, flatpak and pip

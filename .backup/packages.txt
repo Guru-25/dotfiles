@@ -205,6 +205,7 @@ google-noto-sans-canadian-aboriginal-vf-fonts
 google-noto-sans-cherokee-vf-fonts
 google-noto-sans-cjk-vf-fonts
 google-noto-sans-ethiopic-vf-fonts
+google-noto-sans-fonts
 google-noto-sans-georgian-vf-fonts
 google-noto-sans-gurmukhi-vf-fonts
 google-noto-sans-hebrew-vf-fonts
@@ -446,6 +447,7 @@ opensc
 openssh-clients
 openssh-server
 openssl
+p7zip-plugins
 paktype-naskh-basic-fonts
 pam_afs_session
 paps
@@ -676,6 +678,7 @@ com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 io.missioncenter.MissionCenter
 it.mijorus.gearlever
+org.cryptomator.Cryptomator
 org.gnome.Calculator
 org.gnome.Loupe
 org.gnome.Snapshot

@@ -13,6 +13,9 @@ toggle-maximized=['<Super>m']
 [org/gnome/desktop/wm/preferences]
 button-layout='appmenu:minimize,maximize,close'
 
+[org/gnome/shell/extensions/caffeine]
+enable-fullscreen=false
+
 [org/gnome/shell/extensions/dash-to-panel]
 animate-appicon-hover-animation-extent={'RIPPLE': 4, 'PLANK': 4, 'SIMPLE': 1}
 appicon-margin=2
@@ -75,5 +78,3 @@ show-voltage=false
 
 [org/gnome/shell/keybindings]
 toggle-message-tray=['<Super>v']
-
-
