@@ -1,0 +1,30 @@
+font-family = FiraCode Nerd Font
+font-size = 10.12
+window-theme = ghostty
+background-opacity = 0.9
+resize-overlay = never
+app-notifications = no-clipboard-copy
+
+palette = 0=#1E222A
+palette = 1=#F66151
+palette = 2=#33D17A
+palette = 3=#E9AD0C
+palette = 4=#2A7BDE
+palette = 5=#C061CB
+palette = 6=#33C7DE
+palette = 7=#D0CFCC
+palette = 8=#5b6268
+palette = 9=#F66151
+palette = 10=#33D17A
+palette = 11=#E9AD0C
+palette = 12=#2A7BDE
+palette = 13=#C061CB
+palette = 14=#33C7DE
+palette = 15=#FFFFFF
+background = #1E222A
+foreground = #D0CFCC
+
+keybind = ctrl+t=new_tab
+keybind = ctrl+w=close_tab
+
+
