@@ -152,7 +152,6 @@ function conservation() {
 
 # short alias
 alias code='codium'
-alias jp='joplin sync && joplin'
 
 # dnf, flatpak and pip
 alias dnfu='sudo dnf upgrade -y'

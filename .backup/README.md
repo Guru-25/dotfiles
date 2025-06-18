@@ -13,6 +13,12 @@ sudo dnf install @virtualization
 sudo usermod -a -G libvirt $(whoami)
 ```
 
+### [ghostty](https://ghostty.org/docs/install/binary#fedora)
+```
+dnf copr enable pgdev/ghostty
+dnf install ghostty
+```
+
 # python
 
 ### [maestral](https://github.com/SamSchott/maestral#python-package-using-pypi)
@@ -115,7 +121,7 @@ cd ..
 rm -rf nautilus-open-any-terminal
 
 sudo glib-compile-schemas /usr/share/glib-2.0/schemas
-gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
+gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal ghostty
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal new-tab true
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal flatpak system
@@ -215,6 +221,7 @@ npx playwright install firefox
 ```
 cd ~/Downloads
 unzip cryptomator-cli-*-linux-x64.zip
+rm -rf ~/.local/share/cryptomator-cli
 mv cryptomator-cli ~/.local/share
 rm cryptomator-cli-*-linux-x64.zip
 ```

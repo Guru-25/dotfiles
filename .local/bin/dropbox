@@ -16,7 +16,8 @@ echo "[INFO] Starting Cryptomator unlock..."
 cryptomator_output=$(mktemp)
 
 # Start Cryptomator in background, capture output
-~/.local/share/cryptomator-cli/bin/cryptomator-cli unlock \
+cd ~/.local/share/cryptomator-cli/bin/
+./cryptomator-cli unlock \
   --password:env=MASTER_PASSWORD \
   --mounter=org.cryptomator.frontend.fuse.mount.LinuxFuseMountProvider \
   --mountPoint="$MOUNT_PATH" "$VAULT_PATH" > "$cryptomator_output" 2>&1 &

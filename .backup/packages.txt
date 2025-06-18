@@ -30,7 +30,6 @@ abseil-cpp
 acl
 adobe-source-code-pro-fonts
 adoptium-temurin-java-repository
-alacritty
 alsa-sof-firmware
 alsa-ucm
 alsa-utils
@@ -161,6 +160,7 @@ gh
 ghostscript
 ghostscript-tools-fonts
 ghostscript-tools-printing
+ghostty
 git
 git-lfs
 glib-networking
@@ -635,7 +635,6 @@ virt-install
 virt-manager
 virt-viewer
 virtualbox-guest-additions
-waydroid
 webkitgtk6.0
 wget2-wget
 which

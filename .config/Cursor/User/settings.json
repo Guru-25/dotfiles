@@ -19,5 +19,8 @@
     "window.zoomLevel": 1,
     "terminal.integrated.env.linux": {
         "ARGV0": null
-    }
+    },
+    "cursor.cpp.disabledLanguages": [
+        "plaintext"
+    ]
 }
