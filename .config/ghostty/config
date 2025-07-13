@@ -27,4 +27,4 @@ foreground = #D0CFCC
 keybind = ctrl+t=new_tab
 keybind = ctrl+w=close_tab
 
-
+gtk-single-instance = true

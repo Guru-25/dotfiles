@@ -158,7 +158,7 @@ geos
 gettext
 gh
 ghostscript
-ghostscript-tools-fonts
+ghostscript-tools-fontutils
 ghostscript-tools-printing
 ghostty
 git
@@ -671,8 +671,8 @@ zsh
 
 # flatpak
 ca.desrt.dconf-editor
+com.brave.Browser
 com.github.tchx84.Flatseal
-com.google.Chrome
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
 io.missioncenter.MissionCenter
