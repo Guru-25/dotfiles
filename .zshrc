@@ -88,7 +88,7 @@ export AUTO_NOTIFY_WHITELIST=(
   "dnf" "flatpak" "aria2c" "unrar" "pip"
 )
 
-export CHROME_EXECUTABLE=/var/lib/flatpak/app/com.google.Chrome/x86_64/stable/active/export/bin/com.google.Chrome
+export CHROME_EXECUTABLE=/var/lib/flatpak/app/com.brave.Browser/x86_64/stable/active/export/bin/com.brave.Browser
 
 source $ZSH/oh-my-zsh.sh
 

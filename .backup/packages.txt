@@ -36,6 +36,7 @@ alsa-utils
 amd-gpu-firmware
 android-tools
 anthy-unicode
+argon2
 aria2
 armadillo
 arpack
@@ -80,6 +81,7 @@ codium
 colord
 compat-lua-libs
 compsize
+containerd.io
 coreutils
 cpio
 cryptsetup
@@ -112,6 +114,9 @@ dnf-plugins-core
 dnf5
 dnf5-plugins
 dnsmasq
+docker-ce
+docker-ce-cli
+docker-compose-plugin
 dos2unix
 dosfstools
 dracut-config-rescue
