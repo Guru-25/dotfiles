@@ -1,4 +1,5 @@
 # dnf
+7zip
 CharLS
 ModemManager
 NetworkManager
@@ -54,7 +55,6 @@ authselect
 avahi
 b43-fwcutter
 b43-openfwwf
-basesystem
 bash
 bash-color-prompt
 bash-completion
@@ -147,7 +147,6 @@ flexiblas-openblas-openmp64
 fpaste
 fprintd-pam
 freexl
-fros-gnome
 fwupd
 fzf
 gamemode
@@ -172,10 +171,10 @@ glib-networking
 glibc
 glibc-all-langpacks
 glx-utils
+glycin-thumbnailer
 gnome-backgrounds
 gnome-bluetooth
 gnome-classic-session
-gnome-classic-session-xsession
 gnome-color-manager
 gnome-control-center
 gnome-disk-utility
@@ -184,7 +183,6 @@ gnome-initial-setup
 gnome-logs
 gnome-remote-desktop
 gnome-session-wayland-session
-gnome-session-xsession
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extension-appindicator
@@ -200,6 +198,10 @@ gnome-tweaks
 gnome-user-docs
 gnome-user-share
 gnupg2
+gnupg2-g13
+gnupg2-scdaemon
+gnupg2-utils
+gnupg2-wks
 google-droid-sans-fonts
 google-guice
 google-noto-color-emoji-fonts
@@ -377,7 +379,6 @@ libvirt-daemon-driver-storage-logical
 libvirt-daemon-driver-storage-mpath
 libvirt-daemon-driver-storage-rbd
 libvirt-daemon-driver-storage-scsi
-libvirt-daemon-driver-storage-zfs
 libvirt-daemon-kvm
 libvirt-gconfig
 libvirt-glib
@@ -470,7 +471,6 @@ opensc
 openssh-clients
 openssh-server
 openssl
-p7zip-plugins
 paktype-naskh-basic-fonts
 pam_afs_session
 paps
@@ -485,6 +485,7 @@ pinentry-gnome3
 pinfo
 pipewire
 pipewire-alsa
+pipewire-config-raop
 pipewire-gstreamer
 pipewire-jack-audio-connection-kit
 pipewire-pulseaudio
@@ -637,6 +638,7 @@ time
 tinysparql
 tiwilink-firmware
 tlwg-waree-fonts
+totem-video-thumbnailer
 traceroute
 tree
 tree-sitter-cli
