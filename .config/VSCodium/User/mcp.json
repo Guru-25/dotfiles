@@ -1,0 +1,18 @@
+{
+	"servers": {
+		"playwright": {
+			"command": "npx",
+			"args": [
+				"@playwright/mcp@latest",
+				"--browser",
+				"firefox"
+			]
+		},
+		"browser-tools": {
+			"command": "npx",
+			"args": [
+				"@agentdeskai/browser-tools-mcp"
+			]
+		}
+	}
+}
