@@ -80,10 +80,6 @@ plugins=(
   auto-notify
 )
 
-cursor(){
-  (nohup ~/AppImages/cursor.appimage "$@" >/dev/null 2>&1 &)
-}
-
 export AUTO_NOTIFY_WHITELIST=(
   "dnf" "flatpak" "aria2c" "unrar" "pip"
 )

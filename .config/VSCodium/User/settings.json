@@ -25,5 +25,8 @@
         "java": false
     },
     "redhat.telemetry.enabled": false,
-    "telemetry.feedback.enabled": false
+    "telemetry.feedback.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "vsicons.dontShowNewVersionMessage": true
 }
