@@ -24,8 +24,8 @@ dnf install ghostty
 ### [maestral](https://github.com/SamSchott/maestral#python-package-using-pypi)
 ```
 python3 -m venv ~/.local/share/maestral-venv
-source ~/.local/share/maestral-venv/bin/activate
 
+source ~/.local/share/maestral-venv/bin/activate
 python3 -m pip install --upgrade 'maestral[gui]'
 ```
 
@@ -173,17 +173,6 @@ curl https://raw.githubusercontent.com/po5/thumbfast/vanilla-osc/player/lua/osc.
 ### [webm.lua](https://github.com/ekisu/mpv-webm/releases)
 ```
 curl https://github.com/ekisu/mpv-webm/releases/download/latest/webm.lua -o ~/.config/mpv/scripts/webm.lua
-```
-
-### [user.js](https://github.com/arkenfox/user.js/releases/latest)
-```
-cd ~/Downloads/
-tar -xf user.js-x.tar.gz -C ~/.var/app/org.mozilla.firefox/.mozilla/firefox/x/
-rm user.js-x.tar.gz
-
-cd ~/.var/app/org.mozilla.firefox/.mozilla/firefox/aa7th091.arkenfox/
-./updater.sh
-./prefsCleaner.sh
 ```
 
 ### [starship](https://github.com/starship/starship#step-1-install-starship)

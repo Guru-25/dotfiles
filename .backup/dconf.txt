@@ -78,3 +78,6 @@ show-voltage=false
 
 [org/gnome/shell/keybindings]
 toggle-message-tray=['<Super>v']
+
+[org.gnome.desktop.screensaver]
+restart-enabled=true

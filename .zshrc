@@ -141,11 +141,6 @@ alias rm='rm -i'
 # bare git repo alias for dotfiles
 alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-# conservation  mode
-function conservation() {
-  echo ${1:-1}  | sudo tee /sys/bus/platform/drivers/ideapad_acpi/VPC2004\:00/conservation_mode
-}
-
 # short alias
 alias code='codium'
 

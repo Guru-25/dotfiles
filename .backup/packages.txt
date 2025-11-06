@@ -124,6 +124,7 @@ dracut-live
 dracut-network
 e2fsprogs
 efibootmgr
+egl-utils
 ente
 ethtool
 exfatprogs
@@ -723,7 +724,6 @@ tv.kodi.Kodi
 
 # gnome-extensions
 Vitals@CoreCoding.com
-ideapad@laurento.frittella
 pip-on-top@rafostar.github.com
 pano@elhan.io
 blur-my-shell@aunetx
