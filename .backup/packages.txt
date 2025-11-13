@@ -63,10 +63,12 @@ bind-utils
 blosc
 bluez-cups
 bluez-obexd
+brave-browser
 brcmfmac-firmware
 brltty
 btrfs-progs
 bzip2
+cabextract
 caca-utils
 cairo-devel
 cairo-gobject-devel
@@ -148,6 +150,7 @@ flexiblas-openblas-openmp64
 fpaste
 fprintd-pam
 freexl
+fuse-libs
 fwupd
 fzf
 gamemode
@@ -692,6 +695,7 @@ xorg-x11-drv-nouveau
 xorg-x11-drv-openchrome
 xorg-x11-drv-qxl
 xorg-x11-drv-wacom
+xorg-x11-font-utils
 xorg-x11-server-Xorg
 xorg-x11-xauth
 xorg-x11-xinit
@@ -699,6 +703,7 @@ xprop
 xrandr
 xsel
 xwininfo
+yarnpkg
 zd1211-firmware
 zip
 zram-generator-defaults
@@ -706,10 +711,10 @@ zsh
 
 # flatpak
 ca.desrt.dconf-editor
-com.brave.Browser
 com.github.tchx84.Flatseal
 com.mattjakeman.ExtensionManager
 com.obsproject.Studio
+com.stremio.Stremio
 io.missioncenter.MissionCenter
 it.mijorus.gearlever
 org.cryptomator.Cryptomator
@@ -718,7 +723,6 @@ org.gnome.Loupe
 org.gnome.Snapshot
 org.kde.kdenlive
 org.libreoffice.LibreOffice
-org.mozilla.firefox
 org.telegram.desktop
 tv.kodi.Kodi
 

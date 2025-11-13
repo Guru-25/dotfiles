@@ -19,6 +19,12 @@ dnf copr enable pgdev/ghostty
 dnf install ghostty
 ```
 
+### [brave-browser](https://brave.com/linux)
+```
+sudo dnf config-manager addrepo --from-repofile=https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+sudo dnf install brave-browser
+```
+
 # python
 
 ### [maestral](https://github.com/SamSchott/maestral#python-package-using-pypi)
