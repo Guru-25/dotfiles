@@ -86,7 +86,9 @@ cmake-filesystem
 codium
 colord
 compat-lua-libs
+composer
 compsize
+containerd.io
 coreutils
 cpio
 cryptsetup
@@ -119,6 +121,10 @@ dnf-plugins-core
 dnf5
 dnf5-plugins
 dnsmasq
+docker-buildx-plugin
+docker-ce
+docker-ce-cli
+docker-compose-plugin
 dos2unix
 dosfstools
 dracut-config-rescue
@@ -485,6 +491,13 @@ pciutils
 pcsc-lite
 pcsc-lite-ccid
 perl-NDBM_File
+php-cli
+php-common
+php-intl
+php-mbstring
+php-pecl-zip
+php-process
+php-xml
 pinentry-gnome3
 pinfo
 pipewire
