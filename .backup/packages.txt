@@ -742,7 +742,7 @@ tv.kodi.Kodi
 # gnome-extensions
 Vitals@CoreCoding.com
 pip-on-top@rafostar.github.com
-pano@elhan.io
+copyous@boerdereinar.dev
 blur-my-shell@aunetx
 appindicatorsupport@rgcjonas.gmail.com
 dash-to-panel@jderose9.github.com
