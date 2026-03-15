@@ -29,5 +29,6 @@
     "extensions.ignoreRecommendations": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "vsicons.dontShowNewVersionMessage": true,
-    "chat.disableAIFeatures": false
+    "chat.disableAIFeatures": false,
+    "github.copilot.nextEditSuggestions.enabled": true
 }

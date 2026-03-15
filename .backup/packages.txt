@@ -432,7 +432,6 @@ mdadm
 mesa-dri-drivers
 mesa-libEGL
 mesa-va-drivers-freeworld
-mesa-vdpau-drivers-freeworld
 mesa-vulkan-drivers
 minizip-ng
 mkfontscale
