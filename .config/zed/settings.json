@@ -1,0 +1,66 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-6",
+      "enable_thinking": true,
+      "effort": "high"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "context_servers": {
+    "browser-tools": {
+      "enabled": true,
+      "remote": false,
+      "command": "npx",
+      "args": [
+        "@agentdeskai/browser-tools-mcp"
+      ]
+    },
+    "playwright": {
+      "enabled": true,
+      "remote": false,
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest",
+        "--browser",
+        "firefox"
+      ]
+    }
+  },
+  "icon_theme": "VSCode Icons for Zed (Dark)",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "terminal": {
+    "font_family": "FiraCode Nerd Font"
+  },
+  "project_panel": {
+    "git_status": false
+  },
+  "outline_panel": {
+    "git_status": false
+  },
+  "base_keymap": "VSCode",
+  "tabs": {
+    "git_status": false
+  },
+  "buffer_font_family": "Fira Code",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "One Dark",
+  },
+}

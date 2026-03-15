@@ -220,3 +220,8 @@ rm -rf ~/.local/share/cryptomator-cli
 mv cryptomator-cli ~/.local/share
 rm cryptomator-cli-*-linux-x64.zip
 ```
+
+### [Zed]
+```
+curl -f https://zed.dev/install.sh | sh
+```
