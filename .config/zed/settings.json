@@ -44,9 +44,6 @@
     "metrics": false
   },
   "terminal": {
-    "shell": {
-      "program": "sh"
-    },
     "font_family": "FiraCode Nerd Font"
   },
   "project_panel": {

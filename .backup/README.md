@@ -1,22 +1,9 @@
 # dnf
 
-### [codium](https://vscodium.com/#install)
-```
-sudo rpmkeys --import https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg
-printf "[gitlab.com_paulcarroty_vscodium_repo]\nname=download.vscodium.com\nbaseurl=https://download.vscodium.com/rpms/\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/-/raw/master/pub.gpg\nmetadata_expire=1h" | sudo tee -a /etc/yum.repos.d/vscodium.repo
-sudo dnf install codium
-```
-
-### [virtualization](https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started)
-```
-sudo dnf install @virtualization
-sudo usermod -a -G libvirt $(whoami)
-```
-
 ### [ghostty](https://ghostty.org/docs/install/binary#fedora)
 ```
-dnf copr enable pgdev/ghostty
-dnf install ghostty
+sudo dnf copr enable pgdev/ghostty
+sudo dnf install ghostty
 ```
 
 ### [brave-browser](https://brave.com/linux)
@@ -39,43 +26,15 @@ python3 -m pip install --upgrade 'maestral[gui]'
 
 ### [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh#basic-installation) *
 ```
+sudo dnf install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 omz update
 ```
 
-### [Android Studio](https://developer.android.com/studio/releases) *
-```
-rm -rf ~/.local/share/android-studio/
-cd ~/Downloads/
-tar -xf android-studio-x-linux.tar.gz -C ~/.local/share/
-rm android-studio-x-linux.tar.gz
-~/.local/share/android-studio/bin/studio
-```
-
-### [IntelliJ IDEA Ultimate Edition](https://www.jetbrains.com/idea/download/?section=linux) *
-```
-rm -rf ~/.local/share/idea-IU/
-cd ~/Downloads/
-tar -xzf idea-IU-*.tar.gz -C ~/.local/share/
-mv ~/.local/share/idea-IU-* ~/.local/share/idea-IU
-rm ideaIU-*.tar.gz
-~/.local/share/idea-IU/bin/idea
-```
-
-### [flutter](https://docs.flutter.dev/get-started/install/linux/desktop?tab=download#download) *
-```
-sudo dnf install clang cmake ninja-build
-cd ~/Downloads/
-tar -xf flutter_linux_x-stable.tar.xz -C ~/.local/share/
-rm flutter_linux_x-stable.tar.xz
-
-flutter upgrade
-```
-
 ### [nerd-fonts](https://github.com/ryanoasis/nerd-fonts#option-9-clone-the-repo)
 ```
-git clone --filter=blob:none --sparse git@github.com:ryanoasis/nerd-fonts
+git clone --filter=blob:none --sparse https://github.com/ryanoasis/nerd-fonts
 cd nerd-fonts
 git sparse-checkout add patched-fonts/FiraCode
 ./install.sh FiraCode
@@ -98,7 +57,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 ### [auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify#installation)
 ```
 rm -rf ~/.oh-my-zsh/custom/plugins/auto-notify/
-git clone https://github.com/MichaelAquilina/zsh-auto-notify.git $ZSH_CUSTOM/plugins/auto-notify
+git clone https://github.com/MichaelAquilina/zsh-auto-notify.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/auto-notify
 ```
 
 ### [NvChad](https://nvchad.com/docs/quickstart/install)
@@ -133,17 +92,9 @@ gsettings set com.github.stunkymonkey.nautilus-open-any-terminal new-tab true
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal flatpak system
 ```
 
-### [syncthing](https://github.com/syncthing/syncthing/releases/latest)
-```
-cd ~/Downloads
-tar -xf syncthing-linux-amd64-x.tar.gz
-mv syncthing-linux-amd64-x/syncthing ~/.local/bin/
-rm -rf syncthing-linux-amd64-x
-rm syncthing-linux-amd64-x.tar.gz
-```
-
 ### [uad-ng](https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest)
 ```
+sudo dnf install aria2c
 aria2c --allow-overwrite -d ~/.local/bin -o uad-ng https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation/releases/latest/download/uad-ng-linux
 chmod +x ~/.local/bin/uad-ng
 ```
@@ -158,6 +109,8 @@ yt-dlp -U
 
 ### [autoload.lua](https://github.com/mpv-player/mpv/blob/master/TOOLS/lua/autoload.lua)
 ```
+mkdir -o ~/.config/mpv/scripts
+
 curl https://raw.githubusercontent.com/mpv-player/mpv/master/TOOLS/lua/autoload.lua -o ~/.config/mpv/scripts/autoload.lua
 ```
 
@@ -197,19 +150,12 @@ rm ente-x-x86_64.rpm
 
 ### GitHub Extensions
 ```
+sudo dnf install gh
+gh auth login
 gh extension install ghcli/gh-commit
 gh extension install github/gh-models
 
 gh extension upgrade --all
-```
-
-### [playwright](https://github.com/microsoft/playwright/releases/latest)
-```
-mkdir -p ~/.local/share/playwright
-
-cd ~/.local/share/playwright
-npm install playwright
-npx playwright install firefox
 ```
 
 ### [cryptomator-cli](https://github.com/cryptomator/cli/releases/latest)

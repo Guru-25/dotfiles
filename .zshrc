@@ -1,9 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
-export PATH="$PATH:$HOME/.local/share/flutter/bin:$PATH"
-export PATH="$PATH:$HOME/Android/Sdk/emulator:$PATH"
-export PATH="$PATH:$HOME/.local/share/idea-IU/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -84,8 +81,6 @@ export AUTO_NOTIFY_WHITELIST=(
   "dnf" "flatpak" "aria2c" "unrar" "pip"
 )
 
-export CHROME_EXECUTABLE=/var/lib/flatpak/app/com.brave.Browser/x86_64/stable/active/export/bin/com.brave.Browser
-
 source $ZSH/oh-my-zsh.sh
 
 source ~/.secrets
@@ -141,9 +136,6 @@ alias rm='rm -i'
 # bare git repo alias for dotfiles
 alias cfg='git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-# short alias
-alias code='codium'
-
 # dnf, flatpak and pip
 alias dnfu='sudo dnf upgrade -y'
 alias flatu='flatpak update -y'
@@ -157,8 +149,6 @@ alias backup='
     flatpak list --columns=application --app >> $HOME/.backup/packages.txt && 
     printf "\n# gnome-extensions\n" >> $HOME/.backup/packages.txt && 
     gnome-extensions list >> $HOME/.backup/packages.txt && 
-    printf "\n# npm\n" >> $HOME/.backup/packages.txt && 
-    npm list -g --depth=0 | awk "{print \$2}" | cut -d"@" -f1 | tail -n +2 >> $HOME/.backup/packages.txt && 
     printf "done\n"
 '
 
