@@ -430,7 +430,3 @@ forge@jmmaranan.com
 dash-to-panel@jderose9.github.com
 caffeine@patapon.info
 blur-my-shell@aunetx
-
-# npm
-(empty)
-
