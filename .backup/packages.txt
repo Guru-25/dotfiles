@@ -95,6 +95,8 @@ ed
 efibootmgr
 ente
 ethtool
+evince-previewer
+evince-thumbnailer
 exfatprogs
 eza
 fastfetch
