@@ -204,6 +204,7 @@ ibus-typing-booster
 intel-audio-firmware
 intel-gpu-firmware
 intel-vsc-firmware
+inxi
 iproute
 iptables-nft
 iptstate
@@ -220,6 +221,7 @@ kbd-legacy
 kernel
 kernel-core
 kernel-modules
+kernel-modules-core
 kernel-modules-extra
 kexec-tools
 less
@@ -313,6 +315,7 @@ prefixdevname
 procps-ng
 psacct
 psmisc
+python3-pip
 python3-psutil
 qadwaitadecorations-qt5
 qcom-wwan-firmware
