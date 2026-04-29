@@ -169,6 +169,7 @@ grub2-tools
 grub2-tools-efi
 grub2-tools-extra
 grubby
+gst-thumbnailers
 gstreamer1-plugin-dav1d
 gstreamer1-plugin-libav
 gstreamer1-plugin-openh264
@@ -203,6 +204,8 @@ ibus-m17n
 ibus-typing-booster
 intel-audio-firmware
 intel-gpu-firmware
+intel-lpmd
+intel-media-driver
 intel-vsc-firmware
 inxi
 iproute
@@ -238,6 +241,7 @@ libpfm
 librsvg2
 librtmp
 libsane-hpaio
+libva-intel-driver
 libva-intel-media-driver
 libva-utils
 linux-firmware
@@ -423,8 +427,10 @@ org.telegram.desktop
 
 # gnome-extensions
 copyous@boerdereinar.dev
-pip-on-top@rafostar.github.com
 Vitals@CoreCoding.com
+Bluetooth-Battery-Meter@maniacx.github.com
+screencast.extra.feature@wissle.me
+smart-pause-resume@erenseymen.github.io
 apps-menu@gnome-shell-extensions.gcampax.github.com
 background-logo@fedorahosted.org
 launch-new-instance@gnome-shell-extensions.gcampax.github.com

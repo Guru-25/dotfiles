@@ -7,8 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
   "ensure_final_newline_on_save": false,
   "agent": {
+    "dock": "right",
     "default_model": {
       "provider": "zed.dev",
       "model": "claude-sonnet-4-6",
@@ -47,9 +54,11 @@
     "font_family": "FiraCode Nerd Font"
   },
   "project_panel": {
+    "dock": "left",
     "git_status": false
   },
   "outline_panel": {
+    "dock": "left",
     "git_status": false
   },
   "base_keymap": "VSCode",
