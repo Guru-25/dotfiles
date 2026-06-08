@@ -80,6 +80,7 @@ default-fonts-other-mono
 default-fonts-other-sans
 default-fonts-other-serif
 deltarpm
+deno-bin
 desktop-backgrounds-gnome
 dnf5
 dnf5-plugins
@@ -236,6 +237,7 @@ libfreeaptx
 libgda
 libgda-sqlite
 libglvnd-gles
+libgtop2-devel
 libheif-freeworld
 libpfm
 librsvg2
