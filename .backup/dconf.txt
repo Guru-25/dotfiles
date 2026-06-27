@@ -13,6 +13,9 @@ toggle-maximized=['<Super>m']
 [org/gnome/desktop/wm/preferences]
 button-layout='appmenu:minimize,maximize,close'
 
+[/org/gnome/desktop/search-providers]
+disabled=['org.gnome.Software.desktop']
+
 [org/gnome/shell/extensions/caffeine]
 enable-fullscreen=false
 
