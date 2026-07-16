@@ -137,7 +137,7 @@ curl https://github.com/ekisu/mpv-webm/releases/download/latest/webm.lua -o ~/.c
 ### [starship](https://github.com/starship/starship#step-1-install-starship)
 ```
 curl -sS https://starship.rs/install.sh | sh
-starship preset nerd-font-symbols -o ~/.config/starship.toml
+starship preset nerd-font-symbols -o ~/.config/starship.toml --force
 ```
 
 ### [ente](https://github.com/ente-io/photos-desktop/releases/latest)
