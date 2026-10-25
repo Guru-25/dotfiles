@@ -16,7 +16,7 @@ sudo dnf install brave-browser
 
 ### [maestral](https://github.com/SamSchott/maestral#python-package-using-pypi)
 ```
-python3 -m venv ~/.local/share/maestral-venv
+python -m venv ~/.local/share/maestral-venv
 
 source ~/.local/share/maestral-venv/bin/activate
 python3 -m pip install --upgrade 'maestral[gui]'
