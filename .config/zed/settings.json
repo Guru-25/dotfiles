@@ -15,12 +15,22 @@
   },
   "ensure_final_newline_on_save": false,
   "agent": {
+    "tool_permissions": {
+      "tools": {
+        "terminal": {
+          "default": "allow"
+        },
+        "delete_path": {
+          "default": "allow"
+        }
+      }
+    },
     "dock": "right",
     "default_model": {
       "provider": "zed.dev",
-      "model": "claude-sonnet-4-6",
+      "model": "gpt-6.1-sol",
       "enable_thinking": true,
-      "effort": "max"
+      "effort": "high"
     },
     "favorite_models": [],
     "model_parameters": []

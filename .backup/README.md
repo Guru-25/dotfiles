@@ -2,7 +2,7 @@
 
 ### [ghostty](https://ghostty.org/docs/install/binary#fedora)
 ```
-sudo dnf copr enable pgdev/ghostty
+sudo dnf copr enable scottames/ghostty
 sudo dnf install ghostty
 ```
 
@@ -37,7 +37,7 @@ omz update
 git clone --filter=blob:none --sparse https://github.com/ryanoasis/nerd-fonts
 cd nerd-fonts
 git sparse-checkout add patched-fonts/FiraCode
-./install.sh FiraCode
+./install.sh install FiraCode
 cd ..
 rm -rf nerd-fonts
 ```
