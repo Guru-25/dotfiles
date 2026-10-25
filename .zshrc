@@ -84,8 +84,6 @@ export AUTO_NOTIFY_WHITELIST=(
 
 source $ZSH/oh-my-zsh.sh
 
-source ~/.secrets
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

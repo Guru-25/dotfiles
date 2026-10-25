@@ -120,7 +120,6 @@ gamemode
 gcc
 gdm
 genisoimage
-gh
 ghostscript
 ghostty
 git

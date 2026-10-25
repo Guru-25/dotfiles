@@ -15,6 +15,9 @@
   },
   "ensure_final_newline_on_save": false,
   "agent": {
+    "sandbox_permissions": {
+      "allow_unsandboxed": true
+    },
     "tool_permissions": {
       "tools": {
         "terminal": {

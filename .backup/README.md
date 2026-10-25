@@ -148,16 +148,6 @@ sudo rpm -i ente-x-x86_64.rpm
 rm ente-x-x86_64.rpm
 ```
 
-### GitHub Extensions
-```
-sudo dnf install gh
-gh auth login
-gh extension install ghcli/gh-commit
-gh extension install github/gh-models
-
-gh extension upgrade --all
-```
-
 ### [cryptomator-cli](https://github.com/cryptomator/cli/releases/latest)
 ```
 cd ~/Downloads
